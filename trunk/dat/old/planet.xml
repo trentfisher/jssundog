@@ -1,0 +1,1171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"  xsi:noNamespaceSchemaLocation="planet.xsd" generated="2007-04-04T09:56:12">
+<planet>
+<planetname>Jondd</planetname>
+<dayrotation>20</dayrotation>
+<orbitperiod>306</orbitperiod>
+<moons>0</moons>
+<distancestar>.89</distancestar>
+<Terrain>Earth-like</Terrain>
+<Gravity>1.1 g</Gravity>
+<atmostpherecomp>Nitrogen/Oxygen (Breathable)</atmostpherecomp>
+<Temperature>Temperate</Temperature>
+<Race>Humanoid</Race>
+<Crime>Low</Crime>
+<QualityLife>Minor/Trivial Selection</QualityLife>
+<Economic>Median/Mixed</Economic>
+<Technology>Full Tech</Technology>
+<dursettlement>Old</dursettlement>
+<sysname>Jondd</sysname>
+<city1>Drahew</city1>
+<city2>Dramming</city2>
+<city3>Darvilton</city3>
+<city4>Esposito</city4>
+<city5>Obburg</city5>
+<citysize1>Large
+Large</citysize1>
+<citysize2>Medium</citysize2>
+<citysize3>Medium</citysize3>
+<citysize4>Small</citysize4>
+<citysize5>Medium</citysize5>
+<planetsize>1.10</planetsize>
+<population>&lt; 5.000K</population>
+<habit>-1</habit>
+</planet>
+<planet>
+<planetname>Heavy</planetname>
+<dayrotation>26</dayrotation>
+<orbitperiod>422</orbitperiod>
+<moons>0</moons>
+<distancestar>1.1</distancestar>
+<Terrain>Earth-like</Terrain>
+<Gravity>1.3 g</Gravity>
+<Temperature>Temperate</Temperature>
+<Race>Humanoid</Race>
+<Crime>Moderate</Crime>
+<QualityLife>Minor/Trivial Selection</QualityLife>
+<Economic>Median/Mixed</Economic>
+<Technology>Full Tech</Technology>
+<dursettlement>Old</dursettlement>
+<sysname>Jondd</sysname>
+<city1>Lightning</city1>
+<city2>Ft Lyon</city2>
+<city3>Ft Savon</city3>
+<citysize1>Medium</citysize1>
+<citysize2>Small</citysize2>
+<citysize3>Outpost</citysize3>
+<planetsize>1.30</planetsize>
+<population>&lt; 1.000K</population>
+</planet>
+<planet>
+<planetname>W&apos;orrad</planetname>
+<dayrotation>26</dayrotation>
+<orbitperiod>138</orbitperiod>
+<distancestar>.48</distancestar>
+<Terrain>Jungle</Terrain>
+<Gravity>0.9 g</Gravity>
+<atmostpherecomp>Nitrogen/Oxygen (Breathable)</atmostpherecomp>
+<Temperature>Warm</Temperature>
+<Race>Humanoid</Race>
+<Crime>High</Crime>
+<QualityLife>Unchecked/Unlimited</QualityLife>
+<Technology>1/2 tech</Technology>
+<dursettlement>Median age</dursettlement>
+<sysname>Woremed</sysname>
+<city1>Shescho</city1>
+<city2>Alram</city2>
+<city3>Aylika</city3>
+<city4>Zadansa</city4>
+<citysize1>Large
+Large</citysize1>
+<citysize2>Medium</citysize2>
+<citysize3>Small</citysize3>
+<citysize4>Small</citysize4>
+<planetsize>0.90</planetsize>
+<population>&lt; 10.000K</population>
+</planet>
+<planet>
+<planetname>New Shoot</planetname>
+<dayrotation>32</dayrotation>
+<orbitperiod>453</orbitperiod>
+<distancestar>1.1</distancestar>
+<Terrain>Mountainous</Terrain>
+<Gravity>1.3 g</Gravity>
+<atmostpherecomp>Nitrogen/Oxygen (Breathable)</atmostpherecomp>
+<Temperature>Cold</Temperature>
+<Race>Humanoid</Race>
+<Crime>Moderate</Crime>
+<QualityLife>Moderate</QualityLife>
+<Economic>Median/Mixed</Economic>
+<Technology>3/4 tech</Technology>
+<dursettlement>Moderately new</dursettlement>
+<sysname>New Shoot</sysname>
+<city1>Calidac</city1>
+<city2>Wildera</city2>
+<city3>New Temol</city3>
+<city4>Feriolah</city4>
+<city5>Poelter</city5>
+<city6>Tram&apos;el</city6>
+<citysize1>Massive</citysize1>
+<citysize2>Medium</citysize2>
+<citysize3>Large
+Large</citysize3>
+<citysize4>Medium</citysize4>
+<citysize5>Medium</citysize5>
+<citysize6>Small</citysize6>
+<planetsize>1.10</planetsize>
+<population>&lt; 10.000K</population>
+</planet>
+<planet>
+<planetname>Hell</planetname>
+<dayrotation>16</dayrotation>
+<orbitperiod>130</orbitperiod>
+<distancestar>.85</distancestar>
+<Terrain>Volcanic</Terrain>
+<Gravity>0.7 g</Gravity>
+<Temperature>Warm</Temperature>
+<Race>Reptilian</Race>
+<Crime>Extreme lawlessness</Crime>
+<QualityLife>Moderate</QualityLife>
+<Economic>General Poor</Economic>
+<Technology>3/4 tech</Technology>
+<dursettlement>Median age</dursettlement>
+<sysname>New Shoot</sysname>
+<city1>Sheol</city1>
+<citysize1>Medium</citysize1>
+<planetsize>0.80 - Venus</planetsize>
+<population>&lt; 50K</population>
+</planet>
+<planet>
+<planetname>Tcana</planetname>
+<dayrotation>16</dayrotation>
+<orbitperiod>85</orbitperiod>
+<distancestar>.43</distancestar>
+<Terrain>Desert</Terrain>
+<Gravity>0.8 g</Gravity>
+<atmostpherecomp>Nitrogen/Oxygen (Breathable)</atmostpherecomp>
+<Temperature>Warm</Temperature>
+<Race>Humanoid</Race>
+<Crime>High</Crime>
+<QualityLife>Developed/Good selection</QualityLife>
+<Economic>Predominately Poor/Slightly Rich</Economic>
+<Technology>1/2 tech</Technology>
+<dursettlement>Median age</dursettlement>
+<sysname>Lasfer</sysname>
+<city1>Haiapolis</city1>
+<city2>Einkolt</city2>
+<citysize1>Medium</citysize1>
+<citysize2>Small</citysize2>
+<planetsize>0.90</planetsize>
+<population>&lt; 1.000K</population>
+</planet>
+<planet>
+<planetname>Shoot</planetname>
+<dayrotation>19</dayrotation>
+<orbitperiod>156</orbitperiod>
+<distancestar>.59</distancestar>
+<Terrain>Earth-like</Terrain>
+<Gravity>1.0 g - Earth-like</Gravity>
+<atmostpherecomp>Nitrogen/Oxygen (Breathable)</atmostpherecomp>
+<Temperature>Temperate</Temperature>
+<Race>Humanoid</Race>
+<Crime>Moderate</Crime>
+<QualityLife>Moderate</QualityLife>
+<Economic>Median/Mixed</Economic>
+<Technology>1/2 tech</Technology>
+<dursettlement>Median age</dursettlement>
+<sysname>Shoot</sysname>
+<city1>Shoothan</city1>
+<city2>Waslat</city2>
+<city3>Knuth</city3>
+<city4>Temlonton</city4>
+<citysize1>Large
+Large</citysize1>
+<citysize2>Small</citysize2>
+<citysize3>Medium</citysize3>
+<citysize4>Medium</citysize4>
+<planetsize>1.0 *Earth*</planetsize>
+<population>&lt; 10.000K</population>
+</planet>
+<planet>
+<planetname>Glory I</planetname>
+<dayrotation>30</dayrotation>
+<orbitperiod>255</orbitperiod>
+<distancestar>1.06</distancestar>
+<Terrain>Earth-like</Terrain>
+<Gravity>1.4 g</Gravity>
+<atmostpherecomp>Nitrogen/Oxygen (Breathable)</atmostpherecomp>
+<Temperature>Warm</Temperature>
+<Race>Humanoid</Race>
+<Crime>Moderate</Crime>
+<QualityLife>Minor/Trivial Selection</QualityLife>
+<Economic>General Poor</Economic>
+<Technology>1/2 tech</Technology>
+<dursettlement>Median age</dursettlement>
+<sysname>Glory</sysname>
+<city1>Lagosal</city1>
+<city2>Corian</city2>
+<city3>Paran</city3>
+<city4>Abran</city4>
+<city5>Abundan</city5>
+<citysize1>Massive</citysize1>
+<citysize2>Medium</citysize2>
+<citysize3>Medium</citysize3>
+<citysize4>Small</citysize4>
+<citysize5>Medium</citysize5>
+<planetsize>1.20</planetsize>
+<population>&lt; 100.000K</population>
+</planet>
+<planet>
+<planetname>Glory II</planetname>
+<dayrotation>32</dayrotation>
+<orbitperiod>498</orbitperiod>
+<distancestar>1.25</distancestar>
+<Terrain>Mountainous</Terrain>
+<Gravity>Low</Gravity>
+<Temperature>Cold</Temperature>
+<Race>Humanoid</Race>
+<Crime>High</Crime>
+<QualityLife>Minor/Trivial Selection</QualityLife>
+<Economic>General Poor</Economic>
+<Technology>1/2 tech</Technology>
+<dursettlement>Moderately new</dursettlement>
+<sysname>Glory</sysname>
+<city1>Llorrac</city1>
+<city2>Dreider</city2>
+<city3>Jemba</city3>
+<citysize1>Large
+Large</citysize1>
+<citysize2>Medium</citysize2>
+<citysize3>Small</citysize3>
+<planetsize>0.70</planetsize>
+<population>&lt; 10.000K</population>
+</planet>
+<planet>
+<planetname>Glory III</planetname>
+<dayrotation>38</dayrotation>
+<orbitperiod>603</orbitperiod>
+<distancestar>1.41</distancestar>
+<Terrain>Glacier</Terrain>
+<Gravity>Low</Gravity>
+<Temperature>Cold</Temperature>
+<Race>Humanoid</Race>
+<Crime>Extreme lawlessness</Crime>
+<QualityLife>Minor/Trivial Selection</QualityLife>
+<Economic>General Poor</Economic>
+<Technology>1/2 tech</Technology>
+<dursettlement>Moderately new</dursettlement>
+<sysname>Glory</sysname>
+<city1>Surrell</city1>
+<citysize1>Small</citysize1>
+<planetsize>0.70</planetsize>
+<population>&lt; 10K</population>
+</planet>
+<planet>
+<planetname>Ferr</planetname>
+<dayrotation>25</dayrotation>
+<orbitperiod>533</orbitperiod>
+<distancestar>1.44</distancestar>
+<Terrain>Earth-like</Terrain>
+<Gravity>1.1 g</Gravity>
+<atmostpherecomp>Nitrogen/Oxygen (Breathable)</atmostpherecomp>
+<Temperature>Temperate</Temperature>
+<Race>Humanoid</Race>
+<Crime>Moderate</Crime>
+<QualityLife>Developed/Good selection</QualityLife>
+<Economic>Predominately Rich/Slightly Poor</Economic>
+<Technology>Full Tech</Technology>
+<dursettlement>Old</dursettlement>
+<sysname>Ferr</sysname>
+<city1>Ferring</city1>
+<city2>Bantin</city2>
+<city3>Barnum</city3>
+<city4>Lonax</city4>
+<citysize1>Large
+Large</citysize1>
+<citysize2>Small</citysize2>
+<citysize3>Medium</citysize3>
+<citysize4>Medium</citysize4>
+<planetsize>1.0 *Earth*</planetsize>
+<population>&lt; 50.000K</population>
+</planet>
+<planet>
+<planetname>Ferrwerk</planetname>
+<dayrotation>32</dayrotation>
+<orbitperiod>708</orbitperiod>
+<distancestar>1.74</distancestar>
+<Terrain>Desert</Terrain>
+<Gravity>Low</Gravity>
+<Temperature>Cold</Temperature>
+<Race>Humanoid</Race>
+<Crime>Moderate</Crime>
+<QualityLife>Moderate</QualityLife>
+<Economic>Median/Mixed</Economic>
+<Technology>Full Tech</Technology>
+<dursettlement>Median age</dursettlement>
+<sysname>Ferr</sysname>
+<city1>Industron</city1>
+<city2>The Mines</city2>
+<citysize1>Large
+Large</citysize1>
+<citysize2>Small</citysize2>
+<planetsize>0.80 - Venus</planetsize>
+<population>&lt; 10.000K</population>
+</planet>
+<planet>
+<planetname>Snowball</planetname>
+<dayrotation>21</dayrotation>
+<orbitperiod>1294</orbitperiod>
+<distancestar>2.63</distancestar>
+<Terrain>Glacier</Terrain>
+<Gravity>Low</Gravity>
+<Temperature>Extreme Cold</Temperature>
+<Race>Humanoid</Race>
+<Crime>Extreme lawlessness</Crime>
+<QualityLife>Moderate</QualityLife>
+<Economic>Predominately Poor/Slightly Rich</Economic>
+<Technology>Full Tech</Technology>
+<dursettlement>Recently settled</dursettlement>
+<sysname>Ferr</sysname>
+<city1>Icebox</city1>
+<citysize1>Small</citysize1>
+<planetsize>0.025</planetsize>
+<population>&lt; 5K</population>
+<habit>0</habit>
+</planet>
+<planet>
+<planetname>Kala</planetname>
+<dayrotation>30</dayrotation>
+<orbitperiod>560</orbitperiod>
+<distancestar>1.51</distancestar>
+<Terrain>Earth-like</Terrain>
+<Gravity>0.8 g</Gravity>
+<atmostpherecomp>Nitrogen/Oxygen (Breathable)</atmostpherecomp>
+<Temperature>Cold</Temperature>
+<Race>Humanoid</Race>
+<Crime>Low</Crime>
+<QualityLife>Minor/Trivial Selection</QualityLife>
+<Economic>Predominately Rich/Slightly Poor</Economic>
+<Technology>3/4 tech</Technology>
+<dursettlement>Median age</dursettlement>
+<sysname>KalManDaa</sysname>
+<city1>Kolbe</city1>
+<city2>Dajasyron</city2>
+<city3>Notwneki</city3>
+<city4>Bedollug</city4>
+<citysize1>Large
+Large</citysize1>
+<citysize2>Medium</citysize2>
+<citysize3>Small</citysize3>
+<citysize4>Medium</citysize4>
+<planetsize>0.90</planetsize>
+<population>&lt; 50.000K</population>
+</planet>
+<planet>
+<planetname>Vahevela</planetname>
+<dayrotation>30</dayrotation>
+<orbitperiod>775</orbitperiod>
+<distancestar>1.9</distancestar>
+<Terrain>Mountainous</Terrain>
+<Gravity>1.1 g</Gravity>
+<atmostpherecomp>Nitrogen/Oxygen (Breathable)</atmostpherecomp>
+<Temperature>Cold</Temperature>
+<Race>Humanoid</Race>
+<Crime>Moderate</Crime>
+<QualityLife>Developed/Good selection</QualityLife>
+<Economic>Predominately Rich/Slightly Poor</Economic>
+<Technology>Full Tech</Technology>
+<dursettlement>Median age</dursettlement>
+<sysname>Sosai</sysname>
+<city1>N&apos;ljones</city1>
+<city2>Helord</city2>
+<city3>Mortown</city3>
+<citysize1>Large
+Large</citysize1>
+<citysize2>Medium</citysize2>
+<citysize3>Small</citysize3>
+<planetsize>1.0 *Earth*</planetsize>
+<population>&lt; 50.000K</population>
+</planet>
+<planet>
+<planetname>Krakorum</planetname>
+<dayrotation>23</dayrotation>
+<orbitperiod>293</orbitperiod>
+<distancestar>.94</distancestar>
+<Terrain>Earth-like</Terrain>
+<Gravity>1.0 g - Earth-like</Gravity>
+<atmostpherecomp>Nitrogen/Oxygen (Breathable)</atmostpherecomp>
+<Temperature>Temperate</Temperature>
+<Race>Humanoid</Race>
+<Crime>Low</Crime>
+<QualityLife>Minor/Trivial Selection</QualityLife>
+<Economic>Predominately Rich/Slightly Poor</Economic>
+<Technology>Full Tech</Technology>
+<dursettlement>Median age</dursettlement>
+<sysname>Jadul</sysname>
+<city1>Malesti</city1>
+<city2>Illdono</city2>
+<city3>D&apos;esgid</city3>
+<city4>Paleko</city4>
+<citysize1>Large
+Large</citysize1>
+<citysize2>Large
+Large</citysize2>
+<citysize3>Medium</citysize3>
+<citysize4>Small</citysize4>
+<planetsize>1.0 *Earth*</planetsize>
+<population>&lt; 100.000K</population>
+</planet>
+<planet>
+<planetname>Enliah</planetname>
+<dayrotation>13</dayrotation>
+<orbitperiod>87</orbitperiod>
+<distancestar>.40</distancestar>
+<Terrain>Volcanic</Terrain>
+<Gravity>0.6 g - Light</Gravity>
+<atmostpherecomp>Nitrogen/Oxygen (Breathable)</atmostpherecomp>
+<Temperature>Warm</Temperature>
+<Race>Jar Jar Binks</Race>
+<Crime>Extreme lawlessness</Crime>
+<QualityLife>Unchecked/Unlimited</QualityLife>
+<Economic>Median/Mixed</Economic>
+<Technology>Full Tech</Technology>
+<dursettlement>Old</dursettlement>
+<sysname>Enlie</sysname>
+<city1>Plepa</city1>
+<city2>Tuie</city2>
+<citysize1>Medium</citysize1>
+<citysize2>Small</citysize2>
+<planetsize>0.70</planetsize>
+<population>&lt; 100K</population>
+</planet>
+<planet>
+<planetname>Hepa</planetname>
+<dayrotation>32</dayrotation>
+<orbitperiod>906</orbitperiod>
+<distancestar>2.0</distancestar>
+<Terrain>Mountainous</Terrain>
+<Gravity>0.7 g</Gravity>
+<Temperature>Cold</Temperature>
+<Race>Humanoid</Race>
+<Crime>Moderate</Crime>
+<QualityLife>Moderate</QualityLife>
+<Technology>3/4 tech</Technology>
+<dursettlement>Median age</dursettlement>
+<sysname>Hepa</sysname>
+<city1>Arlenair</city1>
+<city2>Velamie</city2>
+<city3>Essoit</city3>
+<citysize1>Medium</citysize1>
+<citysize2>Small</citysize2>
+<citysize3>Small</citysize3>
+<planetsize>0.70</planetsize>
+<population>&lt; 1.000K</population>
+</planet>
+<planet>
+<planetname>Horsa</planetname>
+<dayrotation>26</dayrotation>
+<orbitperiod>312</orbitperiod>
+<moons>1</moons>
+<distancestar>.91</distancestar>
+<Terrain>Oceanic</Terrain>
+<Gravity>1.1 g</Gravity>
+<Temperature>Temperate</Temperature>
+<sysname>Idonia</sysname>
+<planetsize>1.0 *Earth*</planetsize>
+</planet>
+<planet>
+<planetname>Faraan</planetname>
+<dayrotation>33</dayrotation>
+<orbitperiod>228</orbitperiod>
+<distancestar>.73</distancestar>
+<Terrain>Mountainous</Terrain>
+<Gravity>0.7 g</Gravity>
+<Temperature>Temperate</Temperature>
+<sysname>Idonia</sysname>
+<planetsize>0.80 - Venus</planetsize>
+</planet>
+<planet>
+<planetname>Katar</planetname>
+<dayrotation>12</dayrotation>
+<orbitperiod>149</orbitperiod>
+<distancestar>.55</distancestar>
+<Terrain>Volcanic</Terrain>
+<Gravity>0.2 g - Moon&apos;s Grav</Gravity>
+<Temperature>Extreme Hot</Temperature>
+<sysname>Idonia</sysname>
+<planetsize>0.015</planetsize>
+</planet>
+<planet>
+<planetname>Trentor I</planetname>
+<dayrotation>12</dayrotation>
+<orbitperiod>163</orbitperiod>
+<distancestar>.36</distancestar>
+<Terrain>Cratered</Terrain>
+<Gravity>0.3 g</Gravity>
+<Temperature>Extreme Hot</Temperature>
+<sysname>Trentor</sysname>
+<planetsize>0.025</planetsize>
+<habit>0</habit>
+</planet>
+<planet>
+<planetname>Trentor II</planetname>
+<dayrotation>14</dayrotation>
+<orbitperiod>136</orbitperiod>
+<distancestar>.84</distancestar>
+<Terrain>Cratered</Terrain>
+<Gravity>0.3 g</Gravity>
+<Temperature>Extreme Hot</Temperature>
+<sysname>Trentor</sysname>
+<planetsize>0.025</planetsize>
+<habit>0</habit>
+</planet>
+<planet>
+<planetname>Radcliff&apos;s Hope</planetname>
+<dayrotation>8</dayrotation>
+<orbitperiod>440</orbitperiod>
+<distancestar>1.43</distancestar>
+<Terrain>Cratered</Terrain>
+<Gravity>0.2 g - Moon&apos;s Grav</Gravity>
+<Temperature>Cold</Temperature>
+<Race>Humanoid</Race>
+<Crime>High</Crime>
+<Technology>Moderate Tech</Technology>
+<dursettlement>Recently settled</dursettlement>
+<sysname>Trentor</sysname>
+<city1>Radcliff&apos;s Hope</city1>
+<citysize1>Outpost</citysize1>
+<planetsize>0.015</planetsize>
+<population>&lt; 1K</population>
+</planet>
+<planet>
+<planetname>Trentor VI</planetname>
+<dayrotation>10</dayrotation>
+<orbitperiod>496</orbitperiod>
+<distancestar>1.67</distancestar>
+<Terrain>Cratered</Terrain>
+<Gravity>0.2 g - Moon&apos;s Grav</Gravity>
+<Temperature>Extreme Cold</Temperature>
+<sysname>Trentor</sysname>
+<planetsize>0.015</planetsize>
+<habit>0</habit>
+</planet>
+<planet>
+<planetname>Trentor IX</planetname>
+<dayrotation>9</dayrotation>
+<orbitperiod>596</orbitperiod>
+<distancestar>2.05</distancestar>
+<Terrain>Cratered</Terrain>
+<Gravity>0.1 g</Gravity>
+<Temperature>Extreme Cold</Temperature>
+<sysname>Trentor</sysname>
+<planetsize>0.005 Tiny planetoid - Pluto</planetsize>
+<habit>0</habit>
+</planet>
+<planet>
+<planetname>Driois</planetname>
+<dayrotation>19</dayrotation>
+<orbitperiod>117</orbitperiod>
+<distancestar>.47</distancestar>
+<Terrain>Cratered</Terrain>
+<Gravity>0.6 g - Light</Gravity>
+<Temperature>Extreme Hot</Temperature>
+<sysname>Oceanus</sysname>
+<planetsize>0.80 - Venus</planetsize>
+<habit>0</habit>
+</planet>
+<planet>
+<planetname>Aerin</planetname>
+<dayrotation>23</dayrotation>
+<orbitperiod>306</orbitperiod>
+<moons>1</moons>
+<distancestar>.93</distancestar>
+<Terrain>Oceanic</Terrain>
+<Gravity>0.9 g</Gravity>
+<Temperature>Temperate</Temperature>
+<sysname>Oceanus</sysname>
+<planetsize>Earth-like</planetsize>
+</planet>
+<planet>
+<planetname>Altin</planetname>
+<dayrotation>26</dayrotation>
+<orbitperiod>421</orbitperiod>
+<moons>0</moons>
+<distancestar>1.1</distancestar>
+<Terrain>Oceanic</Terrain>
+<Gravity>1.0 g - Earth-like</Gravity>
+<Temperature>Cold</Temperature>
+<sysname>Oceanus</sysname>
+<planetsize>Earth-like</planetsize>
+</planet>
+<planet>
+<planetname>Scarvon</planetname>
+<dayrotation>37</dayrotation>
+<orbitperiod>882</orbitperiod>
+<moons>3</moons>
+<distancestar>1.8</distancestar>
+<Terrain>Glacier</Terrain>
+<Gravity>1.3 g</Gravity>
+<Temperature>Extreme Cold</Temperature>
+<sysname>Oceanus</sysname>
+<planetsize>Large</planetsize>
+<habit>0</habit>
+</planet>
+<planet>
+<planetname>New Jondd</planetname>
+<dayrotation>25</dayrotation>
+<orbitperiod>287</orbitperiod>
+<moons>1</moons>
+<distancestar>.98</distancestar>
+<Terrain>Earth-like</Terrain>
+<Gravity>1.0 g - Earth-like</Gravity>
+<Temperature>Temperate</Temperature>
+<Race>Humanoid</Race>
+<Crime>Moderate</Crime>
+<QualityLife>Moderate</QualityLife>
+<Economic>Predominately Poor/Slightly Rich</Economic>
+<Technology>3/4 tech</Technology>
+<dursettlement>Recently settled</dursettlement>
+<sysname>New Jondd</sysname>
+<planetsize>1.10</planetsize>
+<population>&lt; 5K</population>
+</planet>
+<planet>
+<planetname>Solisa Halo</planetname>
+<dayrotation>20</dayrotation>
+<orbitperiod>99</orbitperiod>
+<moons>0</moons>
+<distancestar>.51</distancestar>
+<Terrain>Desert</Terrain>
+<Gravity>1.1 g</Gravity>
+<Temperature>Warm</Temperature>
+<Race>Humanoid</Race>
+<Crime>Utopian</Crime>
+<QualityLife>Moderate</QualityLife>
+<Economic>Predominately Rich/Slightly Poor</Economic>
+<Technology>Full Tech</Technology>
+<dursettlement>Median age</dursettlement>
+<sysname>Solisa</sysname>
+<city1>Solara Major</city1>
+<city2>Solara Minor</city2>
+<citysize1>Medium</citysize1>
+<citysize2>Small</citysize2>
+<planetsize>1.0 *Earth*</planetsize>
+<population>&lt; 5.000K</population>
+</planet>
+<planet>
+<planetname>Tur Padrias</planetname>
+<dayrotation>52</dayrotation>
+<orbitperiod>349</orbitperiod>
+<moons>5</moons>
+<distancestar>.97</distancestar>
+<Terrain>Gaseous (non-solid)</Terrain>
+<Gravity>1.4 g</Gravity>
+<sysname>Tur Pedant</sysname>
+<planetsize>50.00</planetsize>
+<habit>0</habit>
+<notes>This is a gas giant</notes>
+</planet>
+<planet>
+<planetname>Tur Malyon (Moon of Padrias)</planetname>
+<dayrotation>20</dayrotation>
+<orbitperiod>43</orbitperiod>
+<moons>0</moons>
+<distancestar>.97</distancestar>
+<Terrain>Earth-like</Terrain>
+<Gravity>0.3 g</Gravity>
+<Temperature>Temperate</Temperature>
+<Race>Humanoid</Race>
+<Crime>Moderate</Crime>
+<QualityLife>Unchecked/Unlimited</QualityLife>
+<Economic>Predominately Poor/Slightly Rich</Economic>
+<Technology>3/4 tech</Technology>
+<dursettlement>Median age</dursettlement>
+<sysname>Tur Pedant</sysname>
+<city1>Minath Hurst</city1>
+<city2>Ramathorn</city2>
+<city3>Hellthot</city3>
+<citysize1>Small</citysize1>
+<citysize2>Small</citysize2>
+<citysize3>Small</citysize3>
+<planetsize>Small</planetsize>
+<population>&lt; 5.000K</population>
+</planet>
+<planet>
+<planetname>Rhybeck</planetname>
+<dayrotation>23</dayrotation>
+<orbitperiod>191</orbitperiod>
+<moons>2</moons>
+<distancestar>.62</distancestar>
+<Terrain>Earth-like</Terrain>
+<Gravity>1.2 g</Gravity>
+<atmostpherecomp>Nitrogen/Oxygen (Breathable)</atmostpherecomp>
+<Temperature>Hot</Temperature>
+<sysname>Diota</sysname>
+<planetsize>1.10</planetsize>
+</planet>
+<planet>
+<planetname>SEP-P1</planetname>
+<dayrotation>37</dayrotation>
+<orbitperiod>170</orbitperiod>
+<distancestar>.6</distancestar>
+<Terrain>Cratered rock</Terrain>
+<Gravity>0.6 g - Light</Gravity>
+<atmostpherecomp>None - Vacuum</atmostpherecomp>
+<Temperature>Hot</Temperature>
+<sysname>SEP1677</sysname>
+<planetsize>0.025</planetsize>
+<habit>0</habit>
+</planet>
+<planet>
+<planetname>Schypyrd</planetname>
+<dayrotation>20</dayrotation>
+<orbitperiod>773</orbitperiod>
+<distancestar>1.5</distancestar>
+<Terrain>Gaseous (non-solid)</Terrain>
+<Gravity>1.9 g</Gravity>
+<atmostpherecomp>Hydrogen</atmostpherecomp>
+<Temperature>Extreme Cold</Temperature>
+<sysname>Horath</sysname>
+<planetsize>100.00 - Saturn</planetsize>
+</planet>
+<planet>
+<planetname>Sorcyia</planetname>
+<dayrotation>26</dayrotation>
+<orbitperiod>570</orbitperiod>
+<distancestar>1.3</distancestar>
+<Terrain>Earth-like</Terrain>
+<Gravity>1.1 g</Gravity>
+<atmostpherecomp>Nitrogen/Oxygen (Breathable)</atmostpherecomp>
+<Temperature>Cold</Temperature>
+<sysname>Eudinae</sysname>
+<planetsize>1.75</planetsize>
+</planet>
+<planet>
+<sysname>Object ALK224</sysname>
+<habit>0</habit>
+</planet>
+<planet>
+<planetname>Haakon</planetname>
+<dayrotation>26</dayrotation>
+<orbitperiod>522</orbitperiod>
+<distancestar>1.1</distancestar>
+<Terrain>Mountainous</Terrain>
+<Gravity>1.1 g</Gravity>
+<atmostpherecomp>Nitrogen/Oxygen (Breathable)</atmostpherecomp>
+<Temperature>Temperate</Temperature>
+<sysname>Aiku Hitatchi</sysname>
+<planetsize>1.50</planetsize>
+</planet>
+<planet>
+<planetname>Akhor</planetname>
+<dayrotation>23</dayrotation>
+<orbitperiod>534</orbitperiod>
+<distancestar>1.2</distancestar>
+<Terrain>Earth-like</Terrain>
+<Gravity>1.0 g - EARTH</Gravity>
+<atmostpherecomp>Nitrogen/Oxygen (Breathable)</atmostpherecomp>
+<Temperature>Temperate</Temperature>
+<sysname>Akhor</sysname>
+<planetsize>1.0 *Earth*</planetsize>
+</planet>
+<planet>
+<planetname>Rome</planetname>
+<dayrotation>27</dayrotation>
+<orbitperiod>247</orbitperiod>
+<distancestar>.7</distancestar>
+<Terrain>Earth-like</Terrain>
+<Gravity>1.2 g -Uranus</Gravity>
+<atmostpherecomp>Nitrogen/Oxygen (Breathable)</atmostpherecomp>
+<Temperature>Temperate</Temperature>
+<Race>Humanoid</Race>
+<Technology>3/4 tech</Technology>
+<dursettlement>Median age</dursettlement>
+<sysname>New Rome</sysname>
+<city1>Roma</city1>
+<city2>Venezia</city2>
+<city3>Aviano</city3>
+<city4>Ranzano</city4>
+<city5>Milano</city5>
+<city6>Napoli</city6>
+<citysize1>Large
+Large</citysize1>
+<citysize2>Medium</citysize2>
+<citysize3>Small</citysize3>
+<citysize4>Outpost</citysize4>
+<citysize5>Large
+Large</citysize5>
+<citysize6>Medium</citysize6>
+<planetsize>1.50</planetsize>
+<population>&lt; 50.000K</population>
+</planet>
+<planet>
+<planetname>LD 982</planetname>
+<sysname>Hudson&apos;s Folly</sysname>
+<habit>0</habit>
+</planet>
+<planet>
+<planetname>Herzog</planetname>
+<dayrotation>23</dayrotation>
+<orbitperiod>191</orbitperiod>
+<distancestar>.6</distancestar>
+<Terrain>Jungle</Terrain>
+<Gravity>1.2 g -Uranus</Gravity>
+<atmostpherecomp>Nitrogen/Oxygen (Breathable)</atmostpherecomp>
+<Temperature>Warm</Temperature>
+<sysname>Itrosis</sysname>
+<planetsize>1.30</planetsize>
+</planet>
+<planet>
+<planetname>Rathgore</planetname>
+<dayrotation>41</dayrotation>
+<orbitperiod>1140</orbitperiod>
+<distancestar>2.1</distancestar>
+<Terrain>Desert</Terrain>
+<Gravity>0.5 g</Gravity>
+<atmostpherecomp>Carbon Dioxyde</atmostpherecomp>
+<Temperature>Extreme Cold</Temperature>
+<sysname>Julius</sysname>
+<planetsize>0.25</planetsize>
+</planet>
+<planet>
+<planetname>GW-293</planetname>
+<dayrotation>965</dayrotation>
+<orbitperiod>12</orbitperiod>
+<distancestar>1.9</distancestar>
+<Terrain>Gaseous (non-solid)</Terrain>
+<Gravity>3.7 g</Gravity>
+<atmostpherecomp>Hydrogen</atmostpherecomp>
+<Temperature>Extreme Cold</Temperature>
+<sysname>Phillimar</sysname>
+<planetsize>275.00</planetsize>
+<habit>0</habit>
+</planet>
+<planet>
+<sysname>Object B129</sysname>
+<habit>0</habit>
+</planet>
+<planet>
+<planetname>Jutta</planetname>
+<dayrotation>26</dayrotation>
+<orbitperiod>598</orbitperiod>
+<distancestar>1.2</distancestar>
+<Terrain>Earth-like</Terrain>
+<Gravity>1.1 g</Gravity>
+<atmostpherecomp>Nitrogen/Oxygen (Breathable)</atmostpherecomp>
+<Temperature>Temperate</Temperature>
+<sysname>Paraglisi</sysname>
+<planetsize>1.30</planetsize>
+</planet>
+<planet>
+<planetname>Joriel</planetname>
+<dayrotation>20</dayrotation>
+<orbitperiod>367</orbitperiod>
+<distancestar>1.0</distancestar>
+<Terrain>Earth-like</Terrain>
+<Gravity>0.9 g</Gravity>
+<Temperature>Temperate</Temperature>
+<Race>Humanoid</Race>
+<Technology>3/4 tech</Technology>
+<dursettlement>Median age</dursettlement>
+<sysname>Monarch</sysname>
+<city1>Joriel</city1>
+<city2>Loric</city2>
+<city3>Oriana</city3>
+<citysize1>Large
+Large</citysize1>
+<citysize2>Medium</citysize2>
+<planetsize>1.10</planetsize>
+<population>&lt; 10.000K</population>
+</planet>
+<planet>
+<planetname>VD-001</planetname>
+<dayrotation>15</dayrotation>
+<orbitperiod>2704</orbitperiod>
+<distancestar>3.8</distancestar>
+<Terrain>Gaseous (non-solid)</Terrain>
+<Gravity>1.7 g</Gravity>
+<atmostpherecomp>Hydrogen</atmostpherecomp>
+<Temperature>Extreme Cold</Temperature>
+<sysname>Vanderford</sysname>
+<planetsize>50.00</planetsize>
+<habit>0</habit>
+</planet>
+<planet>
+<planetname>Terofal</planetname>
+<dayrotation>25</dayrotation>
+<orbitperiod>402</orbitperiod>
+<distancestar>1.1</distancestar>
+<Terrain>Earth-like</Terrain>
+<Gravity>1.0 g - EARTH</Gravity>
+<atmostpherecomp>Nitrogen/Oxygen (Breathable)</atmostpherecomp>
+<Temperature>Temperate</Temperature>
+<Race>Humanoid</Race>
+<Crime>Low</Crime>
+<QualityLife>Moderate</QualityLife>
+<Economic>Predominately Rich/Slightly Poor</Economic>
+<Technology>Full Tech</Technology>
+<dursettlement>Median age</dursettlement>
+<sysname>Terofal</sysname>
+<city1>Terofal</city1>
+<city2>Doylestown</city2>
+<city3>Langhorn</city3>
+<city4>Chalfont</city4>
+<citysize1>Large
+Large</citysize1>
+<citysize2>Medium</citysize2>
+<citysize3>Medium</citysize3>
+<citysize4>Medium</citysize4>
+<planetsize>1.0 *Earth*</planetsize>
+<population>&lt; 50.000K</population>
+</planet>
+<planet>
+<planetname>Al Jourin</planetname>
+<dayrotation>23</dayrotation>
+<orbitperiod>191</orbitperiod>
+<distancestar>.6</distancestar>
+<Terrain>Earth-like</Terrain>
+<Gravity>1.2 g -Uranus</Gravity>
+<atmostpherecomp>Nitrogen/Oxygen (Breathable)</atmostpherecomp>
+<Temperature>Warm</Temperature>
+<Race>Humanoid</Race>
+<Crime>High</Crime>
+<QualityLife>Developed/Good selection</QualityLife>
+<Economic>Median/Mixed</Economic>
+<Technology>Full Tech</Technology>
+<dursettlement>Old</dursettlement>
+<sysname>Aljabber</sysname>
+<city1>Al Jourin</city1>
+<city2>Mastaba</city2>
+<city3>Masalumi</city3>
+<citysize1>Large
+Large</citysize1>
+<citysize2>Massive</citysize2>
+<citysize3>Medium</citysize3>
+<planetsize>1.30</planetsize>
+<population>&lt; 10.000K</population>
+</planet>
+<planet>
+<planetname>TL-P1</planetname>
+<dayrotation>11</dayrotation>
+<orbitperiod>2708</orbitperiod>
+<distancestar>3.7</distancestar>
+<Terrain>Desert</Terrain>
+<Gravity>1.2 g -Uranus</Gravity>
+<atmostpherecomp>Carbon Dioxyde</atmostpherecomp>
+<Temperature>Extreme Cold</Temperature>
+<sysname>Tiloh</sysname>
+<planetsize>2.00</planetsize>
+<habit>0</habit>
+</planet>
+<planet>
+<planetname>Karaterran</planetname>
+<dayrotation>672</dayrotation>
+<orbitperiod>20</orbitperiod>
+<moons>2</moons>
+<distancestar>1.4</distancestar>
+<Terrain>Gaseous (non-solid)</Terrain>
+<Gravity>1.5 g</Gravity>
+<atmostpherecomp>Hydrogen</atmostpherecomp>
+<Temperature>Extreme Cold</Temperature>
+<sysname>Karaterran</sysname>
+<planetsize>125.00</planetsize>
+<habit>0</habit>
+</planet>
+<planet>
+<planetname>Rytor</planetname>
+<dayrotation>23</dayrotation>
+<orbitperiod>248</orbitperiod>
+<distancestar>.7</distancestar>
+<Terrain>Earth-like</Terrain>
+<Gravity>1.2 g -Uranus</Gravity>
+<atmostpherecomp>Nitrogen/Oxygen (Breathable)</atmostpherecomp>
+<Temperature>Mild</Temperature>
+<sysname>Lyten</sysname>
+<city1>Rytor</city1>
+<city2>Lyten</city2>
+<city3>Aribus</city3>
+<citysize1>Medium</citysize1>
+<citysize2>Large
+Large</citysize2>
+<citysize3>Medium</citysize3>
+<planetsize>1.50</planetsize>
+</planet>
+<planet>
+<planetname>Wythsyde</planetname>
+<dayrotation>26</dayrotation>
+<orbitperiod>325</orbitperiod>
+<moons>1</moons>
+<distancestar>.93</distancestar>
+<Terrain>Jungle</Terrain>
+<Gravity>1.0 g - EARTH</Gravity>
+<atmostpherecomp>Nitrogen/Oxygen (Breathable)</atmostpherecomp>
+<Temperature>Warm</Temperature>
+<Race>Reptilian</Race>
+<Technology>Full Tech</Technology>
+<dursettlement>Old</dursettlement>
+<sysname>Wyechen</sysname>
+<city1>Wythsyde</city1>
+<city2>Wythmur</city2>
+<city3>Wython</city3>
+<citysize1>Large
+Large</citysize1>
+<citysize2>Medium</citysize2>
+<citysize3>Medium</citysize3>
+<planetsize>1.20</planetsize>
+<population>&lt; 10.000K</population>
+</planet>
+<planet>
+<sysname>Lombard</sysname>
+<habit>0</habit>
+</planet>
+<planet>
+<sysname>Smeggon</sysname>
+</planet>
+<planet>
+<planetname>Lasfer</planetname>
+</planet>
+<planet>
+<sysname>TER 9C</sysname>
+<habit>0</habit>
+</planet>
+<planet>
+<sysname>TER 9B</sysname>
+<habit>0</habit>
+</planet>
+<planet>
+<sysname>TER 9A</sysname>
+<habit>0</habit>
+</planet>
+<planet>
+<planetname>SEP-P2</planetname>
+<dayrotation>8</dayrotation>
+<orbitperiod>48139</orbitperiod>
+<moons>4</moons>
+<distancestar>25.7</distancestar>
+<Terrain>Gaseous (non-solid)</Terrain>
+<Gravity>3.3 g</Gravity>
+<atmostpherecomp>Methane/Ammonia/Hydrogen</atmostpherecomp>
+<Temperature>Extreme Cold</Temperature>
+<sysname>SEP1677</sysname>
+<planetsize>750.00</planetsize>
+<habit>0</habit>
+</planet>
+<planet>
+<planetname>Britnuan</planetname>
+<dayrotation>12</dayrotation>
+<orbitperiod>8290</orbitperiod>
+<moons>5</moons>
+<distancestar>7.8</distancestar>
+<Terrain>Gaseous (non-solid)</Terrain>
+<Gravity>2.0 g</Gravity>
+<atmostpherecomp>Methane/Ammonia/Hydrogen</atmostpherecomp>
+<Temperature>Extreme Cold</Temperature>
+<sysname>SEP1677</sysname>
+<planetsize>80.00</planetsize>
+<habit>0</habit>
+</planet>
+<planet>
+<planetname>Wyrde</planetname>
+<dayrotation>23</dayrotation>
+<orbitperiod>347</orbitperiod>
+<moons>2</moons>
+<distancestar>1</distancestar>
+<Terrain>Jungle</Terrain>
+<Gravity>1.1 g</Gravity>
+<atmostpherecomp>Nitrogen/Oxygen (Breathable)</atmostpherecomp>
+<Temperature>Warm</Temperature>
+<Race>Reptilian</Race>
+<Technology>Full Tech</Technology>
+<dursettlement>Median age</dursettlement>
+<sysname>Wyechen</sysname>
+<city1>Wyrde</city1>
+<city2>Wynton</city2>
+<city3>Wyurge</city3>
+<citysize1>Large
+Large</citysize1>
+<citysize2>Medium</citysize2>
+<citysize3>Small</citysize3>
+<planetsize>1.50</planetsize>
+<population>&lt; 10.000K</population>
+</planet>
+<planet>
+<planetname>Delrath</planetname>
+<dayrotation>41</dayrotation>
+<orbitperiod>1440</orbitperiod>
+<distancestar>2.1</distancestar>
+<Terrain>Desert</Terrain>
+<Gravity>0.4 g -Mars</Gravity>
+<atmostpherecomp>Carbon Dioxyde</atmostpherecomp>
+<Temperature>Extreme Cold</Temperature>
+<sysname>Tornibur</sysname>
+<planetsize>0.25</planetsize>
+<habit>0</habit>
+</planet>
+<planet>
+<sysname>Sormastron</sysname>
+<habit>0</habit>
+</planet>
+<planet>
+<planetname>Gandar</planetname>
+<dayrotation>24</dayrotation>
+<orbitperiod>336</orbitperiod>
+<distancestar>.92</distancestar>
+<Terrain>Mountainous</Terrain>
+<Gravity>1.1 g</Gravity>
+<Temperature>Temperate</Temperature>
+<Race>Humanoid</Race>
+<Crime>Low</Crime>
+<QualityLife>Moderate</QualityLife>
+<Economic>Predominately Rich/Slightly Poor</Economic>
+<Technology>3/4 tech</Technology>
+<dursettlement>Median age</dursettlement>
+<sysname>Gandar</sysname>
+<city1>Galion</city1>
+<city2>Ramesh</city2>
+<city3>Cohan</city3>
+<citysize1>Large
+Large</citysize1>
+<citysize2>Medium</citysize2>
+<citysize3>Medium</citysize3>
+<planetsize>1.0 *Earth*</planetsize>
+<population>&lt; 10.000K</population>
+</planet>
+<planet>
+<planetname>WN-875</planetname>
+<dayrotation>31</dayrotation>
+<orbitperiod>844.</orbitperiod>
+<moons>0</moons>
+<distancestar>2.01</distancestar>
+<Terrain>Unknown</Terrain>
+<Gravity>Unknown</Gravity>
+<Temperature>Cold</Temperature>
+<sysname>Waryn</sysname>
+<planetsize>1.10</planetsize>
+</planet>
+<planet>
+<planetname>WN-882</planetname>
+<dayrotation>24</dayrotation>
+<orbitperiod>224</orbitperiod>
+<moons>0</moons>
+<distancestar>.83</distancestar>
+<Terrain>Unknown</Terrain>
+<Gravity>Unknown</Gravity>
+<Temperature>Cold</Temperature>
+<sysname>Waryn</sysname>
+<planetsize>Small</planetsize>
+</planet>
+<planet>
+<planetname>WN-891</planetname>
+<dayrotation>29</dayrotation>
+<orbitperiod>656</orbitperiod>
+<moons>0</moons>
+<distancestar>1.7</distancestar>
+<Terrain>Unknown</Terrain>
+<Gravity>Unknown</Gravity>
+<Temperature>Cold</Temperature>
+<Race>Jar Jar Binks</Race>
+<sysname>Waryn</sysname>
+<planetsize>Earth-like</planetsize>
+</planet>
+</dataroot>

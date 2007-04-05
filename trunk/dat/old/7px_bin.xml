@@ -1,0 +1,475 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE sector SYSTEM "v8.dtd">
+<sector>
+ <comment>
+  All known star systems up to 7 parsecs from the Sun.
+ </comment>
+ <system>
+  <name>Sun</name>
+  <star class="G2" mass="1.0" diameter="1.0" luminosity="1.04"/>
+  <coords x="0" y="0" z="0"/>
+  <comment>Home, sweet home...</comment>
+ </system>
+ <system>
+  <name>DM-37 15492</name>
+  <star class="M4V" mass="0.0" diameter="0.0" luminosity="0.00637"/>
+  <star name="" class="M1Ve" mass="0.0" diameter="0.0" luminosity="0.00041"/>
+  <coords x="3.392" y="-0.978" z="-14.058"/>
+ </system>
+ <system>
+  <name></name>
+  <star class="M6Ve" mass="0.0" diameter="0.0" luminosity="0"/>
+  <coords x="-4.925" y="9.818" z="-3.653"/>
+ </system>
+ <system>
+  <name>Beta Hydri</name>
+  <star class="G1IV" mass="0.0" diameter="0.0" luminosity="2.75"/>
+  <coords x="9.002" y="-12.949" z="-13.112"/>
+ </system>
+ <system>
+  <name>DM+04 123</name>
+  <star class="K2V" mass="0.0" diameter="0.0" luminosity="0.22"/>
+  <coords x="-6.360" y="10.372" z="-19.113"/>
+ </system>
+ <system>
+  <name>Eta Cassiopea</name>
+  <star class="G0V" mass="0.0" diameter="0.0" luminosity="1.32"/>
+  <star name="" class="M0V" mass="0.0" diameter="0.0" luminosity="0.03"/>
+  <coords x="-10.307" y="16.112" z="-1.696"/>
+ </system>
+ <system>
+  <name>VAN MAANEN 2</name>
+  <star class="G wD" mass="0.0" diameter="0.0" luminosity="0.00019"/>
+  <coords x="-3.881" y="6.230" z="-11.514"/>
+ </system>
+ <system>
+  <name>L 725-32</name>
+  <star class="M5de" mass="0.0" diameter="0.0" luminosity="0.00019"/>
+  <coords x="-3.816" y="2.185" z="-22.049"/>
+ </system>
+ <system>
+  <name>L 726-8</name>
+  <star class="M5de" mass="0.0" diameter="0.0" luminosity="0.00006"/>
+  <star name="UV Ceti" class="M5de" mass="0.0" diameter="0.0" luminosity="0.00005"/>
+  <coords x="-2.185" y="0.163" z="-8.611"/>
+ </system>
+ <system>
+  <name>P ERI</name>
+  <star class="K2V" mass="0.0" diameter="0.0" luminosity="0.20"/>
+  <star name="DM-56 328" class="K5Ve" mass="0.0" diameter="0.0" luminosity="0.17"/>
+  <coords x="3.620" y="-10.144" z="-18.396"/>
+ </system>
+ <system>
+  <name>Tau Ceti</name>
+  <star class="G8Vp" mass="0.0" diameter="0.0" luminosity="0.045"/>
+  <coords x="-3.327" y="0.391" z="-11.285"/>
+ </system>
+ <system>
+  <name>L 1159-16</name>
+  <star class="M8de" mass="0.0" diameter="0.0" luminosity="0.00022"/>
+  <coords x="-8.904" y="5.643" z="-11.090"/>
+ </system>
+ <system>
+  <name>82 ERI</name>
+  <star class="G5V" mass="0.0" diameter="0.0" luminosity="0.70"/>
+  <coords x="-3.718" y="-10.666" z="-16.830"/>
+ </system>
+ <system>
+  <name>Epsilon Eridani</name>
+  <star class="K2Ve" mass="0.0" diameter="0.0" luminosity="0.31"/>
+  <coords x="-6.947" y="-1.957" z="-8.024"/>
+ </system>
+ <system>
+  <name>OMI(2) ERI</name>
+  <star class="K1Ve" mass="0.0" diameter="0.0" luminosity="0.36"/>
+  <star name="DM-07 781" class="A wD" mass="0.0" diameter="0.0" luminosity="0.0033"/>
+  <star name="" class="M4de" mass="0.0" diameter="0.0" luminosity="0.00072"/>
+  <coords x="-11.742" y="-4.436" z="-9.785"/>
+ </system>
+ <system>
+  <name>AC+58 25001</name>
+  <star class="M4d" mass="0.0" diameter="0.0" luminosity="0.0"/>
+  <star name="AC+58 25002" class="C wD" mass="0.0" diameter="0.0" luminosity="0"/>
+  <coords x="-14.286" y="8.904" z="2.153"/>
+ </system>
+ <system>
+  <name>Kapteyn's Star</name>
+  <star class="M0V" mass="0.0" diameter="0.0" luminosity="0.0039"/>
+  <coords x="-3.457" y="-9.687" z="-7.502"/>
+ </system>
+ <system>
+  <name>DM-03 1123</name>
+  <star class="M1Ve" mass="0.0" diameter="0.0" luminosity="0"/>
+  <coords x="-16.145" y="-8.187" z="-6.393"/>
+ </system>
+ <system>
+  <name>AC+12 1800-2</name>
+  <star class="M5d" mass="0.0" diameter="0.0" luminosity="0"/>
+  <coords x="-18.624" y="-4.534" z="-3.099"/>
+ </system>
+ <system>
+  <name>LP 658-2</name>
+  <star class="K wDe" mass="0.0" diameter="0.0" luminosity="0"/>
+  <coords x="-16.439" y="-9.557" z="-4.892"/>
+ </system>
+ <system>
+  <name>DM-21 1377</name>
+  <star class="M1Ve" mass="0.0" diameter="0.0" luminosity="0"/>
+  <coords x="-11.774" y="-13.340" z="-5.936"/>
+ </system>
+ <system>
+  <name>ROSS 614</name>
+  <star class="M7de" mass="0.0" diameter="0.0" luminosity="0.00055"/>
+  <star name="" class="" mass="0.0" diameter="0.0" luminosity="0.00002"/>
+  <coords x="-10.796" y="-6.980" z="-1.403"/>
+ </system>
+ <system>
+  <name>Sirius</name>
+  <star class="A1V" mass="0.0" diameter="0.0" luminosity="23.55"/>
+  <star name="Sirius B" class="A wD" mass="0.0" diameter="0.0" luminosity="0.0026"/>
+  <coords x="-5.806" y="-6.262" z="-1.337"/>
+ </system>
+ <system>
+  <name>AC+33 25644</name>
+  <star class="M4d" mass="0.0" diameter="0.0" luminosity="0"/>
+  <coords x="-18.722" y="-0.946" z="5.088"/>
+ </system>
+ <system>
+  <name>AC+38 23616</name>
+  <star class="M5de" mass="0.0" diameter="0.0" luminosity="0"/>
+  <coords x="-18.135" y="0.326" z="6.588"/>
+ </system>
+ <system>
+  <name>DM+05 1668</name>
+  <star class="M5d" mass="0.0" diameter="0.0" luminosity="0.0015"/>
+  <coords x="-10.046" y="-6.360" z="2.185"/>
+ </system>
+ <system>
+  <name>Procyon</name>
+  <star class="F5IV+" mass="0.0" diameter="0.0" luminosity="7.87"/>
+  <star name="" class="F wD" mass="0.0" diameter="0.0" luminosity="0.00058"/>
+  <coords x="-9.263" y="-6.197" z="2.577"/>
+ </system>
+ <system>
+  <name>YZ CMI</name>
+  <star class="M4de" mass="0.0" diameter="0.0" luminosity="0"/>
+  <coords x="-15.591" y="-11.253" z="4.599"/>
+ </system>
+ <system>
+  <name>L 97-12</name>
+  <star class="C wD" mass="0.0" diameter="0.0" luminosity="0"/>
+  <coords x="3.164" y="-17.515" z="-6.262"/>
+ </system>
+ <system>
+  <name>ROSS 619</name>
+  <star class="M5d" mass="0.0" diameter="0.0" luminosity="0"/>
+  <coords x="-16.602" y="-11.220" z="8.056"/>
+ </system>
+ <system>
+  <name>L 674-15</name>
+  <star class=" M" mass="0.0" diameter="0.0" luminosity="0"/>
+  <coords x="-9.035" y="-16.634" z="2.283"/>
+ </system>
+ <system>
+  <name>DM+53 1320</name>
+  <star class="M0Ve" mass="0.0" diameter="0.0" luminosity="0"/>
+  <star name="DM+53 1321" class="M0Ve" mass="0.0" diameter="0.0" luminosity="0"/>
+  <coords x="-13.927" y="3.751" z="13.307"/>
+ </system>
+ <system>
+  <name>DM+50 1725</name>
+  <star class="K7Ve" mass="0.0" diameter="0.0" luminosity="0.047"/>
+  <coords x="-8.741" y="2.218" z="11.611"/>
+ </system>
+ <system>
+  <name>DM+20 2465</name>
+  <star class="M4Ve" mass="0.0" diameter="0.0" luminosity="0.0038"/>
+  <coords x="-7.437" y="-5.512" z="13.047"/>
+ </system>
+ <system>
+  <name>WOLF 359</name>
+  <star class="M8de" mass="0.0" diameter="0.0" luminosity="0.00002"/>
+  <coords x="-1.859" y="-3.816" z="6.360"/>
+ </system>
+ <system>
+  <name>AC+23 468-46</name>
+  <star class="M3d" mass="0.0" diameter="0.0" luminosity="0"/>
+  <coords x="-7.502" y="-5.545" z="19.505"/>
+ </system>
+ <system>
+  <name>DM+36 2147</name>
+  <star class="M2Ve" mass="0.0" diameter="0.0" luminosity="0.0059"/>
+  <coords x="-3.392" y="-0.294" z="7.469"/>
+ </system>
+ <system>
+  <name>DM+44 2051</name>
+  <star class="M2Ve" mass="0.0" diameter="0.0" luminosity="0"/>
+  <star name="WX UMA" class="M8de" mass="0.0" diameter="0.0" luminosity="0"/>
+  <coords x="-7.763" y="1.598" z="15.656"/>
+ </system>
+ <system>
+  <name>L 145-141</name>
+  <star class="C wD" mass="0.0" diameter="0.0" luminosity="0.00048"/>
+  <coords x="6.915" y="-14.221" z="-0.783"/>
+ </system>
+ <system>
+  <name>AC+79 3888</name>
+  <star class="M4sd" mass="0.0" diameter="0.0" luminosity="0"/>
+  <coords x="-7.861" y="10.502" z="10.242"/>
+ </system>
+ <system>
+  <name>ROSS 128</name>
+  <star class="M5d" mass="0.0" diameter="0.0" luminosity="0.00036"/>
+  <coords x="0.000" y="-5.480" z="9.328"/>
+ </system>
+ <system>
+  <name>WOLF 424</name>
+  <star class="M5de" mass="0.0" diameter="0.0" luminosity="0.00010"/>
+  <star name="" class="" mass="0.0" diameter="0.0" luminosity="0"/>
+  <coords x="1.468" y="-4.273" z="13.373"/>
+ </system>
+ <system>
+  <name>DM+46 1797</name>
+  <star class="K4V" mass="0.0" diameter="0.0" luminosity="0.00008"/>
+  <coords x="-4.240" y="4.827" z="18.820"/>
+ </system>
+ <system>
+  <name>DM+15 2620</name>
+  <star class="M4Ve" mass="0.0" diameter="0.0" luminosity="0"/>
+  <coords x="4.860" y="-0.718" z="15.460"/>
+ </system>
+ <system>
+  <name>Proxima</name>
+  <star class="M5de" mass="0.0" diameter="0.0" luminosity="0.00006"/>
+  <coords x="2.968" y="-3.066" z="-0.130"/>
+ </system>
+ <system>
+  <name>DM-11 3759</name>
+  <star class="M4d" mass="0.0" diameter="0.0" luminosity="0"/>
+  <coords x="13.829" y="-5.480" z="13.927"/>
+ </system>
+ <system>
+  <name>Alpha Centauri A</name>
+  <star class="G2V" mass="0.0" diameter="0.0" luminosity="1.61"/>
+  <star name="Alpha Centauri B" class="K0V" mass="0.0" diameter="0.0" luminosity="0.47"/>
+  <coords x="3.131" y="-3.066" z="-0.065"/>
+ </system>
+ <system>
+  <name>Xi Bootis</name>
+  <star class="G8Ve" mass="0.0" diameter="0.0" luminosity="0.56"/>
+  <star name="" class="K4Ve" mass="0.0" diameter="0.0" luminosity="0.08"/>
+  <coords x="9.720" y="4.142" z="19.341"/>
+ </system>
+ <system>
+  <name>DM-20 4125</name>
+  <star class="K5Ve" mass="0.0" diameter="0.0" luminosity="0.14"/>
+  <star name="DM-20 4123" class="M2V" mass="0.0" diameter="0.0" luminosity="0.02"/>
+  <coords x="14.155" y="-5.643" z="9.785"/>
+ </system>
+ <system>
+  <name>DM-07 4003</name>
+  <star class="M5d" mass="0.0" diameter="0.0" luminosity="0"/>
+  <coords x="16.243" y="-1.663" z="13.699"/>
+ </system>
+ <system>
+  <name>DM-40 9712</name>
+  <star class="M4" mass="0.0" diameter="0.0" luminosity="0"/>
+  <coords x="16.765" y="-8.643" z="4.044"/>
+ </system>
+ <system>
+  <name>DM-12 4523</name>
+  <star class="M5d" mass="0.0" diameter="0.0" luminosity="0.0014"/>
+  <coords x="11.970" y="0.718" z="5.251"/>
+ </system>
+ <system>
+  <name>WOLF 629</name>
+  <star class="M4sd" mass="0.0" diameter="0.0" luminosity="0"/>
+  <coords x="18.526" y="3.620" z="7.306"/>
+ </system>
+ <system>
+  <name>DM-08 4352</name>
+  <star class="M4de" mass="0.0" diameter="0.0" luminosity="0"/>
+  <star name="" class="M4d" mass="0.0" diameter="0.0" luminosity="0"/>
+  <star name="VB 8" class="" mass="0.0" diameter="0.0" luminosity="0"/>
+  <coords x="18.559" y="3.620" z="7.306"/>
+ </system>
+ <system>
+  <name>DM+45 2505</name>
+  <star class="M3d" mass="0.0" diameter="0.0" luminosity="0"/>
+  <star name="" class="M3" mass="0.0" diameter="0.0" luminosity="0"/>
+  <coords x="5.447" y="16.145" z="12.362"/>
+ </system>
+ <system>
+  <name>DM-26 12026</name>
+  <star class="K1Ve" mass="0.0" diameter="0.0" luminosity="0.26"/>
+  <star class="K1Ve" mass="0.0" diameter="0.0" luminosity="0.25"/>
+  <coords x="17.580" y="-0.522" z="2.120"/>
+ </system>
+ <system>
+  <name>DM-26 12036</name>
+  <star class="K5Ve" mass="0.0" diameter="0.0" luminosity="0.08"/>
+  <coords x="17.580" y="-0.489" z="2.087"/>
+ </system>
+ <system>
+  <name>DM-46 11540</name>
+  <star class="M4" mass="0.0" diameter="0.0" luminosity="0.00337"/>
+  <coords x="14.351" y="-4.371" z="-1.794"/>
+ </system>
+ <system>
+  <name>DM-44 11909</name>
+  <star class="M5" mass="0.0" diameter="0.0" luminosity="0.00085"/>
+  <coords x="14.743" y="-3.686" z="-1.761"/>
+ </system>
+ <system>
+  <name>DM+68 946</name>
+  <star class="M3V" mass="0.0" diameter="0.0" luminosity="0.0043"/>
+  <coords x="-1.957" y="12.851" z="8.121"/>
+ </system>
+ <system>
+  <name>L 205-128</name>
+  <star class=" M" mass="0.0" diameter="0.0" luminosity="0"/>
+  <coords x="16.895" y="-7.763" z="-4.795"/>
+ </system>
+ <system>
+  <name>Barnard's Star</name>
+  <star class="M5V" mass="0.0" diameter="0.0" luminosity="0.00047"/>
+  <coords x="4.925" y="2.935" z="1.435"/>
+ </system>
+ <system>
+  <name>DM+02 3482</name>
+  <star class="K0Ve" mass="0.0" diameter="0.0" luminosity="0.49"/>
+  <star name="" class="K5Ve" mass="0.0" diameter="0.0" luminosity="0.10"/>
+  <coords x="14.221" y="8.187" z="3.294"/>
+ </system>
+ <system>
+  <name>DM+59 1915</name>
+  <star class="M4d" mass="0.0" diameter="0.0" luminosity="0.0031"/>
+  <star name="" class="M5d" mass="0.0" diameter="0.0" luminosity="0.0015"/>
+  <coords x="0.130" y="10.535" z="4.729"/>
+ </system>
+ <system>
+  <name>AC-24 2833-1</name>
+  <star class="M4de" mass="0.0" diameter="0.0" luminosity="0.00052"/>
+  <coords x="9.133" y="1.827" z="-1.696"/>
+ </system>
+ <system>
+  <name>DM+04 4048</name>
+  <star class="M3Ve" mass="0.0" diameter="0.0" luminosity="0"/>
+  <star name="VB 10" class="M5de" mass="0.0" diameter="0.0" luminosity="0"/>
+  <coords x="14.319" y="12.231" z="-1.076"/>
+ </system>
+ <system>
+  <name>L 347-14</name>
+  <star class="M7" mass="0.0" diameter="0.0" luminosity="0"/>
+  <coords x="16.895" y="-2.251" z="-7.534"/>
+ </system>
+ <system>
+  <name>Sigma Draconis</name>
+  <star class="K0V" mass="0.0" diameter="0.0" luminosity="0.39"/>
+  <coords x="-3.392" y="16.863" z="6.915"/>
+ </system>
+ <system>
+  <name>Altaïr</name>
+  <star class="A7IV" mass="0.0" diameter="0.0" luminosity="11.1"/>
+  <coords x="10.959" y="12.035" z="-2.544"/>
+ </system>
+ <system>
+  <name>Delta Pavonis</name>
+  <star class="G8V" mass="0.0" diameter="0.0" luminosity="1.14"/>
+  <coords x="13.601" y="-7.926" z="-9.981"/>
+ </system>
+ <system>
+  <name>DM-36 13940</name>
+  <star class="K3V" mass="0.0" diameter="0.0" luminosity="0.22"/>
+  <star name="" class="M5d" mass="0.0" diameter="0.0" luminosity="0"/>
+  <coords x="15.754" y="1.435" z="-9.459"/>
+ </system>
+ <system>
+  <name>DM-45 13677</name>
+  <star class="M0V" mass="0.0" diameter="0.0" luminosity="0.02"/>
+  <coords x="16.602" y="-1.500" z="-10.829"/>
+ </system>
+ <system>
+  <name>61 CYG</name>
+  <star class="K5Ve" mass="0.0" diameter="0.0" luminosity="0.090"/>
+  <star name="" class="K7Ve" mass="0.0" diameter="0.0" luminosity="0.042"/>
+  <coords x="1.468" y="10.861" z="-1.109"/>
+ </system>
+ <system>
+  <name>DM-39 14192</name>
+  <star class="M0Ve" mass="0.0" diameter="0.0" luminosity="0.029"/>
+  <coords x="8.969" y="0.620" z="-8.774"/>
+ </system>
+ <system>
+  <name>AC+17 534-10</name>
+  <star class="M4de" mass="0.0" diameter="0.0" luminosity="0"/>
+  <coords x="6.817" y="18.298" z="-8.545"/>
+ </system>
+ <system>
+  <name>DM-49 13515</name>
+  <star class="M1V" mass="0.0" diameter="0.0" luminosity="0.0067"/>
+  <coords x="10.339" y="-1.957" z="-11.024"/>
+ </system>
+ <system>
+  <name>Epsilon Indi</name>
+  <star class="K5Ve" mass="0.0" diameter="0.0" luminosity="0.146"/>
+  <coords x="6.849" y="-3.001" z="-8.317"/>
+ </system>
+ <system>
+  <name>DM+56 2783</name>
+  <star class="M3d" mass="0.0" diameter="0.0" luminosity="0.00164"/>
+  <star name="DO CEP" class="M4de" mass="0.0" diameter="0.0" luminosity="0.00044"/>
+  <coords x="-3.262" y="12.459" z="-0.000"/>
+ </system>
+ <system>
+  <name>L 789-6</name>
+  <star class="M7de" mass="0.0" diameter="0.0" luminosity="0.00009"/>
+  <coords x="3.979" y="4.273" z="-8.969"/>
+ </system>
+ <system>
+  <name>DM+43 4305</name>
+  <star class="M4de" mass="0.0" diameter="0.0" luminosity="0"/>
+  <coords x="-3.001" y="16.015" z="-3.783"/>
+ </system>
+ <system>
+  <name>DM-15 6290</name>
+  <star class="M5d" mass="0.0" diameter="0.0" luminosity="0.00175"/>
+  <coords x="4.860" y="6.230" z="-13.471"/>
+ </system>
+ <system>
+  <name>DM+15 4733</name>
+  <star class="M2de" mass="0.0" diameter="0.0" luminosity="0"/>
+  <coords x="0.881" y="17.548" z="-13.829"/>
+ </system>
+ <system>
+  <name>FomalHaut</name>
+  <star class="A3V" mass="0.0" diameter="0.0" luminosity="14.06"/>
+  <coords x="8.676" y="3.262" z="-19.831"/>
+ </system>
+ <system>
+  <name>DM-36 15693</name>
+  <star class="M2Ve" mass="0.0" diameter="0.0" luminosity="0.013"/>
+  <coords x="4.762" y="0.424" z="-10.666"/>
+ </system>
+ <system>
+  <name>DM+56 2966</name>
+  <star class="K3V" mass="0.0" diameter="0.0" luminosity="0.25"/>
+  <coords x="-7.534" y="20.842" z="-1.239"/>
+ </system>
+ <system>
+  <name>DM+19 5116</name>
+  <star class="M4de" mass="0.0" diameter="0.0" luminosity="0"/>
+  <star name="" class="M6de" mass="0.0" diameter="0.0" luminosity="0"/>
+  <coords x="-2.446" y="16.145" z="-13.275"/>
+ </system>
+ <system>
+  <name>ROSS 248</name>
+  <star class="M6de" mass="0.0" diameter="0.0" luminosity="0.00011"/>
+  <coords x="-3.359" y="9.230" z="-3.001"/>
+ </system>
+ <system>
+  <name>DM+01 4774</name>
+  <star class="M2Ve" mass="0.0" diameter="0.0" luminosity="0"/>
+  <coords x="-0.620" y="10.176" z="-15.591"/>
+ </system>
+</sector>

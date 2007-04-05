@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"  xsi:noNamespaceSchemaLocation="startable.xsd" generated="2007-04-04T10:01:23">
+<StarTable>
+<Field1>1                                                 </Field1>
+<Field2>O4</Field2>
+<Field3>48000                                             </Field3>
+<Field4>990000                                            </Field4>
+<Field5>90                                                </Field5>
+<Field6>14.4                                              </Field6>
+<Field7>1             N / A</Field7>
+<Field8>995                                               </Field8>
+<Field9>White</Field9>
+<Field10>Massive, very hot, very fast burning, short life</Field10>
+</StarTable>
+<StarTable>
+<Field1>2                                                 </Field1>
+<Field2>O7</Field2>
+<Field3>38000                                             </Field3>
+<Field4>260000                                            </Field4>
+<Field5>30                                                </Field5>
+<Field6>11.8                                              </Field6>
+<Field7>2             N / A</Field7>
+<Field8>510                                               </Field8>
+<Field9>White</Field9>
+</StarTable>
+<StarTable>
+<Field1>3                                                 </Field1>
+<Field2>O9</Field2>
+<Field3>33000                                             </Field3>
+<Field4>97000                                             </Field4>
+<Field5>23.3                                              </Field5>
+<Field6>9.56                                              </Field6>
+<Field7>3             N / A</Field7>
+<Field8>311                                               </Field8>
+<Field9>White</Field9>
+</StarTable>
+<StarTable>
+<Field1>4                                                 </Field1>
+<Field2>B0</Field2>
+<Field3>30000                                             </Field3>
+<Field4>52000                                             </Field4>
+<Field5>17.5                                              </Field5>
+<Field6>8.47                                              </Field6>
+<Field7>4             N / A</Field7>
+<Field8>228                                               </Field8>
+<Field9>Bright Blue</Field9>
+<Field10>Hot and fast burning</Field10>
+</StarTable>
+<StarTable>
+<Field1>5                                                 </Field1>
+<Field2>B2</Field2>
+<Field3>22000                                             </Field3>
+<Field4>5700                                              </Field4>
+<Field5>10.9                                              </Field5>
+<Field6>5.22                                              </Field6>
+<Field7>5             N / A</Field7>
+<Field8>75.5                                              </Field8>
+<Field9>Bright Blue</Field9>
+</StarTable>
+<StarTable>
+<Field1>6                                                 </Field1>
+<Field2>B5</Field2>
+<Field3>15400                                             </Field3>
+<Field4>830                                               </Field4>
+<Field5>5.9                                               </Field5>
+<Field6>4.06                                              </Field6>
+<Field7>6             N / A</Field7>
+<Field8>28.8                                              </Field8>
+<Field9>Bright Blue</Field9>
+</StarTable>
+<StarTable>
+<Field1>7                                                 </Field1>
+<Field2>A0</Field2>
+<Field3>9520                                              </Field3>
+<Field4>54                                                </Field4>
+<Field5>2.9                                               </Field5>
+<Field6>2.71                                              </Field6>
+<Field7>7             N / A</Field7>
+<Field8>7.35                                              </Field8>
+<Field9>Blue</Field9>
+<Field10>A little too hot and short lived to support life</Field10>
+</StarTable>
+<StarTable>
+<Field1>8                                                 </Field1>
+<Field2>A3</Field2>
+<Field3>8720                                              </Field3>
+<Field4>21                                                </Field4>
+<Field5>2.36                                              </Field5>
+<Field6>2.01                                              </Field6>
+<Field7>8             N / A</Field7>
+<Field8>4.58                                              </Field8>
+<Field9>Blue</Field9>
+</StarTable>
+<StarTable>
+<Field1>9                                                 </Field1>
+<Field2>A7</Field2>
+<Field3>7850                                              </Field3>
+<Field4>10.5                                              </Field4>
+<Field5>1.84                                              </Field5>
+<Field6>1.76                                              </Field6>
+<Field7>9             N / A</Field7>
+<Field8>3.24                                              </Field8>
+<Field9>Blue</Field9>
+</StarTable>
+<StarTable>
+<Field1>11                                                </Field1>
+<Field2>F0</Field2>
+<Field3>7200                                              </Field3>
+<Field4>6.5                                               </Field4>
+<Field5>1.6                                               </Field5>
+<Field6>1.64                                              </Field6>
+<Field7>2.09 - 3.05</Field7>
+<Field8>2.55                                              </Field8>
+<Field9>Bright Yellow</Field9>
+<Field10>Some of these might have life-bearing planets</Field10>
+</StarTable>
+<StarTable>
+<Field1>12                                                </Field1>
+<Field2>F2</Field2>
+<Field3>6890                                              </Field3>
+<Field4>4.3                                               </Field4>
+<Field5>1.52                                              </Field5>
+<Field6>1.46                                              </Field6>
+<Field7>1.7 - 2.48</Field7>
+<Field8>2.07                                              </Field8>
+<Field9>Bright Yellow</Field9>
+</StarTable>
+<StarTable>
+<Field1>13                                                </Field1>
+<Field2>F5</Field2>
+<Field3>6440                                              </Field3>
+<Field4>3.2                                               </Field4>
+<Field5>1.4                                               </Field5>
+<Field6>1.44                                              </Field6>
+<Field7>1.4 - 2.14</Field7>
+<Field8>1.79                                              </Field8>
+<Field9>Bright Yellow</Field9>
+</StarTable>
+<StarTable>
+<Field1>14                                                </Field1>
+<Field2>F8</Field2>
+<Field3>6200                                              </Field3>
+<Field4>2.1                                               </Field4>
+<Field5>1.19                                              </Field5>
+<Field6>1.26                                              </Field6>
+<Field7>1.18 - 1.73</Field7>
+<Field8>1.45                                              </Field8>
+<Field9>Bright Yellow</Field9>
+</StarTable>
+<StarTable>
+<Field1>15                                                </Field1>
+<Field2>G0</Field2>
+<Field3>6030                                              </Field3>
+<Field4>1.5                                               </Field4>
+<Field5>1.05                                              </Field5>
+<Field6>1.13                                              </Field6>
+<Field7>1.0 - 1.46</Field7>
+<Field8>1.22                                              </Field8>
+<Field9>Yellow</Field9>
+<Field10>Good life-bearing stars</Field10>
+</StarTable>
+<StarTable>
+<Field1>16                                                </Field1>
+<Field2>G2</Field2>
+<Field3>5860                                              </Field3>
+<Field4>1.1                                               </Field4>
+<Field5>0.998                                             </Field5>
+<Field6>1.02                                              </Field6>
+<Field7>.86 - 1.25</Field7>
+<Field8>1.05                                              </Field8>
+<Field9>Yellow</Field9>
+<Field10>**This is our Sun**</Field10>
+</StarTable>
+<StarTable>
+<Field1>17                                                </Field1>
+<Field2>G5</Field2>
+<Field3>5770                                              </Field3>
+<Field4>0.79                                              </Field4>
+<Field5>0.92                                              </Field5>
+<Field6>0.893                                             </Field6>
+<Field7>.72 - 1.06</Field7>
+<Field8>0.89                                              </Field8>
+<Field9>Yellow</Field9>
+</StarTable>
+<StarTable>
+<Field1>18                                                </Field1>
+<Field2>G8</Field2>
+<Field3>5570                                              </Field3>
+<Field4>0.66                                              </Field4>
+<Field5>0.842                                             </Field5>
+<Field6>0.875                                             </Field6>
+<Field7>.66 - .97</Field7>
+<Field8>0.81                                              </Field8>
+<Field9>Yellow</Field9>
+</StarTable>
+<StarTable>
+<Field1>19                                                </Field1>
+<Field2>K0</Field2>
+<Field3>5250                                              </Field3>
+<Field4>0.42                                              </Field4>
+<Field5>0.79                                              </Field5>
+<Field6>0.786                                             </Field6>
+<Field7>.53 - .77</Field7>
+<Field8>0.65                                              </Field8>
+<Field9>Orange</Field9>
+<Field10>Some inner planets might bear life</Field10>
+</StarTable>
+<StarTable>
+<Field1>20                                                </Field1>
+<Field2>K1</Field2>
+<Field3>5080                                              </Field3>
+<Field4>0.37                                              </Field4>
+<Field5>0.766                                             </Field5>
+<Field6>0.788                                             </Field6>
+<Field7>.49 - .72</Field7>
+<Field8>0.61                                              </Field8>
+<Field9>Orange</Field9>
+</StarTable>
+<StarTable>
+<Field1>21                                                </Field1>
+<Field2>K2</Field2>
+<Field3>4900                                              </Field3>
+<Field4>0.29                                              </Field4>
+<Field5>0.742                                             </Field5>
+<Field6>0.75                                              </Field6>
+<Field7>.44 - .64</Field7>
+<Field8>0.54                                              </Field8>
+<Field9>Orange</Field9>
+</StarTable>
+<StarTable>
+<Field1>22                                                </Field1>
+<Field2>K3</Field2>
+<Field3>4730                                              </Field3>
+<Field4>0.26                                              </Field4>
+<Field5>0.718                                             </Field5>
+<Field6>0.762                                             </Field6>
+<Field7>.41 - .61</Field7>
+<Field8>0.51                                              </Field8>
+<Field9>Orange</Field9>
+</StarTable>
+<StarTable>
+<Field1>23                                                </Field1>
+<Field2>K4</Field2>
+<Field3>4590                                              </Field3>
+<Field4>0.19                                              </Field4>
+<Field5>0.694                                             </Field5>
+<Field6>0.692                                             </Field6>
+<Field7>.35 - .52</Field7>
+<Field8>0.43                                              </Field8>
+<Field9>Orange</Field9>
+</StarTable>
+<StarTable>
+<Field1>24                                                </Field1>
+<Field2>M0</Field2>
+<Field3>3850                                              </Field3>
+<Field4>77.00×10-3                                        </Field4>
+<Field5>0.51                                              </Field5>
+<Field6>0.626                                             </Field6>
+<Field7>10             N / A</Field7>
+<Field8>0.28                                              </Field8>
+<Field9>Red</Field9>
+<Field10>Mass less than half of our sun</Field10>
+</StarTable>
+<StarTable>
+<Field1>25                                                </Field1>
+<Field2>M3</Field2>
+<Field3>3470                                              </Field3>
+<Field4>45.00×10-3                                        </Field4>
+<Field5>0.35                                              </Field5>
+<Field6>0.527                                             </Field6>
+<Field7>11             N / A</Field7>
+<Field8>0.19                                              </Field8>
+<Field9>Red</Field9>
+</StarTable>
+<StarTable>
+<Field1>26                                                </Field1>
+<Field2>M7</Field2>
+<Field3>2940                                              </Field3>
+<Field4> 3.40×10-3                                        </Field4>
+<Field5>0.163                                             </Field5>
+<Field6>0.226                                             </Field6>
+<Field7>13             N / A</Field7>
+<Field8>0.0583                                            </Field8>
+<Field9>Red</Field9>
+</StarTable>
+<StarTable>
+<Field1>27                                                </Field1>
+<Field2>E0</Field2>
+<Field3>1800                                              </Field3>
+<Field4>40.00×10-6                                        </Field4>
+<Field5>0.08                                              </Field5>
+<Field6>0.065                                             </Field6>
+<Field7>14             N / A</Field7>
+<Field8>0.0063                                            </Field8>
+<Field9>Dark Red</Field9>
+<Field10>Brown Dwarf status</Field10>
+</StarTable>
+<StarTable>
+<Field1>28                                                </Field1>
+<Field2>E4</Field2>
+<Field3>1300                                              </Field3>
+<Field4>16.O0×10-6                                        </Field4>
+<Field5>0.064                                             </Field5>
+<Field6>0.079                                             </Field6>
+<Field7>15             N / A</Field7>
+<Field8>0.0084                                            </Field8>
+<Field9>Dark Red</Field9>
+</StarTable>
+</dataroot>
