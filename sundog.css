@@ -1,0 +1,10 @@
+/* Status/progress line */
+#status
+{
+    border: 1px solid black;
+}
+/* Logging */
+#log
+{
+    border: 1px solid black;
+}

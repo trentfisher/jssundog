@@ -1,0 +1,580 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE sector SYSTEM "v8.dtd">
+<sector>
+ <system>
+  <name>Jondd</name>
+  <star class="G2" mass="1.0" diameter="1.0" luminosity="1.1"/>
+  <coords x="-15" z="-35" y="-3.6"/>
+  <planet>
+   <name>Jondd</name>
+   <orbit radius="0.89" initAngle="0.0"/>
+  </planet>
+  <planet>
+   <name>Heavy</name>
+   <orbit radius="1.1" initAngle="0.0"/>
+  </planet>
+ </system>
+ <system>
+  <name>Woremed</name>
+  <star class="K0" mass="1.0" diameter="1.0" luminosity="0.42"/>
+  <coords x="-11.8" z="-33.4" y="4.2"/>
+  <planet>
+   <name>W'orrad</name>
+   <orbit radius="0.48" initAngle="0.0"/>
+  </planet>
+ </system>
+ <system>
+  <name>New Shoot</name>
+  <star class="G2" mass="1.0" diameter="1.0" luminosity="1.1"/>
+  <coords x="-13.8" z="-28.8" y="4.8"/>
+  <planet>
+   <name>New Shoot</name>
+   <orbit radius="1.1" initAngle="0.0"/>
+  </planet>
+  <planet>
+   <name>Hell</name>
+   <orbit radius="0.85" initAngle="0.0"/>
+  </planet>
+ </system>
+ <system>
+  <name>Lasfer</name>
+  <star class="K3" mass="1.0" diameter="1.0" luminosity="0.26"/>
+  <coords x="-10" z="-31.8" y="-3.7"/>
+  <planet>
+   <name>Tcana</name>
+   <orbit radius="0.43" initAngle="0.0"/>
+  </planet>
+ </system>
+ <system>
+  <name>Shoot</name>			
+  <star class="K0" mass="1.0" diameter="1.0" luminosity="0.42"/>
+  <coords x="-17" z="-39" y="-3.2"/>
+  <planet>
+   <name>Shoot</name>
+   <orbit radius="0.59" initAngle="0.0"/>
+  </planet>
+ </system>
+ <system>
+  <name>Glory</name>
+  <star class="G0" mass="1.0" diameter="1.0" luminosity="1.5"/>
+  <coords x="-13.8" z="-26.3" y="4.9"/>
+  <planet>
+   <name>Glory I</name>
+   <orbit radius="1.06" initAngle="0.0"/>
+  </planet>
+  <planet>
+   <name>Glory II</name>
+   <orbit radius="1.25" initAngle="0.0"/>
+  </planet>
+  <planet>
+   <name>Glory III</name>
+   <orbit radius="1.41" initAngle="0.0"/>
+  </planet>
+ </system>
+ <system>
+  <name>Ferr</name>
+  <star class="F5" mass="1.0" diameter="1.0" luminosity="3.2"/>
+  <coords x="-4.7" z="-31" y="5.9"/>
+  <planet>
+   <name>Ferr</name>
+   <orbit radius="1.44" initAngle="0.0"/>
+  </planet>
+  <planet>
+   <name>Ferrwerk</name>
+   <orbit radius="1.74" initAngle="0.0"/>
+  </planet>
+  <planet>
+   <name>Snowball</name>
+   <orbit radius="2.63" initAngle="0.0"/>
+  </planet>
+ </system>
+ <system>
+  <name>KalManDaa</name>
+  <star class="F5" mass="1.0" diameter="1.0" luminosity="3.2"/>
+  <coords x="-7.6" z="-28" y="6.2"/>
+  <planet>
+   <name>Kala</name>
+   <orbit radius="1.51" initAngle="0.0"/>
+  </planet>
+ </system>
+ <system>
+  <name>Sosai</name>
+  <star class="F2" mass="1.0" diameter="1.0" luminosity="4.3"/>
+  <coords x="-11" z="-37.5" y="-6.8"/>
+  <planet>
+   <name>Vahevela</name>
+   <orbit radius="1.9" initAngle="0.0"/>
+  </planet>
+ </system>
+ <system>
+  <name>Jadul</name>
+  <star class="G2" mass="1.0" diameter="1.0" luminosity="1.1"/>
+  <coords x="-8" z="-28" y="-6"/>
+  <planet>
+   <name>Krakorum</name>
+   <orbit radius="0.94" initAngle="0.0"/>
+  </planet>
+ </system>
+ <system>
+  <name>Enlie</name>
+  <star class="K4" mass="1.0" diameter="1.0" luminosity="0.19"/>
+  <coords x="-7.2" z="-26" y="8.6"/>
+  <planet>
+   <name>Enliah</name>
+   <orbit radius="0.40" initAngle="0.0"/>
+  </planet>
+ </system>
+ <system>
+  <name>Hepa</name>	
+  <star class="F5" mass="1.0" diameter="1.0" luminosity="3.2"/>
+  <coords x="-4.7" z="-28.5" y="-7.2"/>
+  <planet>
+   <name>Hepa</name>
+   <orbit radius="2.0" initAngle="0.0"/>
+  </planet>
+ </system>
+ <system>
+  <name>Idonia</name>
+  <star class="G2" mass="1.0" diameter="1.0" luminosity="1.1"/>
+  <coords x="3.4" z="14.7" y="5.2"/>
+  <planet>
+   <name>Horsa</name>
+   <orbit radius="0.91" initAngle="0.0"/>
+  </planet>
+  <planet>
+   <name>Faraan</name>
+   <orbit radius="0.73" initAngle="0.0"/>
+  </planet>
+  <planet>
+   <name>Katar</name>
+   <orbit radius="0.55" initAngle="0.0"/>
+  </planet>
+ </system>
+ <system>
+  <name>Trentor</name>
+  <star class="F5" mass="1.0" diameter="1.0" luminosity="3.2"/>
+  <coords x="-2" z="-12.3" y="-12.6"/>
+  <planet>
+   <name>Trentor I</name>
+   <orbit radius="0.36" initAngle="0.0"/>
+  </planet>
+  <planet>
+   <name>Trentor II</name>
+   <orbit radius="0.84" initAngle="0.0"/>
+  </planet>
+  <planet>
+   <name>RadCliff's Hope</name>
+   <orbit radius="1.43" initAngle="0.0"/>
+  </planet>
+  <planet>
+   <name>Trentor VI</name>
+   <orbit radius="1.67" initAngle="0.0"/>
+  </planet>
+  <planet>
+   <name>Trentor IX</name>
+   <orbit radius="2.05" initAngle="0.0"/>
+  </planet>
+ </system>
+ <system>
+  <name>Oceanus</name>
+  <star class="G2" mass="1.0" diameter="1.0" luminosity="1.1"/>
+  <coords x="-6.2" z="1" y="12.5"/>
+  <planet>
+   <name>Driois</name>
+   <orbit radius="0.47" initAngle="0.0"/>
+  </planet>
+  <planet>
+   <name>Aerin</name>
+   <orbit radius="0.93" initAngle="0.0"/>
+  </planet>
+  <planet>
+   <name>Altin</name>
+   <orbit radius="1.1" initAngle="0.0"/>
+  </planet>
+  <planet>
+   <name>Scarvon</name>
+   <orbit radius="1.8" initAngle="0.0"/>
+  </planet>
+ </system>
+ <system>
+  <name>New Jondd</name>
+  <star class="G2" mass="1.0" diameter="1.0" luminosity="1.1"/>
+  <coords x="-12" z="-16.3" y="-8.6"/>
+  <planet>
+   <name>New Jondd</name>
+   <orbit radius="0.98" initAngle="0.0"/>
+  </planet>
+ </system>
+ <system>
+  <name>Solisa</name>
+  <star class="K1" mass="1.0" diameter="1.0" luminosity="0.37"/>
+  <coords x="-4" z="-13.3" y="-8.6"/>
+  <planet>
+   <name>Solisai Halo</name>
+   <orbit radius="0.51" initAngle="0.0"/>
+  </planet>
+ </system>
+ <system>
+  <name>Tur Pedant</name>
+  <star class="G2" mass="1.0" diameter="1.0" luminosity="1.1"/>
+  <coords x="-4" z="-15.3" y="-9.2"/>
+  <planet>
+   <name>Tur Padrias</name>
+   <orbit radius="0.97" initAngle="0.0"/>
+  </planet>
+  <planet>
+   <name>Tur Maylon (Moon of Padrias)</name>
+   <orbit radius="0.97" initAngle="0.1"/>
+  </planet>
+ </system>
+ <system>
+  <name>Gandar</name>
+  <star class="G2" mass="1.0" diameter="1.0" luminosity="1.1"/>
+  <coords x="-2" z="-8.3" y="20.6"/>
+ </system>
+ <system>
+  <name>Waryn</name>
+  <star class="F2" mass="1.0" diameter="1.0" luminosity="4.3"/>
+  <coords x="-3.2" z="-9.3" y="5.4"/>
+ </system>
+ <system>
+  <name>Diota</name>
+  <star class="K1" mass="1.0" diameter="1.0" luminosity="0.37"/>
+  <coords x="-3.2" z="-4.3" y="-15.4"/>
+  <planet>
+   <name>Rhybeck</name>
+   <orbit radius="0.62" initAngle="0.0"/>
+  </planet>
+ </system>
+ <system>
+  <name>SEP1677</name>
+  <star class="B2" mass="1.0" diameter="1.0" luminosity="5700"/>
+  <coords x="-8.2" z="-7.2" y="-3.8"/>
+  <planet>
+   <name>SEP_P1</name>
+   <orbit radius="0.6" initAngle="0.0"/>
+  </planet>
+ </system>
+ <system>
+  <name>Horath</name>
+  <star class="A7" mass="1.0" diameter="1.0" luminosity="10.5"/>
+  <coords x="13.8" z="16.7" y="5.8"/>
+  <planet>
+   <name>Schypyrd</name>
+   <orbit radius="1.5" initAngle="0.0"/>
+  </planet>
+ </system>
+ <system>
+  <name>Eudinae</name>
+  <star class="F8" mass="1.0" diameter="1.0" luminosity="0.0"/>
+  <coords x="-8.8" z="-22.7" y="-0.8"/>
+  <planet>
+   <name>Sorcyia</name>
+   <orbit radius="1.3" initAngle="0.0"/>
+  </planet>
+ </system>
+ <system>
+  <name>Object ALK224</name>
+  <star class="E4" mass="1.0" diameter="1.0" luminosity="0.0"/>
+  <coords x="-21.4" z="9.3" y="-2.8"/>	
+ </system>
+ <system>
+  <name>Aiku Hitatchi</name>
+  <star class="G2" mass="1.0" diameter="1.0" luminosity="1.1"/>
+  <coords x="-13.2" z="-9.2" y="6.5"/>	
+  <planet>
+   <name>Haakon</name>
+   <orbit radius="1.1" initAngle="0.0"/>
+  </planet>
+ </system>
+ <system>
+  <name>Akhor</name>
+  <star class="G0" mass="1.0" diameter="1.0" luminosity="1.5"/>
+  <coords x="-19.3" z="-20.6" y="-4.4"/>	
+  <planet>
+   <name>Akhor</name>
+   <orbit radius="1.2" initAngle="0.0"/>
+  </planet>
+ </system>
+ <system>
+  <name>New Rome</name>
+  <star class="G8" mass="1.0" diameter="1.0" luminosity="0.66"/>
+  <coords x="-11.4" z="-12.9" y="7.1"/>	
+  <planet>
+   <name>Rome</name>
+   <orbit radius="0.7" initAngle="0.0"/>
+  </planet>
+ </system>
+ <system>
+  <name>Hudson's Folly</name>
+  <star class="O4" mass="1.0" diameter="1.0" luminosity="1000000"/>
+  <coords x="-20.1" z="-4.9" y="3.2"/>	
+  <planet>
+   <name>LD 982</name>
+   <orbit radius="0.0" initAngle="0.0"/>
+  </planet>
+ </system>
+ <system>
+  <name>Itrosis</name>
+  <star class="K0" mass="1.0" diameter="1.0" luminosity="0.42"/>
+  <coords x="-18.7" z="-15.9" y="4.3"/>	
+  <planet>
+   <name>Herzog</name>
+   <orbit radius="0.6" initAngle="0.0"/>
+  </planet>
+ </system>
+ <system>
+  <name>Julius</name>
+  <star class="F2" mass="1.0" diameter="1.0" luminosity="4.3"/>
+  <coords x="-23.3" z="-35.6" y="-3.6"/>	
+  <planet>
+   <name>Rathgore</name>
+   <orbit radius="2.1" initAngle="0.0"/>
+  </planet>
+ </system>
+ <system>
+  <name>Phillimar</name>
+  <star class="B5" mass="1.0" diameter="1.0" luminosity="830"/>
+  <coords x="-19.5" z="-45.6" y="-3.6"/>	
+  <planet>
+   <name>GW-923</name>
+   <orbit radius="1.9" initAngle="0.0"/>
+  </planet>
+ </system>
+ <system>
+  <name>Object B129</name>
+  <star class="E0" mass="1.0" diameter="1.0" luminosity="0.0"/>
+  <coords x="-12.4" z="-51.6" y="0.1"/>	
+ </system>
+ <system>
+  <name>Paraglisi</name>
+  <star class="F8" mass="1.0" diameter="1.0" luminosity="0.0"/>
+  <coords x="-4" z="-46.9" y="-1.5"/>	
+  <planet>
+   <name>Jutta</name>
+   <orbit radius="1.2" initAngle="0.0"/>
+  </planet>
+ </system>
+ <system>
+  <name>Monarch</name>
+  <star class="G2" mass="1.0" diameter="1.0" luminosity="1.1"/>
+  <coords x="3.9" z="-42.9" y="-4.5"/>	
+  <planet>
+   <name>Joriel</name>
+   <orbit radius="1.0" initAngle="0.0"/>
+  </planet>
+ </system>
+ <system>
+  <name>Vanderford</name>
+  <star class="F5" mass="1.0" diameter="1.0" luminosity="3.2"/>
+  <coords x="7.4" z="-39.2" y="-3.6"/>	
+  <planet>
+   <name>VD-001</name>
+   <orbit radius="3.8" initAngle="0.0"/>
+  </planet>
+ </system>
+ <system>
+  <name>Terofal</name>
+  <star class="G2" mass="1.0" diameter="1.0" luminosity="1.1"/>
+  <coords x="17.4" z="-33.2" y="-2.2"/>	
+  <planet>
+   <name>Terofal</name>
+   <orbit radius="1.1" initAngle="0.0"/>
+  </planet>
+ </system>
+ <system>
+  <name>Aljabber</name>
+  <star class="K0" mass="1.0" diameter="1.0" luminosity="0.42"/>
+  <coords x="12.4" z="-29.4" y="3.1"/>	
+  <planet>
+   <name>Al Jourin</name>
+   <orbit radius="0.6" initAngle="0.0"/>
+  </planet>
+ </system>
+ <system>
+  <name>Tiloh</name>
+  <star class="A3" mass="1.0" diameter="1.0" luminosity="0.0"/>
+  <coords x="12.2" z="-25.3" y="5.2"/>	
+  <planet>
+   <name>TL-P1</name>
+   <orbit radius="3.7" initAngle="0.0"/>
+  </planet>
+ </system>
+ <system>
+  <name>Karaterran</name>
+  <star class="F2" mass="1.0" diameter="1.0" luminosity="4.3"/>
+  <coords x="14.2" z="-12.4" y="1.2"/>	
+  <planet>
+   <name>Karaterran</name>
+   <orbit radius="1.4" initAngle="0.0"/>
+  </planet>
+ </system>
+ <system>
+  <name>Lyten</name>
+  <star class="G8" mass="1.0" diameter="1.0" luminosity="0.66"/>
+  <coords x="10.4" z="-9.6" y="1.3"/>	
+  <planet>
+   <name>Rytor</name>
+   <orbit radius="0.7" initAngle="0.0"/>
+  </planet>
+ </system>
+ <system>
+  <name>Wyechen</name>
+  <star class="G2" mass="1.0" diameter="1.0" luminosity="1.1"/>
+  <coords x="13.4" z="-8.6" y="4.8"/>	
+  <planet>
+   <name>Wythsyde</name>
+   <orbit radius="0.93" initAngle="0.0"/>
+  </planet>
+ </system>
+ <system>
+  <name>Lombard</name>
+  <star class="O9" mass="1.0" diameter="1.0" luminosity="0.0"/>
+  <coords x="15.1" z="-5.9" y="4.3"/>	
+ </system>
+ <system>
+  <name>Smeggon</name>
+  <star class="F5" mass="1.0" diameter="1.0" luminosity="3.2"/>
+  <coords x="18.8" z="-2.1" y="3.7"/>	
+ </system>
+ <system>
+  <name>Tornibur</name>
+  <star class="A7" mass="1.0" diameter="1.0" luminosity="10.5"/>
+  <coords x="2.4" z="21.7" y="2.7"/>	
+ </system>
+ <system>
+  <name>Agnar</name>
+  <star class="B5" mass="1.0" diameter="1.0" luminosity="830"/>
+  <coords x="-7.2" z="3.4" y="17.5"/>	
+ </system>
+ <system>
+  <name>Berin</name>
+  <star class="A3" mass="1.0" diameter="1.0" luminosity="0.0"/>
+  <coords x="-2.5" z="5.8" y="13.7"/>	
+ </system>
+ <system>
+  <name>Coriolis</name>
+  <star class="A0" mass="1.0" diameter="1.0" luminosity="0.0"/>
+  <coords x="5.9" z="-7.3" y="-10.6"/>	
+ </system>
+ <system>
+  <name>Dalrei</name>
+  <star class="F8" mass="1.0" diameter="1.0" luminosity="0.0"/>
+  <coords x="9.3" z="-4.8" y="12.6"/>	
+ </system>
+ <system>
+  <name>Djerkul</name>
+  <star class="B2" mass="1.0" diameter="1.0" luminosity="5700"/>
+  <coords x="8.5" z="-21.5" y="9.2"/>	
+ </system>
+ <system>
+  <name>Ealhdun</name>
+  <star class="M3" mass="1.0" diameter="1.0" luminosity="0.0"/>
+  <coords x="7.4" z="-11.3" y="14.6"/>	
+ </system>
+ <system>
+  <name>Faust</name>
+  <star class="K1" mass="1.0" diameter="1.0" luminosity="0.37"/>
+  <coords x="3.5" z="-19.5" y="13.6"/>	
+ </system>
+ <system>
+  <name>Forseti</name>
+  <star class="K1" mass="1.0" diameter="1.0" luminosity="0.37"/>
+  <coords x="1.5" z="-23.7" y="12.9"/>	
+ </system>
+ <system>
+  <name>Gendeson</name>
+  <star class="O9" mass="1.0" diameter="1.0" luminosity="0.0"/>
+  <coords x="-1.3" z="-23.7" y="-8.2"/>	
+ </system>
+ <system>
+  <name>Ghunda</name>
+  <star class="A3" mass="1.0" diameter="1.0" luminosity="0.0"/>
+  <coords x="-3.1" z="-32.4" y="6.3"/>	
+ </system>
+ <system>
+  <name>Halig</name>
+  <star class="G0" mass="1.0" diameter="1.0" luminosity="1.5"/>
+  <coords x="-5.3" z="-37.2" y="5.7"/>	
+ </system>
+ <system>
+  <name>Iclavdur</name>
+  <star class="B2" mass="1.0" diameter="1.0" luminosity="5700"/>
+  <coords x="-2.5" z="-17.2" y="-14.2"/>	
+ </system>
+ <system>
+  <name>Jondalar</name>
+  <star class="G0" mass="1.0" diameter="1.0" luminosity="1.5"/>
+  <coords x="11.3" z="-2.5" y="8.6"/>	
+ </system>
+ <system>
+  <name>Kili</name>
+  <star class="F8" mass="1.0" diameter="1.0" luminosity="0.0"/>
+  <coords x="12.3" z="11.6" y="-3.5"/>	
+ </system>
+ <system>
+  <name>Lovel</name>
+  <star class="A7" mass="1.0" diameter="1.0" luminosity="10.5"/>
+  <coords x="9.3" z="9.6" y="-7.5"/>	
+ </system>
+ <system>
+  <name>Mual</name>
+  <star class="G2" mass="1.0" diameter="1.0" luminosity="1.1"/>
+  <coords x="5.3" z="4.8" y="-9.2"/>	
+ </system>
+ <system>
+  <name>Ophelia</name>
+  <star class="F5" mass="1.0" diameter="1.0" luminosity="3.2"/>
+  <coords x="5.3" z="4.8" y="-9.2"/>	
+ </system>
+ <system>
+  <name>TER 9A</name>
+  <star class="O4" mass="1.0" diameter="1.0" luminosity="1000000"/>
+  <coords x="1.3" z="-8.7" y="1.5"/>	
+ </system>
+ <system>
+  <name>TER 9B</name>
+  <star class="O7" mass="1.0" diameter="1.0" luminosity="260000"/>
+  <coords x="-2" z="-9.8" y="2"/>	
+ </system>
+ <system>
+  <name>Othon</name>
+  <star class="B5" mass="1.0" diameter="1.0" luminosity="830"/>
+  <coords x="-2.9" z="-2.6" y="-16.3"/>	
+ </system>
+ <system>
+  <name>Ranzano</name>
+  <star class="G8" mass="1.0" diameter="1.0" luminosity="0.66"/>
+  <coords x="2.0" z="-13.6" y="-4.2"/>	
+ </system>
+ <system>
+  <name>Gebieu</name>
+  <star class="K1" mass="1.0" diameter="1.0" luminosity="0.37"/>
+  <coords x="7.3" z="-2.6" y="-9.6"/>	
+ </system>
+ <system>
+  <name>Calipser</name>
+  <star class="M7" mass="1.0" diameter="1.0" luminosity="0.0034"/>
+  <coords x="-7.9" z="9.4" y="6.2"/>	
+ </system>
+ <system>
+  <name>TER 9C</name>
+  <star class="O4" mass="1.0" diameter="1.0" luminosity="1000000"/>
+  <coords x="2" z="-7" y="2.2"/>	
+ </system>
+ <system>
+  <name>Ralchen</name>
+  <star class="F5" mass="1.0" diameter="1.0" luminosity="3.2"/>
+  <coords x="6.2" z="-29.4" y="8.6"/>	
+ </system>
+ <system>
+  <name>Ivanti</name>
+  <star class="G8" mass="1.0" diameter="1.0" luminosity="0.66"/>
+  <coords x="5.6" z="-24.4" y="-3.7"/>	
+ </system>
+ <system>
+  <name>Sormastron</name>
+  <star class="O4" mass="1.0" diameter="1.0" luminosity="1000000"/>
+  <coords x="0" z="0" y="0"/>	
+ </system>
+</sector>

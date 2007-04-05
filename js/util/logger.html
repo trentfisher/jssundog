@@ -1,0 +1,24 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<html> <head>
+<title>http test</title>
+<script type="text/javascript" src="logger.js"></script>
+</head>
+<body>
+<h1>http test</h1>
+<div id="log"></div>
+<script type="text/javascript">
+var l = new Logger("log", 2);
+l.log(0, "level zero");
+l.log(1, "level one");
+l.log(2, "level two");
+l.log(3, "level three");
+l.level(4);
+l.log(3, "level three");
+l.log(4, "level four");
+l.log(5, "level five");
+</script>
+<hr>
+<address>
+<!-- hhmts start -->  <!-- hhmts end -->
+</address>
+</body> </html>

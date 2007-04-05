@@ -1,0 +1,617 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"  xsi:noNamespaceSchemaLocation="system.xsd" generated="2007-04-04T10:01:55">
+<system>
+<ID>8</ID>
+<systemname>Jondd</systemname>
+<starclass>.86 - 1.25</starclass>
+<x>-15</x>
+<y>-35</y>
+<z>-3.6</z>
+<numberplanets>2</numberplanets>
+<habitzone>.8 - 1.17 AU</habitzone>
+</system>
+<system>
+<ID>10</ID>
+<systemname>Woremed</systemname>
+<starclass>.53 - .77</starclass>
+<x>-11.8</x>
+<y>-33.4</y>
+<z>4.2</z>
+<numberplanets>1</numberplanets>
+<habitzone>.43 - .63 AU</habitzone>
+</system>
+<system>
+<ID>11</ID>
+<systemname>New Shoot</systemname>
+<starclass>.86 - 1.25</starclass>
+<x>-13.8</x>
+<y>-28.8</y>
+<z>4.8</z>
+<numberplanets>2</numberplanets>
+<habitzone>.69 - 1.0 AU</habitzone>
+</system>
+<system>
+<ID>13</ID>
+<systemname>Lasfer</systemname>
+<starclass>.41 - .61</starclass>
+<x>-10</x>
+<y>-31.8</y>
+<z>-3.7</z>
+<numberplanets>1</numberplanets>
+<habitzone>.34 - .50 AU</habitzone>
+</system>
+<system>
+<ID>14</ID>
+<systemname>Shoot</systemname>
+<starclass>.53 - .77</starclass>
+<x>-17</x>
+<y>-39</y>
+<z>-3.2</z>
+<habitzone>.43 - .63 AU</habitzone>
+</system>
+<system>
+<ID>15</ID>
+<systemname>Glory</systemname>
+<starclass>1.0 - 1.46</starclass>
+<x>-13.8</x>
+<y>-26.3</y>
+<z>4.9</z>
+<numberplanets>3</numberplanets>
+<habitzone>.95 - 1.42 AU</habitzone>
+</system>
+<system>
+<ID>20</ID>
+<systemname>Ferr</systemname>
+<starclass>1.4 - 2.14</starclass>
+<x>-4.7</x>
+<y>-31</y>
+<z>5.9</z>
+<numberplanets>3</numberplanets>
+<habitzone>1.42 - 2.07 AU</habitzone>
+</system>
+<system>
+<ID>21</ID>
+<systemname>KalManDaa</systemname>
+<starclass>1.4 - 2.14</starclass>
+<x>-7.6</x>
+<y>-28</y>
+<z>6.2</z>
+<numberplanets>1</numberplanets>
+<habitzone>1.13 - 1.66 AU</habitzone>
+</system>
+<system>
+<ID>22</ID>
+<systemname>Sosai</systemname>
+<starclass>1.7 - 2.48</starclass>
+<x>-11</x>
+<y>-37.5</y>
+<z>-6.8</z>
+<numberplanets>1</numberplanets>
+<habitzone>1.66 - 2.45 AU</habitzone>
+</system>
+<system>
+<ID>23</ID>
+<systemname>Jadul</systemname>
+<starclass>.86 - 1.25</starclass>
+<x>-8</x>
+<y>-28</y>
+<z>-6</z>
+<numberplanets>1</numberplanets>
+<habitzone>.69 - 1.0 AU</habitzone>
+</system>
+<system>
+<ID>24</ID>
+<systemname>Enlie</systemname>
+<starclass>.35 - .52</starclass>
+<x>-7.2</x>
+<y>-26</y>
+<z>8.6</z>
+<numberplanets>1</numberplanets>
+<habitzone>.28 - .41 AU</habitzone>
+</system>
+<system>
+<ID>25</ID>
+<systemname>Hepa</systemname>
+<starclass>1.4 - 2.14</starclass>
+<x>-4.7</x>
+<y>-28.5</y>
+<z>-7.2</z>
+<numberplanets>1</numberplanets>
+<habitzone>1.42 - 2.07 AU</habitzone>
+</system>
+<system>
+<ID>26</ID>
+<systemname>Idonia</systemname>
+<starclass>.86 - 1.25</starclass>
+<x>3.4</x>
+<y>14.7</y>
+<z>5.2</z>
+<numberplanets>3</numberplanets>
+<habitzone>.69 - 1.0 AU</habitzone>
+</system>
+<system>
+<ID>30</ID>
+<systemname>Trentor</systemname>
+<starclass>1.4 - 2.14</starclass>
+<x>-2</x>
+<y>-12.3</y>
+<z>-12.6</z>
+<numberplanets>5</numberplanets>
+<habitzone>1.13 - 1.66 AU</habitzone>
+</system>
+<system>
+<ID>36</ID>
+<systemname>Oceanus</systemname>
+<starclass>.86 - 1.25</starclass>
+<x>-6.2</x>
+<y>1</y>
+<z>12.5</z>
+<numberplanets>4</numberplanets>
+<habitzone>.8 - 1.17 AU</habitzone>
+</system>
+<system>
+<ID>38</ID>
+<systemname>New Jondd</systemname>
+<starclass>.86 - 1.25</starclass>
+<x>-12</x>
+<y>-16.3</y>
+<z>-8.6</z>
+<habitzone>.69 - 1.0 AU</habitzone>
+</system>
+<system>
+<ID>39</ID>
+<systemname>Solisa</systemname>
+<starclass>.49 - .72</starclass>
+<x>-4</x>
+<y>-13.3</y>
+<z>-8.6</z>
+<habitzone>.37 - .54 AU</habitzone>
+</system>
+<system>
+<ID>40</ID>
+<systemname>Tur Pedant</systemname>
+<starclass>.86 - 1.25</starclass>
+<x>-4</x>
+<y>-15.3</y>
+<z>-9.2</z>
+<numberplanets>2</numberplanets>
+<habitzone>.8 - 1.17 AU</habitzone>
+</system>
+<system>
+<ID>42</ID>
+<systemname>Gandar</systemname>
+<starclass>.86 - 1.25</starclass>
+<x>-2</x>
+<y>-8.3</y>
+<z>20.6</z>
+<habitzone>.69 - 1.0 AU</habitzone>
+</system>
+<system>
+<ID>43</ID>
+<systemname>Waryn</systemname>
+<starclass>1.7 - 2.48</starclass>
+<x>-3.2</x>
+<y>-9.3</y>
+<z>5.4</z>
+<habitzone>1.66 - 2.45 AU</habitzone>
+</system>
+<system>
+<ID>46</ID>
+<systemname>Diota</systemname>
+<starclass>.49 - .72</starclass>
+<x>-3.2</x>
+<y>-4.3</y>
+<z>-15.4</z>
+<mass>.752</mass>
+<lumin>.34</lumin>
+<habitzone>.48 - .7 AU</habitzone>
+</system>
+<system>
+<ID>47</ID>
+<systemname>SEP1677</systemname>
+<starclass>5             N / A</starclass>
+<x>-8.2</x>
+<y>-7.2</y>
+<z>-3.8</z>
+</system>
+<system>
+<ID>48</ID>
+<systemname>Horath</systemname>
+<starclass>9             N / A</starclass>
+<x>13.8</x>
+<y>16.7</y>
+<z>5.8</z>
+</system>
+<system>
+<ID>49</ID>
+<systemname>Eudinae</systemname>
+<starclass>1.18 - 1.73</starclass>
+<x>-8.8</x>
+<y>-22.7</y>
+<z>-.8</z>
+</system>
+<system>
+<ID>50</ID>
+<systemname>Object ALK224</systemname>
+<starclass>15             N / A</starclass>
+<x>-21.4</x>
+<y>9.3</y>
+<z>-2.8</z>
+</system>
+<system>
+<ID>51</ID>
+<systemname>Aiku Hitatchi</systemname>
+<starclass>.86 - 1.25</starclass>
+<x>-13.2</x>
+<y>-9.2</y>
+<z>6.5</z>
+</system>
+<system>
+<ID>52</ID>
+<systemname>Akhor</systemname>
+<starclass>1.0 - 1.46</starclass>
+<x>-19.3</x>
+<y>-20.6</y>
+<z>-4.4</z>
+</system>
+<system>
+<ID>53</ID>
+<systemname>New Rome</systemname>
+<starclass>.66 - .97</starclass>
+<x>-11.4</x>
+<y>-12.9</y>
+<z>7.1</z>
+</system>
+<system>
+<ID>54</ID>
+<systemname>Hudson&apos;s Folly</systemname>
+<starclass>1             N / A</starclass>
+<x>-20.1</x>
+<y>-4.9</y>
+<z>3.2</z>
+</system>
+<system>
+<ID>55</ID>
+<systemname>Itrosis</systemname>
+<starclass>.53 - .77</starclass>
+<x>-18.7</x>
+<y>-15.9</y>
+<z>4.3</z>
+</system>
+<system>
+<ID>56</ID>
+<systemname>Julius</systemname>
+<starclass>1.7 - 2.48</starclass>
+<x>-23.3</x>
+<y>-35.6</y>
+<z>-3.6</z>
+</system>
+<system>
+<ID>57</ID>
+<systemname>Phillimar</systemname>
+<starclass>6             N / A</starclass>
+<x>-19.5</x>
+<y>-45.6</y>
+<z>-3.6</z>
+</system>
+<system>
+<ID>58</ID>
+<systemname>Object B129</systemname>
+<starclass>14             N / A</starclass>
+<x>-12.4</x>
+<y>-51.6</y>
+<z>.1</z>
+</system>
+<system>
+<ID>59</ID>
+<systemname>Paraglisi</systemname>
+<starclass>1.18 - 1.73</starclass>
+<x>-4</x>
+<y>-46.9</y>
+<z>-1.5</z>
+</system>
+<system>
+<ID>60</ID>
+<systemname>Monarch</systemname>
+<starclass>.86 - 1.25</starclass>
+<x>3.9</x>
+<y>-42.9</y>
+<z>-4.5</z>
+</system>
+<system>
+<ID>61</ID>
+<systemname>Vanderford</systemname>
+<starclass>1.4 - 2.14</starclass>
+<x>7.4</x>
+<y>-39.2</y>
+<z>-3.6</z>
+</system>
+<system>
+<ID>62</ID>
+<systemname>Terofal</systemname>
+<starclass>.86 - 1.25</starclass>
+<x>17.4</x>
+<y>-33.2</y>
+<z>-2.2</z>
+</system>
+<system>
+<ID>63</ID>
+<systemname>Aljabber</systemname>
+<starclass>.53 - .77</starclass>
+<x>12.4</x>
+<y>-29.4</y>
+<z>3.1</z>
+</system>
+<system>
+<ID>64</ID>
+<systemname>Tiloh</systemname>
+<starclass>8             N / A</starclass>
+<x>12.2</x>
+<y>-25.3</y>
+<z>5.2</z>
+</system>
+<system>
+<ID>65</ID>
+<systemname>Karaterran</systemname>
+<starclass>1.7 - 2.48</starclass>
+<x>14.2</x>
+<y>-12.4</y>
+<z>1.2</z>
+</system>
+<system>
+<ID>66</ID>
+<systemname>Lyten</systemname>
+<starclass>.66 - .97</starclass>
+<x>10.4</x>
+<y>-9.6</y>
+<z>1.3</z>
+</system>
+<system>
+<ID>67</ID>
+<systemname>Wyechen</systemname>
+<starclass>.86 - 1.25</starclass>
+<x>13.4</x>
+<y>-8.6</y>
+<z>4.8</z>
+</system>
+<system>
+<ID>68</ID>
+<systemname>Lombard</systemname>
+<starclass>3             N / A</starclass>
+<x>15.1</x>
+<y>-5.9</y>
+<z>4.3</z>
+</system>
+<system>
+<ID>69</ID>
+<systemname>Smeggon</systemname>
+<starclass>1.4 - 2.14</starclass>
+<x>18.8</x>
+<y>-2.1</y>
+<z>3.7</z>
+</system>
+<system>
+<ID>70</ID>
+<systemname>Tornibur</systemname>
+<starclass>9             N / A</starclass>
+<x>2.4</x>
+<y>21.7</y>
+<z>2.7</z>
+</system>
+<system>
+<ID>71</ID>
+<systemname>Agnar</systemname>
+<starclass>6             N / A</starclass>
+<x>-7.2</x>
+<y>3.4</y>
+<z>17.5</z>
+</system>
+<system>
+<ID>72</ID>
+<systemname>Berin</systemname>
+<starclass>8             N / A</starclass>
+<x>-2.5</x>
+<y>5.8</y>
+<z>13.7</z>
+</system>
+<system>
+<ID>73</ID>
+<systemname>Coriolis</systemname>
+<starclass>7             N / A</starclass>
+<x>5.9</x>
+<y>-7.3</y>
+<z>-10.6</z>
+</system>
+<system>
+<ID>74</ID>
+<systemname>Dalrei</systemname>
+<starclass>1.18 - 1.73</starclass>
+<x>9.3</x>
+<y>-4.8</y>
+<z>12.6</z>
+</system>
+<system>
+<ID>75</ID>
+<systemname>Djerkul</systemname>
+<starclass>5             N / A</starclass>
+<x>8.5</x>
+<y>-21.5</y>
+<z>9.2</z>
+</system>
+<system>
+<ID>76</ID>
+<systemname>Ealhdun</systemname>
+<starclass>11             N / A</starclass>
+<x>7.4</x>
+<y>-11.3</y>
+<z>14.6</z>
+</system>
+<system>
+<ID>77</ID>
+<systemname>Faust</systemname>
+<starclass>.49 - .72</starclass>
+<x>3.5</x>
+<y>-19.5</y>
+<z>13.6</z>
+</system>
+<system>
+<ID>78</ID>
+<systemname>Forseti</systemname>
+<starclass>.49 - .72</starclass>
+<x>1.5</x>
+<y>-23.7</y>
+<z>12.9</z>
+</system>
+<system>
+<ID>79</ID>
+<systemname>Gendeson</systemname>
+<starclass>3             N / A</starclass>
+<x>-1.3</x>
+<y>-23.7</y>
+<z>-8.2</z>
+</system>
+<system>
+<ID>80</ID>
+<systemname>Ghunda</systemname>
+<starclass>8             N / A</starclass>
+<x>-3.1</x>
+<y>-32.4</y>
+<z>6.3</z>
+</system>
+<system>
+<ID>81</ID>
+<systemname>Halig</systemname>
+<starclass>1.0 - 1.46</starclass>
+<x>-5.3</x>
+<y>-37.2</y>
+<z>5.7</z>
+</system>
+<system>
+<ID>82</ID>
+<systemname>Iclavdur</systemname>
+<starclass>5             N / A</starclass>
+<x>-2.5</x>
+<y>-17.2</y>
+<z>-14.2</z>
+</system>
+<system>
+<ID>83</ID>
+<systemname>Jondalar</systemname>
+<starclass>1.0 - 1.46</starclass>
+<x>11.3</x>
+<y>-2.5</y>
+<z>8.6</z>
+</system>
+<system>
+<ID>84</ID>
+<systemname>Kili</systemname>
+<starclass>1.18 - 1.73</starclass>
+<x>12.3</x>
+<y>11.6</y>
+<z>-3.5</z>
+</system>
+<system>
+<ID>85</ID>
+<systemname>Lovel</systemname>
+<starclass>9             N / A</starclass>
+<x>9.3</x>
+<y>9.6</y>
+<z>-7.5</z>
+</system>
+<system>
+<ID>86</ID>
+<systemname>Mual</systemname>
+<starclass>.86 - 1.25</starclass>
+<x>5.3</x>
+<y>4.8</y>
+<z>-9.2</z>
+</system>
+<system>
+<ID>87</ID>
+<systemname>Ophelia</systemname>
+<starclass>1.4 - 2.14</starclass>
+<x>5.3</x>
+<y>4.8</y>
+<z>-9.2</z>
+</system>
+<system>
+<ID>88</ID>
+<systemname>TER 9A</systemname>
+<starclass>1             N / A</starclass>
+<x>1.3</x>
+<y>-8.7</y>
+<z>1.5</z>
+</system>
+<system>
+<ID>89</ID>
+<systemname>TER 9B</systemname>
+<starclass>2             N / A</starclass>
+<x>-2</x>
+<y>-9.8</y>
+<z>2</z>
+</system>
+<system>
+<ID>90</ID>
+<systemname>Othon</systemname>
+<starclass>6             N / A</starclass>
+<x>-2.9</x>
+<y>-2.6</y>
+<z>-16.3</z>
+</system>
+<system>
+<ID>91</ID>
+<systemname>Ranzano</systemname>
+<starclass>.66 - .97</starclass>
+<x>2.</x>
+<y>-13.6</y>
+<z>-4.2</z>
+</system>
+<system>
+<ID>92</ID>
+<systemname>Gebieu</systemname>
+<starclass>.49 - .72</starclass>
+<x>7.3</x>
+<y>-2.6</y>
+<z>-9.6</z>
+</system>
+<system>
+<ID>93</ID>
+<systemname>Calipser</systemname>
+<starclass>13             N / A</starclass>
+<x>-7.9</x>
+<y>9.4</y>
+<z>6.2</z>
+</system>
+<system>
+<ID>94</ID>
+<systemname>TER 9C</systemname>
+<starclass>1             N / A</starclass>
+<x>2</x>
+<y>-7</y>
+<z>2.2</z>
+</system>
+<system>
+<ID>95</ID>
+<systemname>Ralchen</systemname>
+<starclass>1.4 - 2.14</starclass>
+<x>6.2</x>
+<y>-29.4</y>
+<z>8.6</z>
+</system>
+<system>
+<ID>96</ID>
+<systemname>Ivanti</systemname>
+<starclass>.66 - .97</starclass>
+<x>5.6</x>
+<y>-24.4</y>
+<z>-3.7</z>
+</system>
+<system>
+<ID>97</ID>
+<systemname>Sormastron</systemname>
+<starclass>1             N / A</starclass>
+<x>0</x>
+<y>0</y>
+<z>0</z>
+</system>
+</dataroot>

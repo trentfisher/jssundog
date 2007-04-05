@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE engineparts SYSTEM "engineParts.dtd">
+<engineparts>
+<comment>The basic set of engine parts</comment>
+	<part>
+		<name>Control Node</name>
+		<describtion></describtion>
+		<graphic></graphic>
+	</part>
+	<part>
+		<name>Cyrofuse</name>
+		<describtion></describtion>
+		<graphic></graphic>
+	</part>
+	<part>
+		<name>J-Junc Module</name>
+		<describtion></describtion>
+		<graphic></graphic>
+	</part>
+	<part>
+		<name>Flux</name>
+		<describtion></describtion>
+		<graphic></graphic>
+	</part>
+	<part>
+		<name>Scanner</name>
+		<describtion></describtion>
+		<graphic></graphic>
+	</part>
+	<part>
+		<name>Photon Bridge</name>
+		<describtion></describtion>
+		<graphic></graphic>
+	</part>
+	<part>
+		<name>Flux Modulator</name>
+		<describtion></describtion>
+		<graphic></graphic>
+	</part>
+	<part>
+		<name>Plasma Tube</name>
+		<describtion></describtion>
+		<graphic></graphic>
+	</part>
+	<part>
+		<name>Space Time Distortor</name>
+		<describtion></describtion>
+		<graphic></graphic>
+	</part>
+	<part>
+		<name>Shunt</name>
+		<describtion></describtion>
+		<graphic></graphic>
+	</part>
+	<part>
+		<name>Cloacker</name>
+		<describtion></describtion>
+		<graphic></graphic>
+	</part>
+	<part>
+		<name>Ground Scanner</name>
+		<describtion></describtion>
+		<graphic></graphic>
+	</part>
+	<part>
+		<name>Concentrator</name>
+		<describtion></describtion>
+		<graphic></graphic>
+	</part>
+	<part>
+		<name>De-Cloaker</name>
+		<describtion></describtion>
+		<graphic></graphic>
+	</part>
+	<part>
+		<name>Autoslew</name>
+		<describtion></describtion>
+		<graphic></graphic>
+	</part>
+	<part>
+		<name>Jump Booster</name>
+		<describtion></describtion>
+		<graphic></graphic>
+	</part>
+</engineparts>

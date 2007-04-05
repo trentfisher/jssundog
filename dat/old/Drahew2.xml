@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE sector SYSTEM "v8.dtd">
+<sector>
+ <comment>The original game's Drahew region star system, together with some supplement of description</comment>
+ <system>
+  <name>Glory</name>
+  <star class="G0" mass="1.0" diameter="1.0" luminosity="1.5"/>
+  <coords x="0" z="0" y="0"/>
+  <comment>This system's wealth comes from both a crossroads position regarding the commercial routes, and the presence of three habitable and temperate planets</comment>
+  <planet>
+   <name>Glory I</name>
+   <orbit radius="1.06" initAngle="350.0" velocity="3"/>
+   <city name="Lagosal" lat="-39" long="44" spec="Starport"/>
+   <city name="Abran" lat="59" long="-69"/>
+   <city name="Abundan" lat="-51" long="-130"/>
+   <city name="Corian" lat="52" long="-100"/>
+   <city name="Paran" lat="-8" long="68"/>
+  </planet>
+  <planet>
+   <name>Glory II</name>
+   <orbit radius="1.25" initAngle="160.0" velocity="-2"/>
+   <city name="Llorac" lat="-21" long="-17" spec="Starport"/>
+   <city name="Jemba" lat="-62" long="-179"/>
+   <city name="Dreider" lat="35" long="144"/>
+  </planet>
+  <planet>
+   <name>Glory III</name>
+   <orbit radius="1.41" initAngle="210.0" velocity="1"/>
+   <city name="Surrell" lat="-13" long="-122"/>
+  </planet>
+ </system>
+ <system>
+  <name>Ferr</name>
+  <star class="F5" mass="1.0" diameter="1.0" luminosity="3.2"/>
+  <coords x="19" z="1" y="2.5"/>
+  <comment>This remote system houses a lot of mines</comment>
+  <planet>
+   <name>Ferr</name>
+   <orbit radius="1.44" initAngle="14.0"/>
+   <city name="Ferring" lat="-25" long="128" spec="Starport"/>
+   <city name="Bantin" lat="-9" long="86"/>
+   <city name="Barnum" lat="-5" long="178"/>
+   <city name="Lonax" lat="-64" long="-76"/>
+  </planet>
+  <planet>
+   <name>Ferrwerk</name>
+   <orbit radius="1.74" initAngle="76.0"/>
+   <city name="Industron" lat="5" long="36" spec="Starport"/>
+   <city name="The Mines" lat="-37" long="-168"/>
+  </planet>
+  <planet>
+   <name>Snowball</name>
+   <orbit radius="2.63" initAngle="240.0"/>
+   <city name="Icebox" lat="-62" long="-87" spec="Starport"/>
+  </planet>
+ </system>
+ <system>
+  <name>Enlie</name>
+  <star class="K4" mass="1.0" diameter="1.0" luminosity="0.19"/>
+  <coords x="-17" z="18" y="7.5"/>
+  <planet>
+   <name>Enliah</name>
+   <orbit radius="0.40" initAngle="70.0"/>
+   <city name="Plepa" lat="42" long="145" spec="Starport"/>
+   <city name="Tuie" lat="39" long="176"/>
+  </planet>
+ </system>
+ <system>
+  <name>Jondd</name>
+  <star class="G2" mass="1.0" diameter="1.0" luminosity="1.1"/>
+  <coords x="-5" z="-4" y="-3.6"/>
+  <planet>
+   <name>Jondd</name>
+   <orbit radius="0.89" initAngle="0.0"/>
+   <city name="Drahew" lat="25.0" long="0.0" spec="Starport"/>
+   <city name="Obburg" lat="45.0" long="45.0"/>
+   <city name="Esposito" lat="-30.0" long="10.0"/>
+   <city name="Dramming" lat="20.0" long="-100.0"/>
+   <city name="Darvilton" lat="-80.0" long="270.0"/>
+   <city name="Banville" lat="10.0" long="170.0" spec="Colony" />
+  </planet>
+  <planet>
+   <name>Heavy</name>
+   <orbit radius="1.1" initAngle="45.0"/>
+   <city name="Lightning" lat="40" long="-50" spec="Starport"/>
+   <city name="Ft. Lyon"  lat="12" long="120"/>
+   <city name="Ft. Savon" lat="-20" long="160"/>
+  </planet>
+ </system>
+ <system>
+  <name>Woremed</name>
+  <star class="K0" mass="1.0" diameter="1.0" luminosity="0.42"/>
+  <coords x="-1.8" z="-2.4" y="4.2"/>
+  <planet>
+   <name>W'orrad</name>
+   <orbit radius="0.48" initAngle="100.0"/>
+   <city name="Sheshco" lat="-45" long="-120" spec="Starport"/>
+   <city name="Alram" lat="-29" long="166"/>
+   <city name="Zadansa" lat="-10" long="33"/>
+   <city name="Aylika" lat="-28" long="13"/>
+  </planet>
+ </system>
+ <system>
+  <name>New Shoot</name>
+  <star class="G2" mass="1.0" diameter="1.0" luminosity="1.1"/>
+  <coords x="-3.8" z="2.2" y="4.8"/>
+  <planet>
+   <name>New Shoot</name>
+   <orbit radius="1.1" initAngle="260.0"/>
+   <city name="Cadilac" lat="-6" long="119" spec="Starport"/>
+   <city name="Wildera" lat="36" long="-159"/>
+   <city name="New Temol" lat="-21" long="-125"/>
+   <city name="Feriolah" lat="-50" long="143"/>
+   <city name="Poelter" lat="-27" long="-137"/>
+   <city name="Tram'el" lat="14" long="68"/>
+  </planet>
+  <planet>
+   <name>Hell</name>
+   <orbit radius="0.85" initAngle="20.0"/>
+   <city name="Sheol" lat="38" long="-47" spec="Starport"/>
+  </planet>
+ </system>
+ <system>
+  <name>Lasfer</name>
+  <star class="K3" mass="1.0" diameter="1.0" luminosity="0.26"/>
+  <coords x="0.0" z="-0.8" y="-3.7"/>
+  <planet>
+   <name>Tcana</name>
+   <orbit radius="0.43" initAngle="190.0"/>
+   <city name="Haiapolis" lat="-3" long="-53" spec="Starport"/>
+   <city name="Einkolt" lat="45" long="54"/>
+  </planet>
+ </system>
+ <system>
+  <name>Shoot</name>			
+  <star class="K0" mass="1.0" diameter="1.0" luminosity="0.42"/>
+  <coords x="-7" z="-8" y="-3.2"/>
+  <planet>
+   <name>Shoot</name>
+   <orbit radius="0.59" initAngle="320.0"/>
+   <city name="Shoothan" lat="-45" long="-139" spec="Starport"/>
+   <city name="Knuth" lat="57" long="108"/>
+   <city name="Temlonton" lat="9" long="-119"/>
+   <city name="Waslat" lat="-83" long="69"/>
+  </planet>
+ </system>
+ <system>
+  <name>KalManDaa</name>
+  <star class="F5" mass="1.0" diameter="1.0" luminosity="3.2"/>
+  <coords x="2.4" z="3" y="6.2"/>
+  <planet>
+   <name>Kala</name>
+   <orbit radius="1.51" initAngle="241.0"/>
+   <city name="Kolbe" lat="15" long="86" spec="Starport"/>
+   <city name="Notweneki" lat="-22" long="74"/>
+   <city name="Dajasyron" lat="13" long="156"/>
+   <city name="Bedollug" lat="-3" long="122"/>
+  </planet>
+ </system>
+ <system>
+  <name>Sosai</name>
+  <star class="F2" mass="1.0" diameter="1.0" luminosity="4.3"/>
+  <coords x="-1" z="-7.5" y="-6.8"/>
+  <planet>
+   <name>Vahevela</name>
+   <orbit radius="1.9" initAngle="218.0"/>
+   <city name="N'ljones" lat="-40" long="-54" spec="Starport"/>
+   <city name="Helord" lat="32" long="-153"/>
+   <city name="Moltown" lat="10" long="34"/>
+  </planet>
+ </system>
+ <system>
+  <name>Jadul</name>
+  <star class="G2" mass="1.0" diameter="1.0" luminosity="1.1"/>
+  <coords x="2" z="3" y="-6"/>
+  <planet>
+   <name>Krakorum</name>
+   <orbit radius="0.94" initAngle="105.0"/>
+   <city name="Malesti" lat="37" long="121" spec="Starport"/>
+   <city name="Illdono" lat="54" long="-2"/>
+   <city name="Paleko" lat="-20" long="-27"/>
+   <city name="D'esgrid" lat="-17" long="-58"/>
+  </planet>
+ </system>
+ <system>
+  <name>Hepa</name>	
+  <star class="F5" mass="1.0" diameter="1.0" luminosity="3.2"/>
+  <coords x="5.3" z="2.5" y="-7.2"/>
+  <planet>
+   <name>Hepah</name>
+   <orbit radius="2.0" initAngle="318.0"/>
+   <city name="Arlenair" lat="-13" long="172" spec="Starport"/>
+   <city name="Velamie" lat="44" long="-65"/>
+   <city name="Essoit" lat="-45" long="15"/>
+  </planet>
+ </system>
+</sector>
