@@ -2,6 +2,8 @@
 <html> <head>
 <title>SunDog!</title>
 <link rel="stylesheet" href="sundog.css" />
+<script type="text/javascript" src="js/util/printf.js"></script>
+<script type="text/javascript" src="js/util/progress.js"></script>
 <script type="text/javascript" src="js/util/logger.js"></script>
 <script type="text/javascript" src="js/util/httpreq.js"></script>
 </head>
@@ -12,6 +14,19 @@
 <script type="text/javascript">
 var l = new Logger("log", 2);
 l.log(1, "starting up...");
+var prog = new ProgressBar("status", "Loading configuration files");
+var fcnt = 0;
+requestFile("dat/old/7px_bin.xml", function() { prog.update(++fcnt, 10); });
+requestFile("dat/old/planet.xml", function() { prog.update(++fcnt, 10); });
+requestFile("dat/old/system.xml", function() { prog.update(++fcnt, 10); });
+requestFile("dat/old/Drahew2.xml", function() { prog.update(++fcnt, 10); });
+requestFile("dat/old/sector.xml", function() { prog.update(++fcnt, 10); });
+requestFile("dat/old/Terofall.xml", function() { prog.update(++fcnt, 10); });
+requestFile("dat/old/Drahew.xml", function() { prog.update(++fcnt, 10); });
+requestFile("dat/old/startable.xml", function() { prog.update(++fcnt, 10); });
+requestFile("dat/old/engineParts.xml", function() { prog.update(++fcnt, 10); });
+requestFile("dat/old/stockplanet.xml", function() { prog.update(++fcnt, 10); });
+
 </script>
 <address>
 </address>

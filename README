@@ -1,0 +1,10 @@
+This is jsSunDog, my attempt to reimplement the mid-80's game Sundog
+in Javascript.
+
+Graphics and most meta-data are by Jake LaForet
+
+Project page:  http://code.google.com/p/jssundog/
+Info about the original game:
+  http://en.wikipedia.org/wiki/SunDog:_Frozen_Legacy
+
+$Id$
