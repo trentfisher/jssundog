@@ -57,7 +57,8 @@ function requestFile(url, callback, postData)
        if (req.status != 200 && req.status != 304 &&
            req.status != 0)   // for local files
        {
-           alert('HTTP error ' + req.status);
+           // XXX throw?
+           alert('Error: retrieving '+url+', HTTP error ' + req.status);
            return;
        }
        callback(req);
@@ -71,8 +72,10 @@ function requestFile(url, callback, postData)
 */
 function serializeXML(node)
 {
-   if (typeof XMLSerializer != "undefined")
-       return (new XMLSerializer()).serializeToString(node);
-   else if (node.xml) return node.xml;
-   else throw "XML serialize is not supported or can't serialize " + node;
+    // firefox and such
+    if (typeof XMLSerializer != "undefined")
+        return (new XMLSerializer()).serializeToString(node);
+    // IE... though it fails in IE6 (no errors)
+    else if (node.xml) return node.xml;
+    else throw "XML serialize is not supported or can't serialize " + node;
 }

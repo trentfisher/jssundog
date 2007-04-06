@@ -1,0 +1,42 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<html> <head>
+<title>test</title>
+<script type="text/javascript" src="printf.js"></script>
+<script type="text/javascript" src="progress.js"></script>
+<style type="text/css">
+#prog
+{
+  height: 3ex;
+  width: 30em;
+  border: 1px solid black;
+}
+#prog .progressbar
+{
+  background: orange;
+}
+#prog .progresstxt
+{
+  text-align: center;
+}
+</style>
+</head>
+<body>
+<h1>http test</h1>
+<div id="prog">starting</div>
+<script type="text/javascript">
+var prog = new ProgressBar("prog", "I am testing");
+setTimeout(function() { prog.update(1, 20); }, 200);
+setTimeout(function() { prog.update(2, 20); }, 400);
+setTimeout(function() { prog.update(3, 20); }, 500);
+setTimeout(function() { prog.update(5, 20); }, 800);
+setTimeout(function() { prog.update(6, 20); }, 1000);
+setTimeout(function() { prog.update(12, 20); }, 1400);
+setTimeout(function() { prog.update(15, 20); }, 1800);
+setTimeout(function() { prog.update(18, 20); }, 1900);
+setTimeout(function() { prog.update(20, 20); }, 2100);
+</script>
+<hr>
+<address>
+<!-- hhmts start -->  <!-- hhmts end -->
+</address>
+</body> </html>
