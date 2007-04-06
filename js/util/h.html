@@ -7,13 +7,13 @@
 <h1>http test</h1>
 <div id="htest"></div>
 <script type="text/javascript">
-requestFile("../dat/system.xml", function(req) {
-  document.getElementById("htest").innerHTML = serializeXML(req.responseXML);
+requestFile("../../dat/old/system.xml", function(req) {
+  document.getElementById("htest").innerHTML = "got "+req.responseText.length+" chars text, "+serializeXML(req.responseXML).length+" bytes of XML";
 }, {one: 1, two: 2, ouch: "wow"});
 
 </script>
 <hr>
 <address>
-<!-- hhmts start -->  <!-- hhmts end -->
+<!-- hhmts start --> Last modified: Thu Apr 05 14:39:58 Pacific Daylight Time 2007 <!-- hhmts end -->
 </address>
 </body> </html>
