@@ -29,6 +29,12 @@ function Logger(div, curlev)
 {
     var divobj = document.getElementById(div);
     var starttime = new Date();
+
+    /**
+       Log a debugging message
+       @param lev the debugging level
+       @param msg the message to display
+    */
     this.log = function(lev, msg)
     {
         if (!divobj) return;
@@ -38,7 +44,15 @@ function Logger(div, curlev)
         divobj.innerHTML += ("<div class='log"+lev+"'>" +
                              (timespan.toFixed(2)) + "("+lev+"): " +
                              msg + "</div>");
+        // scroll window to bottom
+        divobj.scrollTop = divobj.offsetHeight;
     }
+    /**
+       Change the level which this logger will display messages.
+       Messages with a debug level greater than this number will
+       not be displayed.
+       @param lev
+    */
     this.level = function(lev)
     {
         curlev = lev;

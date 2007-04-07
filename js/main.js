@@ -25,7 +25,7 @@ along with this program; if not, write to the
 /**
    Main routine for Sundog
 */
-var log = new Logger("log", 2);
+var log = new Logger("log", 9);
 log.log(1, "starting up...");
 try
 {
@@ -48,18 +48,16 @@ requestFile("dat/old/startable.xml", filecnt);
 requestFile("dat/old/engineParts.xml", filecnt);
 requestFile("dat/old/stockplanet.xml", filecnt);
 
+var zoom = new ZoomAction("game");
+zoom.logger = log;
 pop = document.createElement("div");
 pop.innerHTML = "Welcome back, Zed.<br/>What now?";
 pop.style.backgroundColor = "white";
-pop.style.position = "relative";
 pop.style.width = "100px";
-pop.style.top = "-100px";
-pop.style.right = "-500px";
-pop.style.border = "3px outset grey";
-//pop.style.zIndex=199;
-document.getElementById("game").appendChild(pop);
+zoom.register(pop, "test");
+zoom.popup("test");
 }
 catch (e)
 {
-    alert("something went wrong "+e);
+    alert(e.name+" at "+e.fileName+" line "+e.lineNumber+": "+e.message);
 }
