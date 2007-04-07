@@ -1,8 +1,24 @@
+body
+{
+  font-family: fixed, sans-serif;
+}
+
+/* ------------------------------------------------------------------------
+** game window
+*/
+#game
+{
+  width:  640px;
+  height: 400px;
+  overflow: hidden;
+}
+
 /* Status/progress line */
 #status
 {
   border: 1px solid black;
-  height: 3ex;  /* for IE */
+  height: 1ex;  /* for IE */
+  width:  640px;
 }
 #status .progressbar
 {
@@ -17,4 +33,6 @@
 #log
 {
     border: 1px solid black;
+    height: 10ex;
+    overflow: scroll;
 }
