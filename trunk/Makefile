@@ -17,6 +17,7 @@ jsdoc.html: util/genjsdoc.pl $(jsdocvers)
 	perl util/genjsdoc.pl js $(jsdocvers) > $@
 $(jsdocvers): $(jsdocvers).tgz
 	gzip -dc $(jsdocvers).tgz | tar xf -
+	touch $(jsdocvers)  # otherwise the dir will have an older date
 $(jsdocvers).tgz:
 	wget http://jsdoc-2.googlecode.com/files/$(jsdocvers).tgz
 
