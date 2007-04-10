@@ -57,7 +57,7 @@ function requestFile(url, callback, postData)
 
    var req = arguments.callee.prototype.httpobj();
    if (!req) return;
-   req.reqURL = url; // save this for the handler
+   //req.reqURL = url; // save this for the handler XXX breaks IE!
    var method = (postData) ? "POST" : "GET";
    req.open(method,url,true);
    req.setRequestHeader('User-Agent','XMLHTTP/1.0');
