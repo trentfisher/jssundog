@@ -33,8 +33,7 @@ function ZoomAction(div)
     var wins = {};
     divobj.onclick = function()
     {
-        // XXX how to do this?
-        //logger.log(3, "click!");
+        logger.log(3, "click!");
     };
     this.register = function(obj, name)
     {
@@ -42,11 +41,11 @@ function ZoomAction(div)
         obj.className = "popup";
         divobj.appendChild(obj);
         wins[name] = obj;
-        this.logger.log(2, "Registering object "+name);
+        logger.log(2, "Registering object "+name);
     };
     this.popup = function(name)
     {
-        this.logger.log(3, "Popping up "+name);
+        logger.log(3, "Popping up "+name);
         if (! wins[name])
             throw("cannot popup window "+name+" not registered");
         // XXX calculate location
@@ -58,7 +57,7 @@ function ZoomAction(div)
     this.popoff = function()
     {
         var name = winstack.pop();
-        this.logger.log(3, "Popping off "+name);
+        logger.log(3, "Popping off "+name);
         wins[name].style.display = "none";
     };
     return this;

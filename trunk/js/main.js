@@ -25,8 +25,10 @@ along with this program; if not, write to the
 /**
    Main routine for Sundog
 */
-var log = new Logger("log", 9);
-log.log(1, "starting up...");
+// set up debugging output... I don't like having this as a global
+logger = new Logger("log", 9);
+logger.log(1, "starting up...");
+
 try
 {
 var prog = new ProgressBar("status", "Loading configuration files");
@@ -35,7 +37,7 @@ var fcnt = 0;
 function filecnt(r)
 {
     prog.update(++fcnt, 10);
-    log.log(1, "read file "+r.reqURL+" "+r.responseText.length+" chars");
+    logger.log(1, "read file "+r.reqURL+" "+r.responseText.length+" chars");
 }
 requestFile("dat/old/7px_bin.xml", filecnt);
 requestFile("dat/old/planet.xml", filecnt);
@@ -49,7 +51,6 @@ requestFile("dat/old/engineParts.xml", filecnt);
 requestFile("dat/old/stockplanet.xml", filecnt);
 
 var zoom = new ZoomAction("game");
-zoom.logger = log;
 pop = document.createElement("div");
 pop.innerHTML = "Welcome back, Zed.<br/>What now?";
 pop.style.backgroundColor = "white";
@@ -59,5 +60,6 @@ zoom.popup("test");
 }
 catch (e)
 {
+    // IE doesn't define most of these!
     alert(e.name+" at "+e.fileName+" line "+e.lineNumber+": "+e.message);
 }
