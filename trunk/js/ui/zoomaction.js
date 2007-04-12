@@ -48,10 +48,17 @@ function ZoomAction(div)
         logger.log(3, "Popping up "+name);
         if (! wins[name])
             throw("cannot popup window "+name+" not registered");
-        // XXX calculate location
-        pop.style.bottom = 150;
-        pop.style.left = 450;
+        // calculate location...
+        // need to make it display before dimensions are set
         wins[name].style.display = "block";
+        wins[name].style.bottom = wins[name].offsetHeight +
+           Math.random() * (divobj.offsetHeight - wins[name].offsetHeight);
+        wins[name].style.left = Math.random() *
+           (divobj.offsetWidth - wins[name].offsetWidth);
+        logger.log(4, "locating popup "+name+" ("+
+                   wins[name].offsetWidth+", "+ wins[name].offsetHeight+
+                   ") at "+
+                   wins[name].style.left+", "+wins[name].style.bottom);
         winstack.push(name);
     };
     this.popoff = function()
