@@ -32,6 +32,7 @@ logger.log(1, "starting up...");
 try
 {
 var prog = new ProgressBar("status", "Loading configuration files");
+prog.update(5, 10, "wow");
 
 var fcnt = 0;
 function filecnt(r)
@@ -51,15 +52,40 @@ requestFile("dat/old/engineParts.xml", filecnt);
 requestFile("dat/old/stockplanet.xml", filecnt);
 
 var zoom = new ZoomAction("game");
-pop = document.createElement("div");
-pop.innerHTML = "Welcome back, Zed.<br/>What now?";
-pop.style.backgroundColor = "white";
-pop.style.width = "100px";
-zoom.register(pop, "test");
+zoom.register(initialPopup(), "test");
 zoom.popup("test");
+
 }
 catch (e)
 {
     // IE doesn't define most of these!
     alert(e.name+" at "+e.fileName+" line "+e.lineNumber+": "+e.message);
+}
+
+function initialPopup()
+{
+    var pop = document.createElement("div");
+    pop.id = "initialmenu";
+    pop.innerHTML = ("Welcome back, Zed.  What now?");
+    var a = document.createElement("a");
+    a.href="#";
+    a.onclick = function() { alert("soon..."); };
+    a.className = "menuentry";
+    a.innerHTML = "Resume Game";
+    pop.appendChild(a);
+
+    a = document.createElement("a");
+    a.href="#";
+    a.onclick = function() { alert("soon..."); };
+    a.className = "menuentry";
+    a.innerHTML = "Select Character";
+    pop.appendChild(a);
+
+    a = document.createElement("a");
+    a.href="#";
+    a.onclick = function() { alert("soon..."); };
+    a.className = "menuentry";
+    a.innerHTML = "About";
+    pop.appendChild(a);
+    return pop;
 }

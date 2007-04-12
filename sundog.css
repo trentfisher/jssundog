@@ -19,11 +19,34 @@ body
   position: relative;
 }
 
+#initialmenu
+{
+  background-color: white;
+  width: 10em;
+}
+
+a.menuentry
+{
+  display: block;
+  border: 3px dotted gray;
+  text-decoration: none;
+  color: black;
+  margin-top: 1px;
+  outline: none;  /* to prevent dotted outline in firefox */
+}
+a.menuentry:hover
+{
+  color: white;
+  background-color: black;
+}
+
 /* Status/progress line */
 #status
 {
   border: 1px solid black;
-  height: 1ex;  /* for IE */
+  /* this is nightmarish: to look right, IE needs 1ex but Firefox and
+   * Opera can work it out themselves, but 1ex is too small in Opera */
+  height: 1.5ex;
   width:  640px;
 }
 #status .progressbar
