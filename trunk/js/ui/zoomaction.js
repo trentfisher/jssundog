@@ -51,17 +51,17 @@ function ZoomAction(div)
         // calculate location...
         // need to make it display before dimensions are set
         wins[name].style.display = "block";
-        wins[name].style.bottom = wins[name].offsetHeight +
-           Math.random() * (divobj.offsetHeight - wins[name].offsetHeight);
+        wins[name].style.top = 
+            Math.random() * (divobj.offsetHeight - wins[name].offsetHeight -6);
         wins[name].style.left = Math.random() *
-           (divobj.offsetWidth - wins[name].offsetWidth);
+            (divobj.offsetWidth - wins[name].offsetWidth - 6);
         logger.log(4, "locating popup "+name+" ("+
                    wins[name].offsetWidth+", "+ wins[name].offsetHeight+
                    ") at "+
-                   wins[name].style.left+", "+wins[name].style.bottom);
+                   wins[name].style.left+", "+wins[name].style.top);
         winstack.push(name);
     };
-    this.popoff = function()
+    this.pop = function()
     {
         var name = winstack.pop();
         logger.log(3, "Popping off "+name);
