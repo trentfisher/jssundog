@@ -7,6 +7,9 @@
 
 all: jsdoc.html
 
+clean:
+	find . -name '*~' -print | xargs rm
+
 # push to a web site
 push:
 	@echo someday...

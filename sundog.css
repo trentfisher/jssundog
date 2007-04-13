@@ -8,15 +8,21 @@ body
 */
 #game
 {
-  width:  640px;
-  height: 400px;
+  width:  800px;
+  height: 600px;
   overflow: hidden;
+  background: black;
+  background-image: url(img/starbg.gif);
+}
+#game img
+{
+  float: right;
 }
 
 .popup
 {
   border: 3px outset grey;
-  position: relative;
+  position: absolute;
 }
 
 #initialmenu
@@ -47,7 +53,7 @@ a.menuentry:hover
   /* this is nightmarish: to look right, IE needs 1ex but Firefox and
    * Opera can work it out themselves, but 1ex is too small in Opera */
   height: 1.5ex;
-  width:  640px;
+  width:  800px;
 }
 #status .progressbar
 {
@@ -61,6 +67,7 @@ a.menuentry:hover
 /* Logging */
 #log
 {
+    font-style: fixed, courier;
     border: 1px solid black;
     height: 10ex;
     overflow: scroll;

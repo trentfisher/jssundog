@@ -28,33 +28,13 @@ along with this program; if not, write to the
 // set up debugging output... I don't like having this as a global
 logger = new Logger("log", 9);
 logger.log(1, "starting up...");
+progbar = new ProgressBar("status", "Loading configuration files");
 
 try
 {
-var prog = new ProgressBar("status", "Loading configuration files");
-prog.update(5, 10, "wow");
-
-var fcnt = 0;
-function filecnt(r)
-{
-    prog.update(++fcnt, 10);
-    logger.log(1, "read file "+r.reqURL+" "+r.responseText.length+" chars");
-}
-requestFile("dat/old/7px_bin.xml", filecnt);
-requestFile("dat/old/planet.xml", filecnt);
-requestFile("dat/old/system.xml", filecnt);
-requestFile("dat/old/Drahew2.xml", filecnt);
-requestFile("dat/old/sector.xml", filecnt);
-requestFile("dat/old/Terofall.xml", filecnt);
-requestFile("dat/old/Drahew.xml", filecnt);
-requestFile("dat/old/startable.xml", filecnt);
-requestFile("dat/old/engineParts.xml", filecnt);
-requestFile("dat/old/stockplanet.xml", filecnt);
-
-var zoom = new ZoomAction("game");
-zoom.register(initialPopup(), "test");
-zoom.popup("test");
-
+    var zoom = new ZoomAction("game");
+    zoom.register(initialPopup(), "startmenu");
+    zoom.popup("startmenu");
 }
 catch (e)
 {
@@ -69,7 +49,7 @@ function initialPopup()
     pop.innerHTML = ("Welcome back, Zed.  What now?");
     var a = document.createElement("a");
     a.href="#";
-    a.onclick = function() { alert("soon..."); };
+    a.onclick = function() { zoom.pop(); loadGame("Zed"); };
     a.className = "menuentry";
     a.innerHTML = "Resume Game";
     pop.appendChild(a);
@@ -88,4 +68,46 @@ function initialPopup()
     a.innerHTML = "About";
     pop.appendChild(a);
     return pop;
+}
+
+
+function loadGame(name)
+{
+    logger.log(2, "loading game for "+name);
+
+    var fcnt = 0;
+    var expcnt = 1;
+    function filecnt(r, url)
+    {
+        skincfg = r;
+        progbar.update(++fcnt, expcnt);
+        logger.log(1,"read file "+url);
+        if (url == "dat/skin/default.xml")
+        {
+            var img = r.responseXML.getElementsByTagName("img");
+            for (var i = 0; i < img.length; i++)
+            {
+                expcnt++;
+                requestImage(img[i].getAttribute("src"), filecnt);
+            }
+        }
+        if (fcnt >= expcnt)
+        {
+            startGame();
+        }
+    }
+
+    requestFile("dat/skin/default.xml", filecnt);
+
+    return;
+
+}
+
+function startGame()
+{
+    var t = document.createElement("div");
+    t.innerHTML = '<img src="img/sundog/interior.png" />';
+    zoom.register(t, "ship");
+    zoom.popup("ship");
+    t.style.width = t.firstChild.offsetWidth;
 }

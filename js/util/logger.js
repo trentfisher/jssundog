@@ -41,8 +41,10 @@ function Logger(div, curlev)
         if (lev > curlev) return;
         var now = new Date();
         var timespan = (now.valueOf() - starttime.valueOf())/1000;
+        var levindent = lev+" ";
+        for (var i = 0; i < lev; i++) levindent += " ";
         divobj.innerHTML += ("<div class='log"+lev+"'>" +
-                             (timespan.toFixed(2)) + "("+lev+"): " +
+                             (timespan.toFixed(2)) + ": "+levindent+
                              msg + "</div>");
         // scroll window to bottom
         divobj.scrollTop = divobj.scrollHeight;
