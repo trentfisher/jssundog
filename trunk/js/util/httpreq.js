@@ -91,19 +91,6 @@ function requestFile(url, callback, postData)
 }
 
 /**
-* Serialize an XML Document or Element and return it as a string.
-*/
-function serializeXML(node)
-{
-    // firefox and such
-    if (typeof XMLSerializer != "undefined")
-        return (new XMLSerializer()).serializeToString(node);
-    // IE... though it fails in IE6 (no errors)
-    else if (node.xml) return node.xml;
-    else throw "XML serialize is not supported or can't serialize " + node;
-}
-
-/**
  * load an image
  * @arguments url url of the image
  * @arguments callback function to be called when loading is complete
@@ -111,6 +98,7 @@ function serializeXML(node)
 function requestImage(url, callback)
 {
     var i = new Image;
-    i.onload = function (img) { callback(img, url); }
+    logger.log(1, "Requesting image "+url);
+    i.onload = function (img) { callback(img.currentTarget, url); }
     i.src = url;
 }
