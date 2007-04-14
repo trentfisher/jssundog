@@ -13,6 +13,7 @@ body
   overflow: hidden;
   background: black;
   background-image: url(img/starbg.gif);
+  position: relative;
 }
 #game img
 {
@@ -52,7 +53,7 @@ a.menuentry:hover
   border: 1px solid black;
   /* this is nightmarish: to look right, IE needs 3ex but Firefox and
    * Opera can work it out themselves, but 3ex is too big in others */
-  height: 3ex;
+  height: 20px;
   width:  800px;
 }
 #status .progressbar

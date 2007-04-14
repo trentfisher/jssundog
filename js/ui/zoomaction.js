@@ -50,15 +50,18 @@ function ZoomAction(div)
             throw("cannot popup window "+name+" not registered");
         // calculate location...
         // need to make it display before dimensions are set
-        wins[name].style.display = "block";
-        wins[name].style.top = 
-            Math.random() * (divobj.offsetHeight - wins[name].offsetHeight -6);
-        wins[name].style.left = Math.random() *
-            (divobj.offsetWidth - wins[name].offsetWidth - 6);
+        wins[name].style.display = "inline";
+        var t = Math.round(Math.random() *
+                           (divobj.offsetHeight - wins[name].offsetHeight -6));
+        if (t < 0) t = 3;
+        var l =  Math.round(Math.random() *
+                            (divobj.offsetWidth - wins[name].offsetWidth - 6));
+        if (l < 0) l = 3;
+        wins[name].style.top = t;
+        wins[name].style.left = l;
         logger.log(4, "locating popup "+name+" ("+
                    wins[name].offsetWidth+", "+ wins[name].offsetHeight+
-                   ") at "+
-                   wins[name].style.left+", "+wins[name].style.top);
+                   ") at "+ l + ", "+t);
         winstack.push(name);
     };
     this.pop = function()

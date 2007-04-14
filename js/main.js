@@ -29,6 +29,10 @@ along with this program; if not, write to the
 logger = new Logger("log", 9);
 logger.log(1, "starting up...");
 progbar = new ProgressBar("status", "Loading configuration files");
+// XML configuration objects, indexed by relative urls
+conf = {};
+// cache of pre-loaded images,indexed by relative urls
+imagecache = {};
 
 try
 {
@@ -49,7 +53,7 @@ function initialPopup()
     pop.innerHTML = ("Welcome back, Zed.  What now?");
     var a = document.createElement("a");
     a.href="#";
-    a.onclick = function() { zoom.pop(); loadGame("Zed"); };
+    a.onclick = function() { zoom.pop(); loadGame("Zed"); return false; };
     a.className = "menuentry";
     a.innerHTML = "Resume Game";
     pop.appendChild(a);
@@ -77,30 +81,35 @@ function loadGame(name)
 
     var fcnt = 0;
     var expcnt = 1;
-    function filecnt(r, url)
+    function process_xml(r, url)
     {
         progbar.update(++fcnt, expcnt);
-        logger.log(1,"read file "+url);
-        if (url == "dat/skin/default.xml")
+        logger.log(1,"loaded xml file "+url+" length "+r.responseText.length);
+        conf[url] = r.responseXML;
+
+        // request any images referenced by this XML file
+        var img = r.responseXML.getElementsByTagName("img");
+        for (var i = 0; i < img.length; i++)
         {
-            skincfg = r;
-            var img = r.responseXML.getElementsByTagName("img");
-            for (var i = 0; i < img.length; i++)
-            {
-                expcnt++;
-                requestImage(img[i].getAttribute("src"), filecnt);
-            }
+            expcnt++;
+            requestImage(img[i].getAttribute("src"), process_img);
+            //requestImage(img[i].getAttribute("mask"), filecnt);
         }
-        if (fcnt >= expcnt)
-        {
-            startGame();
-        }
+        // Start the game if we have loaded all files
+        if (fcnt >= expcnt) startGame();
+    }
+    function process_img(r, url)
+    {
+        progbar.update(++fcnt, expcnt);
+        logger.log(1, "loaded image "+url+" ("+r.width+"x"+r.height+")");
+        imagecache[url] = r;
+        // Start the game if we have loaded all files
+        if (fcnt >= expcnt) startGame();
     }
 
-    requestFile("dat/skin/default.xml", filecnt);
+    requestFile("dat/skin/default.xml", process_xml);
 
     return;
-
 }
 
 function startGame()
@@ -109,9 +118,12 @@ function startGame()
     document.getElementById("splashimg").style.display = "none";
 
     // Set up the various windows...
+
+    // ship window
     var t = document.createElement("div");
-    t.innerHTML = '<img src="img/sundog/interior.png" />';
+    t.style.width = imagecache["img/sundog/interior.png"].width;
+    t.appendChild(imagecache["img/sundog/interior.png"]);
     zoom.register(t, "ship");
     zoom.popup("ship");
-    t.style.width = t.firstChild.offsetWidth;
+
 }
