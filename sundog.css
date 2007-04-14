@@ -50,9 +50,9 @@ a.menuentry:hover
 #status
 {
   border: 1px solid black;
-  /* this is nightmarish: to look right, IE needs 1ex but Firefox and
-   * Opera can work it out themselves, but 1ex is too small in Opera */
-  height: 1.5ex;
+  /* this is nightmarish: to look right, IE needs 3ex but Firefox and
+   * Opera can work it out themselves, but 3ex is too big in others */
+  height: 3ex;
   width:  800px;
 }
 #status .progressbar
@@ -67,8 +67,10 @@ a.menuentry:hover
 /* Logging */
 #log
 {
-    font-style: fixed, courier;
     border: 1px solid black;
-    height: 10ex;
+    height: 18ex;
     overflow: scroll;
+    font-family: monospace;
+    font-size: 80%;
+    white-space: pre; /* this doesn't work in IE :( */
 }

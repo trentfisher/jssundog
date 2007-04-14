@@ -79,11 +79,11 @@ function loadGame(name)
     var expcnt = 1;
     function filecnt(r, url)
     {
-        skincfg = r;
         progbar.update(++fcnt, expcnt);
         logger.log(1,"read file "+url);
         if (url == "dat/skin/default.xml")
         {
+            skincfg = r;
             var img = r.responseXML.getElementsByTagName("img");
             for (var i = 0; i < img.length; i++)
             {
@@ -105,6 +105,10 @@ function loadGame(name)
 
 function startGame()
 {
+    // get rid of the splash graphic
+    document.getElementById("splashimg").style.display = "none";
+
+    // Set up the various windows...
     var t = document.createElement("div");
     t.innerHTML = '<img src="img/sundog/interior.png" />';
     zoom.register(t, "ship");
