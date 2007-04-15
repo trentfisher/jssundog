@@ -1,3 +1,4 @@
+/* -*- Mode: C++; tab-width: 4; indent-tabs-mode: nil; c-basic-offset: 4 -*- */
 /**
  * xml.js: utilities for creating, loading, parsing, serializing,
  *         transforming and extracting data from XML documents.
@@ -255,15 +256,15 @@ XML.transform = function(xmldoc, stylesheet, element) {
  * those namespaces.  The properties of this object are the prefixes, and
  * the values of those properties are the URLs.
  */
-XML.XPathExpression = function(xpathText, namespaces) {
+XML.XPathExpression = function(context, xpathText, namespaces) {
     this.xpathText = xpathText;    // Save the text of the expression
     this.namespaces = namespaces;  // And the namespace mapping
 
-    if (document.createExpression) {
+    if (context.createExpression) {
         // If we're in a W3C-compliant browser, use the W3C API
         // to compile the text of the XPath query
         this.xpathExpr = 
-            document.createExpression(xpathText, 
+            context.createExpression(xpathText, 
                                       // This function is passed a 
                                       // namespace prefix and returns the URL.
                                       function(prefix) {
@@ -369,12 +370,12 @@ XML.XPathExpression.prototype.getNode = function(context) {
 
 // A utility to create an XML.XPathExpression and call getNodes() on it
 XML.getNodes = function(context, xpathExpr, namespaces) {
-    return (new XML.XPathExpression(xpathExpr, namespaces)).getNodes(context);
+    return (new XML.XPathExpression(context, xpathExpr, namespaces)).getNodes(context);
 };
 
 // A utility to create an XML.XPathExpression and call getNode() on it
 XML.getNode  = function(context, xpathExpr, namespaces) {
-    return (new XML.XPathExpression(xpathExpr, namespaces)).getNode(context);
+    return (new XML.XPathExpression(context, xpathExpr, namespaces)).getNode(context);
 };
 
 /**

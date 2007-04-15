@@ -1,0 +1,26 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<html> <head>
+<title>Xpath test</title>
+<script type="text/javascript" src="../js/util/httpreq.js"></script>
+<script type="text/javascript" src="../js/util/xml.js"></script>
+</head>
+<body>
+<script type="text/javascript">
+function ok(r,e)
+{
+  document.write((r == e ? "OK: " : "NOT OK "), r, " -> ", e, "<br/>");
+}
+requestFile("../dat/skin/default.xml", process_xml);
+function process_xml(r, u)
+{
+  conf = r.responseXML;
+  ok(XML.getNode(conf, "/skin/ship/name").textContent, "Sundog");
+  ok(XML.getNode(conf, "/skin/ship/map/@name").nodeValue, "pod");
+  ok(XML.getNode(conf, "/skin/ship/map/area[4]/@alt").nodeValue, "Airlock");
+  ok(XML.getNode(conf, "/skin/ship/map/area[@alt='Airlock']/@coords").nodeValue, "151,227,183,246");
+  ok(XML.getNode(conf, "/skin/ship/map/area[@alt='Airlock']/@shape").nodeValue, "rect");
+}
+</script>
+<address>
+</address>
+</body></html>
