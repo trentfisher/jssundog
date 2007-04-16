@@ -51,26 +51,13 @@ function initialPopup()
     var pop = document.createElement("div");
     pop.id = "initialmenu";
     pop.innerHTML = ("Welcome back, Zed.  What now?");
-    var a = document.createElement("a");
-    a.href="#";
-    a.onclick = function() { zoom.pop(); loadGame("Zed"); return false; };
-    a.className = "menuentry";
-    a.innerHTML = "Resume Game";
-    pop.appendChild(a);
-
-    a = document.createElement("a");
-    a.href="#";
-    a.onclick = function() { alert("soon..."); };
-    a.className = "menuentry";
-    a.innerHTML = "Select Character";
-    pop.appendChild(a);
-
-    a = document.createElement("a");
-    a.href="#";
-    a.onclick = function() { alert("soon..."); };
-    a.className = "menuentry";
-    a.innerHTML = "About";
-    pop.appendChild(a);
+    pop.appendChild(Win.menuEntry("Resume Game",
+                                  function() { zoom.pop(); loadGame("Zed");
+                                      return false; }));
+    pop.appendChild(Win.menuEntry("Select Character",
+                                  function() { alert("soon..."); }));
+    pop.appendChild(Win.menuEntry("About",
+                                  function() { alert("soon..."); }));
     return pop;
 }
 
@@ -118,12 +105,6 @@ function startGame()
     document.getElementById("splashimg").style.display = "none";
 
     // Set up the various windows...
-
-    // ship window
-    var t = document.createElement("div");
-    t.style.width = imagecache["img/sundog/interior.png"].width;
-    t.appendChild(imagecache["img/sundog/interior.png"]);
-    zoom.register(t, "ship");
+    zoom.register(Win.shipWindow(conf["dat/skin/default.xml"]), "ship");
     zoom.popup("ship");
-
 }
