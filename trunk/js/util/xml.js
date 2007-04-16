@@ -359,6 +359,7 @@ XML.XPathExpression.prototype.getNode = function(context) {
             doc.setProperty("SelectionLanguage", "XPath");
             doc.setProperty("SelectionNamespaces", this.namespaceString);
             if (context == doc) context = doc.documentElement;
+            // BUG context and/or doc are null here
             // In IE call selectSingleNode instead of selectNodes
             return context.selectSingleNode(this.xpathText);
         }
