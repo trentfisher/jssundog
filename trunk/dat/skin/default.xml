@@ -5,41 +5,41 @@
     <img id="pod" src="img/sundog/interior.png"
          mask="img/sundog/interior-mask.png" usemap="pod" />
     <map name="pod">
-      <area shape="rect" coords="311,64,357,75" alt="Guns"  />
-      <area shape="rect" coords="239,207,264,247" alt="Storeroom"  />
-      <area shape="rect" coords="312,367,356,380" alt="Pilotage"  />
-      <area shape="rect" coords="151,227,183,246" alt="Airlock"  />
-      <area shape="rect" coords="111,162,140,210" alt="Cockpit"  />
-      <area shape="rect" coords="371,132,419,161" alt="Cargo Pod"  />
-      <area shape="rect" coords="345,211,381,258" alt="Pod"  />
-      <area shape="rect" coords="140,120,183,150" alt="Locker"  />
-      <area shape="rect" coords="298,17,353,43" alt="Warp Drives"  />
-      <area shape="rect" coords="354,30,380,63" alt="Sub-C Engines"  />
-      <area shape="rect" coords="298,321,351,347" alt="Tactical"  />
-      <area shape="rect" coords="352,335,379,366" alt="Force Shields"  />
+      <area shape="rect" coords="311,64,357,75" title="Guns"  />
+      <area shape="rect" coords="239,207,264,247" title="Storeroom"  />
+      <area shape="rect" coords="312,367,356,380" title="Pilotage"  />
+      <area shape="rect" coords="151,227,183,246" title="Airlock"  />
+      <area shape="rect" coords="111,162,140,210" title="Cockpit"  />
+      <area shape="rect" coords="371,132,419,161" title="Cargo Pod"  />
+      <area shape="rect" coords="345,211,381,258" title="Pod"  />
+      <area shape="rect" coords="140,120,183,150" title="Locker"  />
+      <area shape="rect" coords="298,17,353,43" title="Warp Drives"  />
+      <area shape="rect" coords="354,30,380,63" title="Sub-C Engines"  />
+      <area shape="rect" coords="298,321,351,347" title="Tactical"  />
+      <area shape="rect" coords="352,335,379,366" title="Force Shields"  />
     </map>
 
     <img id="nopod" src="img/sundog/interior.png"
          mask="img/sundog/interior-mask.png" usemap="nopod" />
     <map name="nopod">
-      <area shape="rect" coords="311,64,357,75" alt="Guns"  />
-      <area shape="rect" coords="239,207,264,247" alt="Storeroom"  />
-      <area shape="rect" coords="312,367,356,380" alt="Pilotage"  />
-      <area shape="rect" coords="151,227,183,246" alt="Airlock"  />
-      <area shape="rect" coords="111,162,140,210" alt="Cockpit"  />
-      <area shape="rect" coords="140,120,183,150" alt="Locker"  />
-      <area shape="rect" coords="298,17,353,43" alt="Warp Drives"  />
-      <area shape="rect" coords="354,30,380,63" alt="Sub-C Engines"  />
-      <area shape="rect" coords="298,321,351,347" alt="Tactical"  />
-      <area shape="rect" coords="352,335,379,366" alt="Force Shields"  />
+      <area shape="rect" coords="311,64,357,75" title="Guns"  />
+      <area shape="rect" coords="239,207,264,247" title="Storeroom"  />
+      <area shape="rect" coords="312,367,356,380" title="Pilotage"  />
+      <area shape="rect" coords="151,227,183,246" title="Airlock"  />
+      <area shape="rect" coords="111,162,140,210" title="Cockpit"  />
+      <area shape="rect" coords="140,120,183,150" title="Locker"  />
+      <area shape="rect" coords="298,17,353,43" title="Warp Drives"  />
+      <area shape="rect" coords="354,30,380,63" title="Sub-C Engines"  />
+      <area shape="rect" coords="298,321,351,347" title="Tactical"  />
+      <area shape="rect" coords="352,335,379,366" title="Force Shields"  />
     </map>
     
     <img id="podonly" src="img/sundog/pod.png"
          mask="img/sundog/pod-mask.png" usemap="podonly" />
     <map name="podonly">
-      <area shape="rect" coords="66,60,112,88" alt="Pod Cargo" />
-      <area shape="rect" coords="17,75,49,110" alt="Exit" />
-      <area shape="rect" coords="37,138,73,186" alt="Pod Controls" />
+      <area shape="rect" coords="66,60,112,88" title="Pod Cargo" />
+      <area shape="rect" coords="17,75,49,110" title="Exit" />
+      <area shape="rect" coords="37,138,73,186" title="Pod Controls" />
     </map>
   </ship>
 
@@ -55,7 +55,6 @@
     <img name="cryofuse" src="img/icons/cryofuse.png" />
     <img name="de-cloaker" src="img/icons/de-cloaker.png" />
     <img name="dex" src="img/icons/dex.png" />
-    <img name="flux-modulator.gif" src="img/icons/flux-modulator.gif" />
     <img name="flux-modulator" src="img/icons/flux-modulator.png" />
     <img name="jjunc-module" src="img/icons/jjunc-module.png" />
     <img name="nutra" src="img/icons/nutra.png" />

@@ -1,0 +1,44 @@
+2007-04-15  Trent Fisher  <trent@phaedrus.veganmilitia.org>
+
+	* test/xml.js: 
+	the problem seems to be that the xpath wrapper does not follow w3c
+	standards (because firefox is sloppy)
+	http://my.opera.com/hallvors/blog/show.dml/429702
+	fixed!
+
+	* test/xpath.html: wrote a test case
+
+2007-04-14  Trent Fisher  <trent@localhost.localdomain>
+
+	* js/main.js (startGame): 
+	/skin/ship/img[@id='pod']/@src
+	fails in opera...
+	WRONG_DOCUMENT_ERR
+
+	* xml.js: from the o'reilly book
+	throws an exception.
+	firefox has XML defined as a function (which doesn't seem to do
+	anything).
+	experiment with xpath
+	XML.getNode(conf["dat/skin/default.xml"], "/skin/ship/map[@name='pod']")
+	XML.getNode(conf["dat/skin/default.xml"], "/skin/ship/map[@name='pod']/area[1]")
+	XML.getNode(conf["dat/skin/default.xml"], "/skin/ship/map[@name='pod']/area[1]/@alt")
+	that will be an easier way to deal with things.
+
+	* js/main.js (loadGame): separate out the XML and img callbacks
+	no crash!
+	got an uncaught exception...
+	The callback for an img gets a "load" object 
+	the image is in currentTarget
+
+	* js/util/httpreq.js (requestImage): crash happens during the
+	callback... first callback
+
+	* js/main.js: cool!  I just crashed Firefox!
+	(loadGame): it is happening here when handling the XML
+	opera is not happy... doh!  forgot to return false from onclick.
+	now opera is happy.
+	the requestImage() call seems to be the cause of the crash
+	
+	* ChangeLog: why wasn't I maintaining one of these before?
+	look at SVN for exact changes
