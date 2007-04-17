@@ -2,6 +2,10 @@ body
 {
   font-family: fixed, sans-serif;
 }
+img
+{
+  border: 0;
+}
 
 /* ------------------------------------------------------------------------
 ** game window

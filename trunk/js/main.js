@@ -106,5 +106,8 @@ function startGame()
 
     // Set up the various windows...
     zoom.register(Win.shipWindow(conf["dat/skin/default.xml"]), "ship");
+
+    zoom.register(Win.shipBay(conf["dat/skin/default.xml"]), "Warp Drives");
+
     zoom.popup("ship");
 }

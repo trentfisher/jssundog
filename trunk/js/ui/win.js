@@ -53,9 +53,42 @@ Win.shipWindow = function(skinconf)
         a.coords = areanodes[i].getAttribute("coords");
         a.title = areanodes[i].getAttribute("title");
         a.href = "#";
+        a.onclick = function() { zoom.popup("Warp Drives"); return false;  };
+        map.appendChild(a);
+    }
+    return t;
+}
+
+/**
+ * Generate window for a given ship's bay
+ */
+Win.shipBay = function(skinconf, name)
+{
+    var t = document.createElement("div");
+    logger.log(2, "setting up ship window");
+    var img = imagecache[XML.getNode(skinconf, "/skin/ship/bays/bay[@name='Warp Drives']/img/@src").nodeValue];
+    img.useMap = "#warp";
+
+    // fix the width of the window
+    t.style.width = img.width;
+    t.appendChild(img);
+
+    // construct the image map
+    var map = document.createElement("map");
+    map.name="warp";
+    t.appendChild(map);
+    var areanodes = XML.getNodes(skinconf, "/skin/ship/bays/bay[@name='Warp Drives']/map/area");
+    for (var i = 0; i < areanodes.length; i++)
+    {
+        var a = document.createElement("area");
+        a.shape = areanodes[i].getAttribute("shape");
+        a.coords = areanodes[i].getAttribute("coords");
+        a.title = areanodes[i].getAttribute("title");
+        a.href = "#";
         a.onclick = function() { alert("click on " + a.title); return false; };
         map.appendChild(a);
     }
+
     return t;
 }
 
