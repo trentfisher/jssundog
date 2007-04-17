@@ -31,9 +31,13 @@ function ZoomAction(div)
     if (!divobj) throw "ZoomAction: nonexistent element "+div;
     var winstack = [];
     var wins = {};
-    divobj.onclick = function()
+    divobj.onclick = function(e)
     {
-        logger.log(3, "click!");
+        if (!e) var e = window.event;
+        // XXX works in firefox
+        var posx = e.layerX;
+        var posy = e.layerY;
+        logger.log(3, "click! at "+posx+", "+posy);
     };
     this.register = function(obj, name)
     {

@@ -1,3 +1,8 @@
+2007-04-17  Trent Fisher  <trent@phaedrus.veganmilitia.org>
+
+	* js/ui/win.js (shipBay): new routine to create ship bay
+	popup.  need to figure out how to name these things
+
 2007-04-16  Trent Fisher  <trent@phaedrus.veganmilitia.org>
 
 	* test/xpath.html:
@@ -10,6 +15,14 @@
 	My patience for IE has run out.
 
 2007-04-15  Trent Fisher  <trent@phaedrus.veganmilitia.org>
+
+	* js/ui/win.js (function): 
+	move window creation functions here
+	add in XML use
+	works on safari and firefox
+
+	* dat/skin/default.xml: 
+	change alt to title for mouseovers
 
 	* js/util/xml.js: 
 	the problem seems to be that the xpath wrapper does not follow w3c
