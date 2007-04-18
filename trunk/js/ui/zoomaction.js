@@ -49,6 +49,9 @@ function ZoomAction(div)
     };
     this.popup = function(name)
     {
+        // Pick out the hash if we got a url
+        if (name.lastIndexOf("#") > 0) name = name.substr(name.lastIndexOf("#")+1);
+
         logger.log(3, "Popping up "+name);
         if (! wins[name])
             throw("cannot popup window "+name+" not registered");
@@ -63,6 +66,7 @@ function ZoomAction(div)
         if (l < 0) l = 3;
         wins[name].style.top = t +"px";
         wins[name].style.left = l + "px";
+        wins[name].style.zIndex = winstack.length;
         logger.log(4, "locating popup "+name+" ("+
                    wins[name].offsetWidth+", "+ wins[name].offsetHeight+
                    ") at "+ l + ", "+t);

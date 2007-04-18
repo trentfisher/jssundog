@@ -52,8 +52,12 @@ Win.shipWindow = function(skinconf)
         a.shape = areanodes[i].getAttribute("shape");
         a.coords = areanodes[i].getAttribute("coords");
         a.title = areanodes[i].getAttribute("title");
-        a.href = "#";
-        a.onclick = function() { zoom.popup("Warp Drives"); return false;  };
+        var b;
+        if (b = areanodes[i].getAttribute("bay"))
+        {
+            a.href = "#"+b;
+            a.onclick = function() { zoom.popup(this.href); return false; };
+        }
         map.appendChild(a);
     }
     return t;
@@ -65,9 +69,9 @@ Win.shipWindow = function(skinconf)
 Win.shipBay = function(skinconf, name)
 {
     var t = document.createElement("div");
-    logger.log(2, "setting up ship window");
-    var img = imagecache[XML.getNode(skinconf, "/skin/ship/bays/bay[@name='Warp Drives']/img/@src").nodeValue];
-    img.useMap = "#warp";
+    logger.log(2, "setting up ship bay "+name);
+    var img = imagecache[XML.getNode(skinconf, "/skin/ship/bays/bay[@id='"+name+"']/img/@src").nodeValue];
+    img.useMap = "#"+name;
 
     // fix the width of the window
     t.style.width = img.width + "px";
@@ -75,9 +79,9 @@ Win.shipBay = function(skinconf, name)
 
     // construct the image map
     var map = document.createElement("map");
-    map.name="warp";
+    map.name=name;
     t.appendChild(map);
-    var areanodes = XML.getNodes(skinconf, "/skin/ship/bays/bay[@name='Warp Drives']/map/area");
+    var areanodes = XML.getNodes(skinconf, "/skin/ship/bays/bay[@id='"+name+"']/map/area");
     for (var i = 0; i < areanodes.length; i++)
     {
         var a = document.createElement("area");
@@ -85,7 +89,7 @@ Win.shipBay = function(skinconf, name)
         a.coords = areanodes[i].getAttribute("coords");
         a.title = areanodes[i].getAttribute("title");
         a.href = "#";
-        a.onclick = function() { alert("click on " + a.title); return false; };
+        a.onclick = function() { alert("click on "+a.title); return false;  };
         map.appendChild(a);
     }
 
