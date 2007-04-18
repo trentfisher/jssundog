@@ -1,7 +1,18 @@
 2007-04-17  Trent Fisher  <trent@phaedrus.veganmilitia.org>
 
+	* test/xpath.html:
+	figured it out... kinda...
+	If I do a load using the routine in the XML module, it works
+	however, IE does not implement the standard "textContent"
+	attribute, they use "text" instead.  Another wrapper function.
+
+	* sundog.html: changed to strict xhtml
+	Had to make a few minor changes as style dimmensions must always
+	have a unit, so I had to append "px" in a few places (anywhere I
+	was assigning into a stylesheet).
+
 	* js/ui/win.js (shipBay): new routine to create ship bay
-	popup.  need to figure out how to name these things
+	popup.  need to figure out how to name these things in the xml
 
 2007-04-16  Trent Fisher  <trent@phaedrus.veganmilitia.org>
 
