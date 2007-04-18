@@ -48,17 +48,17 @@ function ProgressBar(id, action)
     this.div.style.overflow = "hidden";
     this.div.style.position = "relative";
     if (!this.div.style.height)
-        this.div.style.height = this.div.clientHeight;
+        this.div.style.height = this.div.clientHeight + "px";
     this.div.innerHTML = '<div class="progressbar"></div><div class="progresstxt"></div>';
     this.bardiv = this.div.childNodes[0];
     this.bardiv.style.position   = "relative";
     this.bardiv.style.width      = "0%";
-    this.bardiv.style.height     = this.div.clientHeight;
+    this.bardiv.style.height     = this.div.clientHeight + "px";
     this.bardiv.style.zIndex     = "-1";
     this.txtdiv = this.div.childNodes[1];
     this.txtdiv.style.position  = "relative"; 
-    this.txtdiv.style.height    = this.div.clientHeight;
-    this.txtdiv.style.top       = (this.div.clientHeight * -1);
+    this.txtdiv.style.height    = this.div.clientHeight + "px";
+    this.txtdiv.style.top       = (this.div.clientHeight * -1) + "px";
 
     // update the status bar
     this.update = function(cur, tot, newact)

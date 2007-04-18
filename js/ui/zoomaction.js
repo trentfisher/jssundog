@@ -61,8 +61,8 @@ function ZoomAction(div)
         var l =  Math.round(Math.random() *
                             (divobj.offsetWidth - wins[name].offsetWidth - 6));
         if (l < 0) l = 3;
-        wins[name].style.top = t;
-        wins[name].style.left = l;
+        wins[name].style.top = t +"px";
+        wins[name].style.left = l + "px";
         logger.log(4, "locating popup "+name+" ("+
                    wins[name].offsetWidth+", "+ wins[name].offsetHeight+
                    ") at "+ l + ", "+t);

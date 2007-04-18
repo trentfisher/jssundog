@@ -38,7 +38,7 @@ Win.shipWindow = function(skinconf)
     img.useMap = "#pod";
 
     // fix the width of the window
-    t.style.width = img.width;
+    t.style.width = img.width + "px";
     t.appendChild(img);
 
     // construct the image map
@@ -70,7 +70,7 @@ Win.shipBay = function(skinconf, name)
     img.useMap = "#warp";
 
     // fix the width of the window
-    t.style.width = img.width;
+    t.style.width = img.width + "px";
     t.appendChild(img);
 
     // construct the image map

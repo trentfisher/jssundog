@@ -12,8 +12,9 @@ function ok(r,e)
 }
 function process_xml(r, u)
 {
-  conf = r.responseXML;
+  conf = r; //.responseXML;
   ok(XML.getNode(conf, "/skin/ship/name").textContent, "Sundog");
+  ok(XML.getNode(conf, "/skin/ship/name").text, "Sundog");
   ok(XML.getNode(conf, "/skin/ship/map/@name").nodeValue, "pod");
   ok(XML.getNode(conf, "/skin/ship/map/area[4]/@title").nodeValue, "Airlock");
   ok(XML.getNode(conf, "/skin/ship/map/area[@title='Airlock']/@coords").nodeValue, "151,227,183,246");
@@ -21,7 +22,8 @@ function process_xml(r, u)
   document.write("done");
   return true;
 }
-requestFile("../dat/skin/default.xml", process_xml);
+XML.loadAsync("../dat/skin/default.xml", process_xml);
+//requestFile("../dat/skin/default.xml", process_xml);
 </script>
 <address>
 </address>
