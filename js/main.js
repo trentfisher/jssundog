@@ -105,9 +105,16 @@ function startGame()
     document.getElementById("splashimg").style.display = "none";
 
     // Set up the various windows...
+    // ship
     zoom.register(Win.shipWindow(conf["dat/skin/default.xml"]), "ship");
 
-    zoom.register(Win.shipBay(conf["dat/skin/default.xml"]), "Warp Drives");
+    // set up ship bays
+    var b = XML.getNodes(conf["dat/skin/default.xml"], "/skin/ship/bays/bay");
+    for (var i = 0; i < b.length; i++)
+    {
+        zoom.register(Win.shipBay(conf["dat/skin/default.xml"], b[i].getAttribute("id")),
+                      b[i].getAttribute("id"));
+    }
 
     zoom.popup("ship");
 }
