@@ -95,10 +95,10 @@ function requestFile(url, callback, postData)
  * @arguments url url of the image
  * @arguments callback function to be called when loading is complete
  */
-function requestImage(url, callback)
+function requestImage(url, callback, id)
 {
     var i = new Image;
     logger.log(1, "Requesting image "+url);
-    i.onload = function (img) { callback(img.currentTarget, url); }
+    i.onload = function (img) { callback(img.currentTarget, url, id); }
     i.src = url;
 }

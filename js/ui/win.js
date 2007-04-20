@@ -66,7 +66,7 @@ Win.shipWindow = function(skinconf)
 /**
  * Generate window for a given ship's bay
  */
-Win.shipBay = function(skinconf, name)
+Win.shipBay = function(skinconf, shipconf, name)
 {
     var t = document.createElement("div");
     logger.log(2, "setting up ship bay "+name);
@@ -90,6 +90,7 @@ Win.shipBay = function(skinconf, name)
     {
         // set up the client side image map "area" tag
         var a = document.createElement("area");
+        a.id = areanodes[i].getAttribute("id");
         a.shape = areanodes[i].getAttribute("shape");
         a.coords = areanodes[i].getAttribute("coords");
         a.title = areanodes[i].getAttribute("title");
@@ -97,24 +98,25 @@ Win.shipBay = function(skinconf, name)
         a.onclick = function() { alert("click on "+a.title); return false;  };
         map.appendChild(a);
 
-        // set up the
+        // set up the components
         var c = a.coords.split(",");
-        slot.push({id: a.id,
-                   left: c[0], top: c[1], right: c[2], bottom: c[3],
-                  });
-
-    }
-
-    //XXX temporary... place an item
-    if (slot.length)
-    {
-        var im = document.createElement("img");
-        im.src = "img/icons/shunt.png";
-        im.style.position = "relative";
-        //XXX why was this relative to the right edge??
-        im.style.right = (img.width - slot[0].left - im.width) +"px";
-        im.style.top = slot[0].top+"px";
-        t.appendChild(im);
+        slot[a.id] =
+            {id: a.id,
+             left: c[0], top: c[1], right: c[2], bottom: c[3],
+             contents: XML.getNode(shipconf, "/ship/bays/bay[@id='"+
+                                   name+"']/slot[@id='"+a.id+"']")
+            };
+        if (slot[a.id].contents && slot[a.id].contents.firstChild &&
+            slot[a.id].contents.firstChild.data)
+        {
+            var im = new Image();
+            im.src = imagecache[slot[a.id].contents.firstChild.data].src;
+            im.style.position = "relative";
+            //XXX why is this relative to the right edge??
+            im.style.right = (img.width - slot[a.id].left - im.width) +"px";
+            im.style.top = slot[a.id].top+"px";
+            t.appendChild(im);
+        }
     }
 
     return t;

@@ -46,29 +46,29 @@
       <bay id="warp">
         <img id="warp" src="img/sundog/mech_bays/warp.png" usemap="warp" />
         <map name="warp">
-          <area shape="rect" coords="124,26,169,71" title="n11" href="#" />
-          <area shape="rect" coords="124,89,169,134" title="n21" href="#" />
-          <area shape="rect" coords="125,153,170,198" title="n31" href="#" />
-          <area shape="rect" coords="125,217,170,262" title="n41" href="#" />
-          <area shape="rect" coords="186,26,231,71" title="n12" href="#" />
-          <area shape="rect" coords="186,89,231,134" title="n22" href="#" />
-          <area shape="rect" coords="186,153,231,198" title="n32" href="#" />
-          <area shape="rect" coords="186,217,231,262" title="n42" href="#" />
-          <area shape="rect" coords="250,26,295,71" title="n13" href="#" />
-          <area shape="rect" coords="314,26,359,71" title="n44" href="#" />
-          <area shape="rect" coords="250,89,295,134" title="n23" href="#" />
-          <area shape="rect" coords="250,153,295,198" title="n33" href="#" />
-          <area shape="rect" coords="250,217,295,262" title="n43" href="#" />
-          <area shape="rect" coords="314,89,359,134" title="n24" href="#" />
-          <area shape="rect" coords="314,153,359,198" title="n34" href="#" />
-          <area shape="rect" coords="314,217,359,262" title="n44" href="#" />
-          <area shape="rect" coords="17,299,62,344" title="trash" href="#" />
-          <area shape="rect" coords="84,299,129,344" title="i1" href="#" />
-          <area shape="rect" coords="145,299,190,344" title="i2" href="#" />
-          <area shape="rect" coords="205,299,249,344" title="i3" href="#" />
-          <area shape="rect" coords="265,299,310,344" title="i4" href="#" />
-          <area shape="rect" coords="325,299,370,344" title="i5" href="#" />
-          <area shape="rect" coords="385,299,430,344" title="i6" href="#" />
+          <area shape="rect" coords="124,26,169,71" id="n11" />
+          <area shape="rect" coords="124,89,169,134" id="n21" />
+          <area shape="rect" coords="125,153,170,198" id="n31" />
+          <area shape="rect" coords="125,217,170,262" id="n41" />
+          <area shape="rect" coords="186,26,231,71" id="n12" />
+          <area shape="rect" coords="186,89,231,134" id="n22" />
+          <area shape="rect" coords="186,153,231,198" id="n32" />
+          <area shape="rect" coords="186,217,231,262" id="n42" />
+          <area shape="rect" coords="250,26,295,71" id="n13" />
+          <area shape="rect" coords="314,26,359,71" id="n44" />
+          <area shape="rect" coords="250,89,295,134" id="n23" />
+          <area shape="rect" coords="250,153,295,198" id="n33" />
+          <area shape="rect" coords="250,217,295,262" id="n43" />
+          <area shape="rect" coords="314,89,359,134" id="n24" />
+          <area shape="rect" coords="314,153,359,198" id="n34" />
+          <area shape="rect" coords="314,217,359,262" id="n44" />
+          <area shape="rect" coords="17,299,62,344" id="trash" />
+          <area shape="rect" coords="84,299,129,344" id="i1" />
+          <area shape="rect" coords="145,299,190,344" id="i2" />
+          <area shape="rect" coords="205,299,249,344" id="i3" />
+          <area shape="rect" coords="265,299,310,344" id="i4" />
+          <area shape="rect" coords="325,299,370,344" id="i5" />
+          <area shape="rect" coords="385,299,430,344" id="i6" />
         </map>
       </bay>
       <bay id="subc">
@@ -99,31 +99,31 @@
   </player>
 
   <items>
-    <img name="beer" src="img/icons/beer.png" />
-    <img name="burger" src="img/icons/burger.png" />
-    <img name="charmer" src="img/icons/charmer.png" />
-    <img name="cloaker" src="img/icons/cloaker.png" />
-    <img name="control-node" src="img/icons/control-node.png" />
-    <img name="cryofuse" src="img/icons/cryofuse.png" />
-    <img name="de-cloaker" src="img/icons/de-cloaker.png" />
-    <img name="dex" src="img/icons/dex.png" />
-    <img name="flux-modulator" src="img/icons/flux-modulator.png" />
-    <img name="jjunc-module" src="img/icons/jjunc-module.png" />
-    <img name="nutra" src="img/icons/nutra.png" />
-    <img name="peptab" src="img/icons/peptab.png" />
-    <img name="photon-bridge" src="img/icons/photon-bridge.png" />
-    <img name="plasma-tube" src="img/icons/plasma-tube.png" />
-    <img name="rapidheal" src="img/icons/rapidheal.png" />
-    <img name="scanner" src="img/icons/scanner.png" />
-    <img name="scatter" src="img/icons/scatter.png" />
-    <img name="shunt" src="img/icons/shunt.png" />
-    <img name="st-distorter" src="img/icons/st-distorter.png" />
-    <img name="stinger" src="img/icons/stinger.png" />
-    <img name="t-vest" src="img/icons/t-vest.png" />
-    <img name="vest-shield2" src="img/icons/vest-shield2.png" />
-    <img name="vest-shield3" src="img/icons/vest-shield3.png" />
-    <img name="vest-shield4" src="img/icons/vest-shield4.png" />
-    <img name="vest-shield" src="img/icons/vest-shield.png" />
+    <img id="beer" src="img/icons/beer.png" />
+    <img id="burger" src="img/icons/burger.png" />
+    <img id="charmer" src="img/icons/charmer.png" />
+    <img id="cloaker" src="img/icons/cloaker.png" />
+    <img id="control-node" src="img/icons/control-node.png" />
+    <img id="cryofuse" src="img/icons/cryofuse.png" />
+    <img id="de-cloaker" src="img/icons/de-cloaker.png" />
+    <img id="dex" src="img/icons/dex.png" />
+    <img id="flux-modulator" src="img/icons/flux-modulator.png" />
+    <img id="jjunc-module" src="img/icons/jjunc-module.png" />
+    <img id="nutra" src="img/icons/nutra.png" />
+    <img id="peptab" src="img/icons/peptab.png" />
+    <img id="photon-bridge" src="img/icons/photon-bridge.png" />
+    <img id="plasma-tube" src="img/icons/plasma-tube.png" />
+    <img id="rapidheal" src="img/icons/rapidheal.png" />
+    <img id="scanner" src="img/icons/scanner.png" />
+    <img id="scatter" src="img/icons/scatter.png" />
+    <img id="shunt" src="img/icons/shunt.png" />
+    <img id="st-distorter" src="img/icons/st-distorter.png" />
+    <img id="stinger" src="img/icons/stinger.png" />
+    <img id="t-vest" src="img/icons/t-vest.png" />
+    <img id="vest-shield2" src="img/icons/vest-shield2.png" />
+    <img id="vest-shield3" src="img/icons/vest-shield3.png" />
+    <img id="vest-shield4" src="img/icons/vest-shield4.png" />
+    <img id="vest-shield" src="img/icons/vest-shield.png" />
   </items>
 
 </skin>
