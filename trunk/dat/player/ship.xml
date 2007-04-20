@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ship>
+  <name>Sundog</name>
+  <hull>100</hull>
+  <fuel>100</fuel>
+  <bays>
+    <bay id="warp">
+      <slot id="n11" holds="control-node">control-node</slot>
+      <slot id="n12" holds="flux-modulator,shunt">flux-modulator</slot>
+      <slot id="n13" holds="photon-bridge,shunt">photon-bridge</slot>
+      <slot id="n14" holds="st-distorter,shunt">st-distorter</slot>
+      <slot id="n21" holds="control-node">control-node</slot>
+      <slot id="n22" holds="flux-modulator,shunt"></slot>
+      <slot id="n23" holds="photon-bridge,shunt"></slot>
+      <slot id="n24" holds="st-distorter,shunt"></slot>
+      <slot id="n31" holds="control-node">control-node</slot>
+      <slot id="n32" holds="flux-modulator,shunt"></slot>
+      <slot id="n33" holds="photon-bridge,shunt"></slot>
+      <slot id="n34" holds="st-distorter,shunt"></slot>
+      <slot id="n41" holds="control-node">control-node</slot>
+      <slot id="n42" holds="flux-modulator,shunt"></slot>
+      <slot id="n43" holds="photon-bridge,shunt"></slot>
+      <slot id="n44" holds="st-distorter,shunt"></slot>
+    </bay>
+    <bay id="subc">
+    </bay>
+    <bay id="guns">
+    </bay>
+    <bay id="tactical">
+    </bay>
+    <bay id="shields">
+    </bay>
+    <bay id="pilotage">
+    </bay>
+    <bay id="storeroom">
+    </bay>
+    <bay id="locker">
+    </bay>
+  </bays>
+</ship>

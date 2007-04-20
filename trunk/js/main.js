@@ -67,7 +67,7 @@ function loadGame(name)
     logger.log(2, "loading game for "+name);
 
     var fcnt = 0;
-    var expcnt = 1;
+    var expcnt = 2;
     function process_xml(r, url)
     {
         progbar.update(++fcnt, expcnt);
@@ -79,22 +79,26 @@ function loadGame(name)
         for (var i = 0; i < img.length; i++)
         {
             expcnt++;
-            requestImage(img[i].getAttribute("src"), process_img);
+            requestImage(img[i].getAttribute("src"), process_img,
+                         img[i].getAttribute("id"));
             //requestImage(img[i].getAttribute("mask"), filecnt);
         }
         // Start the game if we have loaded all files
         if (fcnt >= expcnt) startGame();
     }
-    function process_img(r, url)
+    function process_img(r, url, id)
     {
         progbar.update(++fcnt, expcnt);
-        logger.log(1, "loaded image "+url+" ("+r.width+"x"+r.height+")");
+        logger.log(1, "loaded image "+url+" id "+id+" ("+r.width+"x"+r.height+")");
+        // store it in the cache by both the path/url and identifier
         imagecache[url] = r;
+        imagecache[id] = r;
         // Start the game if we have loaded all files
         if (fcnt >= expcnt) startGame();
     }
 
     requestFile("dat/skin/default.xml", process_xml);
+    requestFile("dat/player/ship.xml", process_xml);
 
     return;
 }
@@ -112,7 +116,9 @@ function startGame()
     var b = XML.getNodes(conf["dat/skin/default.xml"], "/skin/ship/bays/bay");
     for (var i = 0; i < b.length; i++)
     {
-        zoom.register(Win.shipBay(conf["dat/skin/default.xml"], b[i].getAttribute("id")),
+        zoom.register(Win.shipBay(conf["dat/skin/default.xml"],
+                                  conf["dat/player/ship.xml"],
+                                  b[i].getAttribute("id")),
                       b[i].getAttribute("id"));
     }
 
