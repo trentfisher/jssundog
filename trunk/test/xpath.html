@@ -13,8 +13,16 @@ function ok(r,e)
 function process_xml(r, u)
 {
   conf = r; //.responseXML;
-  ok(XML.getNode(conf, "/skin/ship/name").textContent, "Sundog");
-  ok(XML.getNode(conf, "/skin/ship/name").text, "Sundog");
+  // only in firefox (w3c?)
+  //ok(XML.getNode(conf, "/skin/ship/name").textContent, "Sundog");
+  // only in IE
+  //ok(XML.getNode(conf, "/skin/ship/name").text, "Sundog");
+  // this seems to work in both, though it's ugly
+  ok(XML.getNode(conf, "/skin/ship/name").firstChild.data, "Sundog");
+  XML.getNode(conf, "/skin/ship/name").firstChild.appendData("Wow");
+  ok(XML.getNode(conf, "/skin/ship/name").firstChild.data, "SundogWow");
+  XML.getNode(conf, "/skin/ship/name").firstChild.data = "Wow";
+  ok(XML.getNode(conf, "/skin/ship/name").firstChild.data, "Wow");
   ok(XML.getNode(conf, "/skin/ship/map/@name").nodeValue, "pod");
   ok(XML.getNode(conf, "/skin/ship/map/area[4]/@title").nodeValue, "Airlock");
   ok(XML.getNode(conf, "/skin/ship/map/area[@title='Airlock']/@coords").nodeValue, "151,227,183,246");

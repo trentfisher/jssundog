@@ -68,6 +68,7 @@ Win.shipWindow = function(skinconf)
  */
 Win.shipBay = function(skinconf, shipconf, name)
 {
+    var selected;
     var t = document.createElement("div");
     logger.log(2, "setting up ship bay "+name);
     var img = imagecache[XML.getNode(skinconf, "/skin/ship/bays/bay[@id='"+name+"']/img/@src").nodeValue];
@@ -106,16 +107,58 @@ Win.shipBay = function(skinconf, shipconf, name)
              contents: XML.getNode(shipconf, "/ship/bays/bay[@id='"+
                                    name+"']/slot[@id='"+a.id+"']")
             };
+        // If there is a component in this slot, place the image on the screen
         if (slot[a.id].contents && slot[a.id].contents.firstChild &&
             slot[a.id].contents.firstChild.data)
         {
             var im = new Image();
             im.src = imagecache[slot[a.id].contents.firstChild.data].src;
-            im.style.position = "relative";
-            //XXX why is this relative to the right edge??
-            im.style.right = (img.width - slot[a.id].left - im.width) +"px";
+            im.style.position = "absolute";
+            im.style.display = "block";
+            im.style.left = slot[a.id].left+"px";
             im.style.top = slot[a.id].top+"px";
+            slot[a.id].img = im;
             t.appendChild(im);
+
+            Drag.init(im, null, 0, img.width-im.width,
+                      0, img.height-im.height);
+            im.onDragStart = function(x, y)
+            {
+                // figure out which item was clicked on
+                var s;
+                for (var i in slot)
+                {
+                    if (this == slot[i].img) { s=i; break; }
+                }
+
+                logger.log(4, "you grabbed item from "+s);
+                // remove the item from the slot
+            };
+            im.onDragEnd = function(x, y)
+            {
+                logger.log(4, "you dropped "+this+" at "+x+","+y);
+
+                // figure out where this object came from and where it is going
+                var dest;
+                var src;
+                for (var i in slot)
+                {
+                    if (this == slot[i].img) { src = i; }
+                    if (Math.abs(x - slot[i].left) < this.width &&
+                        Math.abs(y - slot[i].top)  < this.height)
+                    { dest = i; }
+                }
+                logger.log(4, "Moving item from "+src+" to "+dest);
+                if (!dest) dest=src;
+                // destroy the object if it is a trash can
+                // can the object be placed here? if not, put it back
+                // if an item is there, swap places
+                // move the image to the nearest slot (determined above)
+                this.style.top = slot[dest].top + "px";
+                this.style.left = slot[dest].left + "px";
+                // move the item in the actual inventory
+                // update bay status indicators
+            };
         }
     }
 

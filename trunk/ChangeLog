@@ -1,3 +1,20 @@
+2007-04-20  Trent Fisher  <trent@phaedrus.veganmilitia.org>
+
+	* js/ui/win.js:  Implement the beginnings of drag and drop
+	used a lightweight module I found on the web (after an attempt
+	to implement it myself from scratch).
+	Still need to make it reflect in the actual inventory (xml)
+
+	* test/ex.html: Need to formalize exception handling... explore
+	how the Error object works in FF and IE
+
+2007-04-18  Trent Fisher  <trent@phaedrus.veganmilitia.org>
+
+	* test/xpath.html:
+	the text/textContent problem is that I need to descend down one
+	more level to the "#text" node using firstChild
+	then the "data" attribute works
+
 2007-04-17  Trent Fisher  <trent@phaedrus.veganmilitia.org>
 
 	* test/xpath.html:
