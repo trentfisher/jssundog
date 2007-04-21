@@ -1,0 +1,32 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<html> <head>
+<title>Exception test</title>
+<script type="text/javascript" src="../js/util/httpreq.js"></script>
+<script type="text/javascript" src="../js/util/xml.js"></script>
+</head>
+<body>
+<script type="text/javascript">
+document.write("<h2>Error()</h2>");
+try { throw new Error(); }
+catch (e) { for (var i in e) { document.write("["+i+"]:"+e[i]+"<br/>"); }}
+
+document.write("<h2>Error(1111)</h2>");
+try { throw Error(1111); }
+catch (e) { for (var i in e) { document.write("["+i+"]:"+e[i]+"<br/>"); }}
+
+document.write("<h2>Error(1111, 2222)</h2>");
+try { throw Error(1111, 2222); }
+catch (e) { for (var i in e) { document.write("["+i+"]:"+e[i]+"<br/>"); }}
+
+document.write("<h2>Error(1111, 2222, 3333)</h2>");
+try { throw new Error(1111, 2222, 3333); }
+catch (e) { for (var i in e) { document.write("["+i+"]:"+e[i]+"<br/>"); }}
+
+document.write("<h2>?</h2>");
+try { document.x.y.z = 9999 }
+catch (e) { for (var i in e) { document.write("["+i+"]:"+e[i]+"<br/>"); }}
+
+</script>
+<address>
+</address>
+</body></html>

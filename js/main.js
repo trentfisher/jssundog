@@ -48,9 +48,11 @@ catch (e)
 
 function initialPopup()
 {
+    logger.log(4, "setting up initial menu");
     var pop = document.createElement("div");
     pop.id = "initialmenu";
     pop.innerHTML = ("Welcome back, Zed.  What now?");
+    // XXX IE bombs here because Win is undef?!
     pop.appendChild(Win.menuEntry("Resume Game",
                                   function() { zoom.pop(); loadGame("Zed");
                                       return false; }));
@@ -75,7 +77,7 @@ function loadGame(name)
         conf[url] = r.responseXML;
 
         // request any images referenced by this XML file
-        var img = r.responseXML.getElementsByTagName("img");
+        var img = conf[url].getElementsByTagName("img");
         for (var i = 0; i < img.length; i++)
         {
             expcnt++;
