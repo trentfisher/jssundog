@@ -1,3 +1,16 @@
+2007-04-21  Trent Fisher  <trent@phaedrus.veganmilitia.org>
+
+	* js/ui/win.js (function): make the dropping of items work.
+	trash can destroys it.
+	inventory is transfered in the XML document
+
+	* js/ui/zoomaction.js (ZoomAction): try to add a "veil" window
+	right below the current one.  I was hoping it would intercept all
+	underlying event handlers, but it doesn't seem to work that way.
+	(ZoomAction): the problem was two-fold, I wasn't setting the
+	z-index consistently, and the "veil" has to be absolutely
+	positioned for z-index to work
+
 2007-04-20  Trent Fisher  <trent@phaedrus.veganmilitia.org>
 
 	* js/ui/win.js:  Implement the beginnings of drag and drop

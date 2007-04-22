@@ -55,10 +55,10 @@
           <area shape="rect" coords="186,153,231,198" id="n32" />
           <area shape="rect" coords="186,217,231,262" id="n42" />
           <area shape="rect" coords="250,26,295,71" id="n13" />
-          <area shape="rect" coords="314,26,359,71" id="n44" />
           <area shape="rect" coords="250,89,295,134" id="n23" />
           <area shape="rect" coords="250,153,295,198" id="n33" />
           <area shape="rect" coords="250,217,295,262" id="n43" />
+          <area shape="rect" coords="314,26,359,71" id="n14" />
           <area shape="rect" coords="314,89,359,134" id="n24" />
           <area shape="rect" coords="314,153,359,198" id="n34" />
           <area shape="rect" coords="314,217,359,262" id="n44" />

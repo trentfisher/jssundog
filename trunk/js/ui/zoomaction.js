@@ -31,14 +31,31 @@ function ZoomAction(div)
     if (!divobj) throw "ZoomAction: nonexistent element "+div;
     var winstack = [];
     var wins = {};
-    divobj.onclick = function(e)
+
+    // set up the veil to obscure the underlying windows
+    var veil = document.createElement("div");
+    veil.id = "veil";
+    veil.style.display = "none";
+    veil.style.position = "absolute";
+    veil.onclick = function(e)
     {
         if (!e) var e = window.event;
-        // XXX works in firefox
-        var posx = e.layerX;
-        var posy = e.layerY;
-        logger.log(3, "click! at "+posx+", "+posy);
-    };
+        e.cancelBubble = true;
+        if (e.stopPropagation) e.stopPropagation();
+
+        // if we click on the veil it means we should
+        // pop off the top window, unless it's the lowest one
+        if (winstack.length > 1)
+        {
+            var name = winstack.pop();
+            logger.log(3, "Click on veil, opping off "+name);
+            wins[name].style.display = "none";
+            // move the veil down
+            veil.style.zIndex = winstack.length*2-1;
+        }
+    }
+    divobj.appendChild(veil);
+
     this.register = function(obj, name)
     {
         obj.style.display = "none";
@@ -47,7 +64,7 @@ function ZoomAction(div)
         wins[name] = obj;
         logger.log(2, "Registering object "+name);
     };
-    this.popup = function(name)
+    this.popup = function(name, wantveil)
     {
         // Pick out the hash if we got a url
         if (name.lastIndexOf("#") > 0) name = name.substr(name.lastIndexOf("#")+1);
@@ -55,6 +72,7 @@ function ZoomAction(div)
         logger.log(3, "Popping up "+name);
         if (! wins[name])
             throw("cannot popup window "+name+" not registered");
+
         // calculate location...
         // need to make it display before dimensions are set
         wins[name].style.display = "inline";
@@ -66,17 +84,23 @@ function ZoomAction(div)
         if (l < 0) l = 3;
         wins[name].style.top = t +"px";
         wins[name].style.left = l + "px";
-        wins[name].style.zIndex = winstack.length;
+        wins[name].style.zIndex = (1+winstack.length)*2;
         logger.log(4, "locating popup "+name+" ("+
                    wins[name].offsetWidth+", "+ wins[name].offsetHeight+
                    ") at "+ l + ", "+t);
         winstack.push(name);
+
+        // place the "veil" underneath so that underlying event handlers
+        // don't fire, and other windows are slightly obscured
+        veil.style.zIndex = winstack.length*2-1;
+        veil.style.display = "block";
     };
     this.pop = function()
     {
         var name = winstack.pop();
         logger.log(3, "Popping off "+name);
         wins[name].style.display = "none";
+        veil.style.zIndex = winstack.length*2-1;
     };
     return this;
 }
