@@ -79,7 +79,6 @@ Win.shipBay = function(skinconf, shipconf, name)
     t.style.width = img.width + "px";
     t.style.height = img.height + "px";
     t.style.backgroundImage = "url("+img.src+")";
-    //t.appendChild(img);
 
     // construct the image map
     var slot = new Array();
@@ -107,9 +106,19 @@ Win.shipBay = function(skinconf, shipconf, name)
              contents: XML.getNode(shipconf, "/ship/bays/bay[@id='"+
                                    name+"']/slot[@id='"+a.id+"']")
             };
+
+        // if this happens the xml config wasn't complete
+        if (!slot[a.id].contents) continue;
+
+        // empty text node
+        if (!slot[a.id].contents.firstChild)
+        {
+            slot[a.id].contents.appendChild(
+                slot[a.id].contents.ownerDocument.createTextNode(""));
+        }
+
         // If there is a component in this slot, place the image on the screen
-        if (slot[a.id].contents && slot[a.id].contents.firstChild &&
-            slot[a.id].contents.firstChild.data)
+        if (slot[a.id].contents.firstChild.data)
         {
             var im = new Image();
             im.src = imagecache[slot[a.id].contents.firstChild.data].src;
@@ -148,16 +157,61 @@ Win.shipBay = function(skinconf, shipconf, name)
                         Math.abs(y - slot[i].top)  < this.height)
                     { dest = i; }
                 }
-                logger.log(4, "Moving item from "+src+" to "+dest);
-                if (!dest) dest=src;
+                logger.log(3, "Moving item from "+src+" to "+dest);
+
+                // if we didn't drop it on a slot, put it back
+                if (!dest)
+                {
+                    logger.log(4, "Dest not a slot, returning");
+                    this.style.top = slot[src].top + "px";
+                    this.style.left = slot[src].left + "px";
+                    return false;
+                }
                 // destroy the object if it is a trash can
+                if (dest == "trash")
+                {
+                    logger.log(4, "Trashing item "+
+                               slot[src].contents.firstChild.data);
+                    slot[src].contents.firstChild.data = "";
+                    t.removeChild(slot[src].img);
+                    slot[a.id].img = null;
+                    return true;
+                }
                 // can the object be placed here? if not, put it back
+                logger.log(4, "does "+
+                           slot[src].contents.firstChild.data+" fit in "+
+                           slot[dest].contents.getAttribute("holds")+ "? ");
+                if (slot[dest].contents.getAttribute("holds").indexOf(
+                        slot[src].contents.firstChild.data) < 0)
+                {
+                    this.style.top = slot[src].top + "px";
+                    this.style.left = slot[src].left + "px";
+                    return false;
+                }
                 // if an item is there, swap places
+                if (slot[dest].contents &&
+                    slot[dest].contents.firstChild &&
+                    slot[dest].contents.firstChild.data)
+                {
+                    // XXX someday, for now throw it back to src
+                    this.style.top = slot[src].top + "px";
+                    this.style.left = slot[src].left + "px";
+                    return false;
+                }
+
                 // move the image to the nearest slot (determined above)
                 this.style.top = slot[dest].top + "px";
                 this.style.left = slot[dest].left + "px";
+                slot[dest].img = slot[src].img;
+                slot[src].img = null;
+
                 // move the item in the actual inventory
+                slot[dest].contents.firstChild.data =
+                    slot[src].contents.firstChild.data;
+                slot[src].contents.firstChild.data = "";
+                
                 // update bay status indicators
+                //logger.log(6, (new XMLSerializer()).serializeToString(slot[src].contents.parentNode));
             };
         }
     }

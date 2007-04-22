@@ -51,6 +51,14 @@ a.menuentry:hover
   background-color: black;
 }
 
+#veil
+{
+  width: 100%;
+  height: 100%;
+  opacity: 0.8;
+  background: black url(img/blackdot.gif) repeat;
+}
+
 /* Status/progress line */
 #status
 {
