@@ -29,10 +29,12 @@ along with this program; if not, write to the
 logger = new Logger("log", 9);
 logger.log(1, "starting up...");
 progbar = new ProgressBar("status", "Loading configuration files");
+
 // XML configuration objects, indexed by relative urls
 conf = {};
-// cache of pre-loaded images,indexed by relative urls
-imagecache = {};
+
+// cache of pre-loaded images
+images = new ImageManager();
 
 try
 {
@@ -80,12 +82,11 @@ function loadGame(name)
         var img = conf[url].getElementsByTagName("img");
         for (var i = 0; i < img.length; i++)
         {
-            var url = img[i].getAttribute("src");
-            var id = img[i].getAttribute("id");
-            expcnt++;
-            progbar.update(fcnt, expcnt);
-            requestImage(url, process_img, id);
+            expcnt += images.add(img[i].getAttribute("src"),
+                                 img[i].getAttribute("id"),
+                                 process_img);
             //requestImage(img[i].getAttribute("mask"), filecnt);
+            progbar.update(fcnt, expcnt);
         }
 
         // Start the game if we have loaded all files
@@ -95,11 +96,6 @@ function loadGame(name)
     {
         progbar.update(++fcnt, expcnt);
         logger.log(1, "loaded image "+url+" id "+id+" ("+r.width+"x"+r.height+")");
-        // store it in the cache by both the path/url and identifier
-        imagecache[url] = r;
-        imagecache[id] = r;
-        r.onload = null;
-
         // Start the game if we have loaded all files
         if (fcnt >= expcnt) startGame();
     }
@@ -107,12 +103,6 @@ function loadGame(name)
     requestFile("dat/skin/default.xml", process_xml);
     requestFile("dat/player/ship.xml", process_xml);
     requestFile("dat/player/player.xml", process_xml);
-
-    // force the game to start ... kludge until I figure out why loading
-    // is often incomplete in firefox
-    //setTimeout(startGame, 10000);
-
-    return;
 }
 
 function startGame()
