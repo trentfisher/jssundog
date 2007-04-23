@@ -48,7 +48,7 @@ function ZoomAction(div)
         if (winstack.length > 1)
         {
             var name = winstack.pop();
-            logger.log(3, "Click on veil, opping off "+name);
+            logger.log(3, "Click on veil, popping off "+name);
             wins[name].style.display = "none";
             // move the veil down
             veil.style.zIndex = winstack.length*2-1;

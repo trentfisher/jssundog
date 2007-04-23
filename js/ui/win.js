@@ -34,7 +34,7 @@ Win.shipWindow = function(skinconf)
 {
     var t = document.createElement("div");
     logger.log(2, "setting up ship window");
-    var img = imagecache[XML.getNode(skinconf, "/skin/ship/img[@id='pod']/@src").nodeValue];
+    var img = images.get(XML.getNode(skinconf, "/skin/ship/img[@id='pod']/@src").nodeValue);
     img.useMap = "#pod";
 
     // fix the width of the window
@@ -72,7 +72,7 @@ Win.shipBay = function(skinconf, shipconf, playerconf, name)
 
     var t = document.createElement("div");
     var imgurl = XML.getNode(skinconf, "/skin/ship/bays/bay[@id='"+name+"']/img/@src").nodeValue;
-    var img = imagecache[imgurl];
+    var img = images.get(imgurl);
     img.useMap = "#"+name;
 
     // fix the width of the window
@@ -175,10 +175,8 @@ Win.createArea = function(anode)
 
 Win.createIcon = function(id, slot, width, height)
 {
-    var im = new Image();
-    im.src = imagecache[slot[id].contents.firstChild.data].src;
+    var im = images.get(slot[id].contents.firstChild.data);
     im.style.position = "absolute";
-    im.style.display = "block";
     im.style.left = slot[id].left+"px";
     im.style.top = slot[id].top+"px";
     slot[id].img = im;
