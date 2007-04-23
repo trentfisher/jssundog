@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<player>
+  <attribute id="iq" name="intelligence">50</attribute>
+  <inventory>
+    <item id="i1">shunt</item>
+    <item id="i2"></item>
+    <item id="i3"></item>
+    <item id="i4"></item>
+    <item id="i5"></item>
+    <item id="i6"></item>
+    <item id="hand"></item>
+    <item id="body"></item>
+  </inventory>
+</player>

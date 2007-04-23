@@ -64,7 +64,7 @@ function ZoomAction(div)
         wins[name] = obj;
         logger.log(2, "Registering object "+name);
     };
-    this.popup = function(name, wantveil)
+    this.popup = function(name, noveil)
     {
         // Pick out the hash if we got a url
         if (name.lastIndexOf("#") > 0) name = name.substr(name.lastIndexOf("#")+1);
@@ -75,7 +75,7 @@ function ZoomAction(div)
 
         // calculate location...
         // need to make it display before dimensions are set
-        wins[name].style.display = "inline";
+        wins[name].style.display = "block";
         var t = Math.round(Math.random() *
                            (divobj.offsetHeight - wins[name].offsetHeight -6));
         if (t < 0) t = 3;
@@ -93,7 +93,7 @@ function ZoomAction(div)
         // place the "veil" underneath so that underlying event handlers
         // don't fire, and other windows are slightly obscured
         veil.style.zIndex = winstack.length*2-1;
-        veil.style.display = "block";
+        if (!noveil) veil.style.display = "block";
     };
     this.pop = function()
     {
