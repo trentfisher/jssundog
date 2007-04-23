@@ -38,7 +38,7 @@ try
 {
     var zoom = new ZoomAction("game");
     zoom.register(initialPopup(), "startmenu");
-    zoom.popup("startmenu");
+    zoom.popup("startmenu", true);
 }
 catch (e)
 {
@@ -69,7 +69,7 @@ function loadGame(name)
     logger.log(2, "loading game for "+name);
 
     var fcnt = 0;
-    var expcnt = 2;
+    var expcnt = 3;
     function process_xml(r, url)
     {
         progbar.update(++fcnt, expcnt);
@@ -80,11 +80,14 @@ function loadGame(name)
         var img = conf[url].getElementsByTagName("img");
         for (var i = 0; i < img.length; i++)
         {
+            var url = img[i].getAttribute("src");
+            var id = img[i].getAttribute("id");
             expcnt++;
-            requestImage(img[i].getAttribute("src"), process_img,
-                         img[i].getAttribute("id"));
+            progbar.update(fcnt, expcnt);
+            requestImage(url, process_img, id);
             //requestImage(img[i].getAttribute("mask"), filecnt);
         }
+
         // Start the game if we have loaded all files
         if (fcnt >= expcnt) startGame();
     }
@@ -95,12 +98,19 @@ function loadGame(name)
         // store it in the cache by both the path/url and identifier
         imagecache[url] = r;
         imagecache[id] = r;
+        r.onload = null;
+
         // Start the game if we have loaded all files
         if (fcnt >= expcnt) startGame();
     }
 
     requestFile("dat/skin/default.xml", process_xml);
     requestFile("dat/player/ship.xml", process_xml);
+    requestFile("dat/player/player.xml", process_xml);
+
+    // force the game to start ... kludge until I figure out why loading
+    // is often incomplete in firefox
+    //setTimeout(startGame, 10000);
 
     return;
 }
@@ -120,6 +130,7 @@ function startGame()
     {
         zoom.register(Win.shipBay(conf["dat/skin/default.xml"],
                                   conf["dat/player/ship.xml"],
+                                  conf["dat/player/player.xml"],
                                   b[i].getAttribute("id")),
                       b[i].getAttribute("id"));
     }
