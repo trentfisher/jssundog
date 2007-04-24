@@ -93,12 +93,12 @@ XML.loadAsync = function(url, callback) {
     // If we created the XML document using createDocument, use
     // onload to determine when it is loaded
     if (document.implementation && document.implementation.createDocument) {
-        xmldoc.onload = function() { callback(xmldoc); };
+        xmldoc.onload = function() { callback(xmldoc, url); };
     }
     // Otherwise, use onreadystatechange as with XMLHttpRequest
     else {
         xmldoc.onreadystatechange = function() {
-            if (xmldoc.readyState == 4) callback(xmldoc);
+            if (xmldoc.readyState == 4) callback(xmldoc, url);
         };
     }
 

@@ -75,8 +75,8 @@ function loadGame(name)
     function process_xml(r, url)
     {
         progbar.update(++fcnt, expcnt);
-        logger.log(1,"loaded xml file "+url+" length "+r.responseText.length);
-        conf[url] = r.responseXML;
+        logger.log(1,"loaded xml file "+url);
+        conf[url] = r;
 
         // request any images referenced by this XML file
         var img = conf[url].getElementsByTagName("img");
@@ -100,9 +100,9 @@ function loadGame(name)
         if (fcnt >= expcnt) startGame();
     }
 
-    requestFile("dat/skin/default.xml", process_xml);
-    requestFile("dat/player/ship.xml", process_xml);
-    requestFile("dat/player/player.xml", process_xml);
+    XML.loadAsync("dat/skin/default.xml", process_xml);
+    XML.loadAsync("dat/player/ship.xml", process_xml);
+    XML.loadAsync("dat/player/player.xml", process_xml);
 }
 
 function startGame()

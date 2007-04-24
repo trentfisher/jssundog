@@ -33,7 +33,7 @@ Win = {};
 Win.shipWindow = function(skinconf)
 {
     var t = document.createElement("div");
-    logger.log(2, "setting up ship window");
+    logger.log(2, "setting up ship window "+skinconf);
     var img = images.get(XML.getNode(skinconf, "/skin/ship/img[@id='pod']/@src").nodeValue);
     img.useMap = "#pod";
 
@@ -71,6 +71,7 @@ Win.shipBay = function(skinconf, shipconf, playerconf, name)
     logger.log(2, "setting up ship bay "+name);
 
     var t = document.createElement("div");
+    t.id = name;
     var imgurl = XML.getNode(skinconf, "/skin/ship/bays/bay[@id='"+name+"']/img/@src").nodeValue;
     var img = images.get(imgurl);
     img.useMap = "#"+name;
@@ -83,11 +84,9 @@ Win.shipBay = function(skinconf, shipconf, playerconf, name)
     //t.style.backgroundImage = "url("+img.src+")";
     t.appendChild(img);
 
-    // construct the image map
-    var slot = new Array();
-    var map = document.createElement("map");
-    map.name=name;
-    t.appendChild(map);
+    // this data structure will contain info about each slot
+    // in this bay, with bindings to the appropriate xml conf nodes
+    var slot = t.slot = new Array();
 
     var areanodes = XML.getNodes(skinconf, "/skin/ship/bays/bay[@id='"+name+"']/map/area");
     for (var i = 0; i < areanodes.length; i++)
@@ -110,7 +109,6 @@ Win.shipBay = function(skinconf, shipconf, playerconf, name)
         {
             snode = XML.getNode(shipconf, "/ship/bays/bay[@id='"+
                                 name+"']/slot[@id='"+id+"']");
-
         }
         else if (id.indexOf("i") == 0)
         {
@@ -128,13 +126,44 @@ Win.shipBay = function(skinconf, shipconf, playerconf, name)
         }
         slot[id] = Win.createSlot(name, id, areanodes[i], snode);
 
-        map.appendChild(Win.createArea(areanodes[i]));
-
         // If there is a component in this slot, place the image on the screen
         if (slot[id].contents.firstChild.data)
             t.appendChild(Win.createIcon(id, slot, img.width, img.height));
     }
     return t;
+}
+
+// update the inventory slots in the given bay
+Win.updateBayInv = function(bayobj)
+{
+    logger.log(4, "Updating inventory for "+bayobj.id);
+    for (var id in bayobj.slot)
+    {
+        if (!bayobj.slot[id]) continue; // blank slot... shouldn't happen
+        // if this item has changed, remove the old icon and set up a new one
+        if (bayobj.slot[id].contents.firstChild.data !=
+            bayobj.slot[id].oldcontents)
+        {
+            logger.log(5, "slot "+bayobj.slot[id].id+
+                       " updated from "+bayobj.slot[id].oldcontents+" to "+
+                       bayobj.slot[id].contents.firstChild.data);
+            // destroy the old image, if we are replacing or removing it
+            if (bayobj.slot[id].img)
+            {
+                bayobj.removeChild(bayobj.slot[id].img);
+                bayobj.slot[id].img.onmousedown = 
+                    bayobj.slot[id].img.onmousemove =
+                    bayobj.slot[id].img.onmouseup =
+                    function() {alert("click on nonexistent image "+id); };
+            }
+            bayobj.slot[id].oldcontents =
+                bayobj.slot[id].contents.firstChild.data;
+            if (!bayobj.slot[id].contents.firstChild.data) continue;
+            bayobj.slot[id].img = Win.createIcon(id, bayobj.slot,
+                         bayobj.parentNode.width, bayobj.parentNode.height);
+            bayobj.appendChild(bayobj.slot[id].img);
+        }
+    }
 }
 
 Win.createSlot = function(bay, id, anode, snode)
@@ -151,30 +180,21 @@ Win.createSlot = function(bay, id, anode, snode)
     var c = anode.getAttribute("coords").split(",");
     var slot = {id: id,
                 left: c[0], top: c[1], right: c[2], bottom: c[3],
-                contents: snode};
+                contents: snode,
+                oldcontents: ""};
     
     // empty text node (this is normal if there is nothing in the slot)
     if (!snode.firstChild)
     {
         snode.appendChild(snode.ownerDocument.createTextNode(""));
+        snode.firstChild.data="";
     }
     return slot;
 };
 
-Win.createArea = function(anode)
-{
-    // set up the client side image map "area" tag
-    var a = document.createElement("area");
-    a.id = anode.getAttribute("id");
-    a.shape = anode.getAttribute("shape");
-    a.coords = anode.getAttribute("coords");
-    a.title = anode.getAttribute("title");
-    //a.href = "#";
-    return a;
-};
-
 Win.createIcon = function(id, slot, width, height)
 {
+    slot[id].oldcontents = slot[id].contents.firstChild.data;
     var im = images.get(slot[id].contents.firstChild.data);
     im.style.position = "absolute";
     im.style.left = slot[id].left+"px";
