@@ -159,8 +159,12 @@ Win.updateBayInv = function(bayobj)
             bayobj.slot[id].oldcontents =
                 bayobj.slot[id].contents.firstChild.data;
             if (!bayobj.slot[id].contents.firstChild.data) continue;
+            // for some reason the dimensions of both the bay AND the image
+            // have no dimensions until it is displayed, so we will display
+            // it earlier
+            bayobj.style.display = "block";
             bayobj.slot[id].img = Win.createIcon(id, bayobj.slot,
-                         bayobj.parentNode.width, bayobj.parentNode.height);
+                         bayobj.firstChild.width, bayobj.firstChild.height);
             bayobj.appendChild(bayobj.slot[id].img);
         }
     }
@@ -194,6 +198,9 @@ Win.createSlot = function(bay, id, anode, snode)
 
 Win.createIcon = function(id, slot, width, height)
 {
+    logger.log(5, "Setting up icon "+id+", containing "+
+               slot[id].contents.firstChild.data+
+               " in bay "+width+"x"+height);
     slot[id].oldcontents = slot[id].contents.firstChild.data;
     var im = images.get(slot[id].contents.firstChild.data);
     im.style.position = "absolute";
