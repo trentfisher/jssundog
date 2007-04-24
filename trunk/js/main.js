@@ -107,17 +107,21 @@ function loadGame(name)
 
 function startGame()
 {
+    var fcnt=0;
+    var expcnt=9;
     // get rid of the splash graphic
     document.getElementById("splashimg").style.display = "none";
 
     // Set up the various windows...
     // ship
+    progbar.update(++fcnt, expcnt, "Setting up interface");
     zoom.register(Win.shipWindow(conf["dat/skin/default.xml"]), "ship");
 
     // set up ship bays
     var b = XML.getNodes(conf["dat/skin/default.xml"], "/skin/ship/bays/bay");
     for (var i = 0; i < b.length; i++)
     {
+        progbar.update(++fcnt, expcnt, "Setting up interface");
         zoom.register(Win.shipBay(conf["dat/skin/default.xml"],
                                   conf["dat/player/ship.xml"],
                                   conf["dat/player/player.xml"],

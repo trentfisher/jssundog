@@ -260,74 +260,91 @@
         </map>
       </bay>
       <bay id="storeroom">
-        <img id="storeroom" src="img/sundog/grav_locker/locker2.png" usemap="storeroom" />
+        <img id="storeroom" src="img/sundog/grav_locker/locker-inv.png" usemap="storeroom" />
         <map id="storeroom"> 
-          <area shape="rect" coords="49,66,94,111" id="n11" />
-          <area shape="rect" coords="113,66,158,111" id="n12" />
-          <area shape="rect" coords="177,66,222,111" id="n13" />
-          <area shape="rect" coords="242,66,287,111" id="n14" />
-          <area shape="rect" coords="306,66,351,111" id="n15" />
-          <area shape="rect" coords="371,66,416,111" id="n16" />
-          <area shape="rect" coords="49,124,94,168" id="n21" />
-          <area shape="rect" coords="113,124,158,168" id="n22" />
-          <area shape="rect" coords="177,124,222,168" id="n23" />
-          <area shape="rect" coords="242,124,287,168" id="n24" />
-          <area shape="rect" coords="306,124,351,168" id="n25" />
-          <area shape="rect" coords="371,124,416,168" id="n26" />
-          <area shape="rect" coords="49,182,94,227" id="n31" />
-          <area shape="rect" coords="113,182,158,227" id="n32" />
-          <area shape="rect" coords="177,182,222,227" id="n33" />
-          <area shape="rect" coords="242,182,287,227" id="n34" />
-          <area shape="rect" coords="306,182,351,227" id="n33" />
-          <area shape="rect" coords="371,182,416,227" id="n33" />
-          <area shape="rect" coords="49,240,94,285" id="n41" />
-          <area shape="rect" coords="113,240,158,285" id="n42" />
-          <area shape="rect" coords="177,240,222,285" id="n43" />
-          <area shape="rect" coords="242,240,287,285" id="n44" />
-          <area shape="rect" coords="306,240,351,285" id="n45" />
-          <area shape="rect" coords="371,240,416,285" id="n46" />
-          <area shape="rect" coords="49,298,94,343" id="n51" />
-          <area shape="rect" coords="113,298,158,343" id="n52" />
-          <area shape="rect" coords="177,298,222,343" id="n53" />
-          <area shape="rect" coords="242,298,287,343" id="n54" />
-          <area shape="rect" coords="306,298,351,343" id="n55" />
-          <area shape="rect" coords="371,298,416,343" id="n56" />
+          <area shape="rect" coords="48,69,93,114" id="n11" />
+          <area shape="rect" coords="102,69,147,114" id="n12" />
+          <area shape="rect" coords="156,69,201,114" id="n13" />
+          <area shape="rect" coords="210,69,255,114" id="n14" />
+          <area shape="rect" coords="264,69,309,114" id="n15" />
+          <area shape="rect" coords="318,69,363,114" id="n16" />
+          <area shape="rect" coords="372,69,417,114" id="n17" />
+          <area shape="rect" coords="48,125,93,170" id="n21" />
+          <area shape="rect" coords="102,125,147,170" id="n22" />
+          <area shape="rect" coords="156,125,201,170" id="n23" />
+          <area shape="rect" coords="210,125,255,170" id="n24" />
+          <area shape="rect" coords="264,125,309,170" id="n25" />
+          <area shape="rect" coords="318,125,363,170" id="n26" />
+          <area shape="rect" coords="372,125,417,170" id="n27" />
+          <area shape="rect" coords="48,181,93,226" id="n31" />
+          <area shape="rect" coords="102,181,147,226" id="n32" />
+          <area shape="rect" coords="156,181,201,226" id="n33" />
+          <area shape="rect" coords="210,181,255,226" id="n34" />
+          <area shape="rect" coords="264,181,309,226" id="n35" />
+          <area shape="rect" coords="318,181,363,226" id="n36" />
+          <area shape="rect" coords="372,181,417,226" id="n37" />
+          <area shape="rect" coords="48,236,93,281" id="n41" />
+          <area shape="rect" coords="102,236,147,281" id="n42" />
+          <area shape="rect" coords="156,236,201,281" id="n43" />
+          <area shape="rect" coords="210,236,255,281" id="n44" />
+          <area shape="rect" coords="264,236,309,281" id="n45" />
+          <area shape="rect" coords="318,236,363,281" id="n46" />
+          <area shape="rect" coords="372,236,417,281" id="n47" />
+          <!-- personal inventory slots -->
+          <area shape="rect" coords="85,300,130,345" id="i1" />
+          <area shape="rect" coords="144,300,189,345" id="i2" />
+          <area shape="rect" coords="204,300,249,345" id="i3" />
+          <area shape="rect" coords="264,300,309,345" id="i4" />
+          <area shape="rect" coords="324,300,369,345" id="i5" />
+          <area shape="rect" coords="385,300,430,345" id="i6" />
+          <!-- the trash can -->
+          <area shape="rect" coords="20,300,65,345" id="trash" />
         </map>
       </bay>
       <bay id="locker">
-        <img id="locker" src="img/sundog/grav_locker/locker2.png" usemap="locker" />
+        <img id="locker" src="img/sundog/grav_locker/locker-inv.png" usemap="locker" />
         <map id="locker"> 
-          <area shape="rect" coords="49,66,94,111" id="n11" />
-          <area shape="rect" coords="113,66,158,111" id="n12" />
-          <area shape="rect" coords="177,66,222,111" id="n13" />
-          <area shape="rect" coords="242,66,287,111" id="n14" />
-          <area shape="rect" coords="306,66,351,111" id="n15" />
-          <area shape="rect" coords="371,66,416,111" id="n16" />
-          <area shape="rect" coords="49,124,94,168" id="n21" />
-          <area shape="rect" coords="113,124,158,168" id="n22" />
-          <area shape="rect" coords="177,124,222,168" id="n23" />
-          <area shape="rect" coords="242,124,287,168" id="n24" />
-          <area shape="rect" coords="306,124,351,168" id="n25" />
-          <area shape="rect" coords="371,124,416,168" id="n26" />
-          <area shape="rect" coords="49,182,94,227" id="n31" />
-          <area shape="rect" coords="113,182,158,227" id="n32" />
-          <area shape="rect" coords="177,182,222,227" id="n33" />
-          <area shape="rect" coords="242,182,287,227" id="n34" />
-          <area shape="rect" coords="306,182,351,227" id="n33" />
-          <area shape="rect" coords="371,182,416,227" id="n33" />
-          <area shape="rect" coords="49,240,94,285" id="n41" />
-          <area shape="rect" coords="113,240,158,285" id="n42" />
-          <area shape="rect" coords="177,240,222,285" id="n43" />
-          <area shape="rect" coords="242,240,287,285" id="n44" />
-          <area shape="rect" coords="306,240,351,285" id="n45" />
-          <area shape="rect" coords="371,240,416,285" id="n46" />
-          <area shape="rect" coords="49,298,94,343" id="n51" />
-          <area shape="rect" coords="113,298,158,343" id="n52" />
-          <area shape="rect" coords="177,298,222,343" id="n53" />
-          <area shape="rect" coords="242,298,287,343" id="n54" />
-          <area shape="rect" coords="306,298,351,343" id="n55" />
-          <area shape="rect" coords="371,298,416,343" id="n56" />
+          <area shape="rect" coords="48,69,93,114" id="n11" />
+          <area shape="rect" coords="102,69,147,114" id="n12" />
+          <area shape="rect" coords="156,69,201,114" id="n13" />
+          <area shape="rect" coords="210,69,255,114" id="n14" />
+          <area shape="rect" coords="264,69,309,114" id="n15" />
+          <area shape="rect" coords="318,69,363,114" id="n16" />
+          <area shape="rect" coords="372,69,417,114" id="n17" />
+          <area shape="rect" coords="48,125,93,170" id="n21" />
+          <area shape="rect" coords="102,125,147,170" id="n22" />
+          <area shape="rect" coords="156,125,201,170" id="n23" />
+          <area shape="rect" coords="210,125,255,170" id="n24" />
+          <area shape="rect" coords="264,125,309,170" id="n25" />
+          <area shape="rect" coords="318,125,363,170" id="n26" />
+          <area shape="rect" coords="372,125,417,170" id="n27" />
+          <area shape="rect" coords="48,181,93,226" id="n31" />
+          <area shape="rect" coords="102,181,147,226" id="n32" />
+          <area shape="rect" coords="156,181,201,226" id="n33" />
+          <area shape="rect" coords="210,181,255,226" id="n34" />
+          <area shape="rect" coords="264,181,309,226" id="n35" />
+          <area shape="rect" coords="318,181,363,226" id="n36" />
+          <area shape="rect" coords="372,181,417,226" id="n37" />
+          <area shape="rect" coords="48,236,93,281" id="n41" />
+          <area shape="rect" coords="102,236,147,281" id="n42" />
+          <area shape="rect" coords="156,236,201,281" id="n43" />
+          <area shape="rect" coords="210,236,255,281" id="n44" />
+          <area shape="rect" coords="264,236,309,281" id="n45" />
+          <area shape="rect" coords="318,236,363,281" id="n46" />
+          <area shape="rect" coords="372,236,417,281" id="n47" />
+          <!-- personal inventory slots -->
+          <area shape="rect" coords="85,300,130,345" id="i1" />
+          <area shape="rect" coords="144,300,189,345" id="i2" />
+          <area shape="rect" coords="204,300,249,345" id="i3" />
+          <area shape="rect" coords="264,300,309,345" id="i4" />
+          <area shape="rect" coords="324,300,369,345" id="i5" />
+          <area shape="rect" coords="385,300,430,345" id="i6" />
+          <!-- the trash can -->
+          <area shape="rect" coords="20,300,65,345" id="trash" />
         </map>
+      </bay>
+      <bay id="locker">
+<!-- <img id="cargo" src="img/sundog/grav_locker/cagro.png" usemap="locker" /> -->
       </bay>
     </bays>
   </ship>
@@ -336,31 +353,34 @@
   </player>
 
   <items>
+    <!-- personal items -->
     <img id="beer" src="img/icons/beer.png" />
     <img id="burger" src="img/icons/burger.png" />
+    <img id="rapidheal" src="img/icons/rapidheal.png" />
+    <img id="peptab" src="img/icons/peptab.png" />
+    <img id="nutra" src="img/icons/nutra.png" />
+    <img id="dex" src="img/icons/dex.png" />
     <img id="charmer" src="img/icons/charmer.png" />
+    <img id="scattergun" src="img/icons/scatter.png" />
+    <img id="stinger" src="img/icons/stinger.png" />
+    <img id="shield" src="img/icons/t-vest.png" />
+    <!-- ship components -->
     <img id="cloaker" src="img/icons/cloaker.png" />
     <img id="control-node" src="img/icons/control-node.png" />
     <img id="cryofuse" src="img/icons/cryofuse.png" />
     <img id="de-cloaker" src="img/icons/de-cloaker.png" />
-    <img id="dex" src="img/icons/dex.png" />
     <img id="flux-modulator" src="img/icons/flux-modulator.png" />
     <img id="jjunc-module" src="img/icons/jjunc-module.png" />
-    <img id="nutra" src="img/icons/nutra.png" />
-    <img id="peptab" src="img/icons/peptab.png" />
     <img id="photon-bridge" src="img/icons/photon-bridge.png" />
     <img id="plasma-tube" src="img/icons/plasma-tube.png" />
-    <img id="rapidheal" src="img/icons/rapidheal.png" />
     <img id="scanner" src="img/icons/scanner.png" />
-    <img id="scatter" src="img/icons/scatter.png" />
     <img id="shunt" src="img/icons/shunt.png" />
     <img id="st-distorter" src="img/icons/st-distorter.png" />
-    <img id="stinger" src="img/icons/stinger.png" />
-    <img id="t-vest" src="img/icons/t-vest.png" />
-    <img id="vest-shield2" src="img/icons/vest-shield2.png" />
-    <img id="vest-shield3" src="img/icons/vest-shield3.png" />
-    <img id="vest-shield4" src="img/icons/vest-shield4.png" />
-    <img id="vest-shield" src="img/icons/vest-shield.png" />
+    <!-- missing images...
+    <img id="concentrator" src="img/icons/concentrator.png" />
+    <img id="autoslew" src="img/icons/concentrator.png" />
+    <img id="jump-booster" src="img/icons/concentrator.png" />
+    <img id="blown" src="img/icons/blown.png" />
+    -->
   </items>
-
 </skin>

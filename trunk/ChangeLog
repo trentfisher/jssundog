@@ -1,3 +1,10 @@
+2007-04-23  Trent Fisher  <trent@phaedrus.veganmilitia.org>
+
+	* js/ui/win.js (function): that was freaky!
+	I added code to update the ship's bays in case
+	anything changed since it was last viewed (like inventory changes
+	or blown components.
+
 2007-04-21  Trent Fisher  <trent@phaedrus.veganmilitia.org>
 
 	* js/ui/win.js (function): make the dropping of items work.
