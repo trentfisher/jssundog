@@ -65,6 +65,7 @@ ImageManager.prototype.remaining = function()
 ImageManager.prototype.get = function(id)
 {
     var i = new Image();
+    logger.log(3, "getting image "+id);
     i.src = this.cache[id].src;
     return i;
 };

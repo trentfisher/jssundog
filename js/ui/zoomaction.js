@@ -73,6 +73,9 @@ function ZoomAction(div)
         if (! wins[name])
             throw("cannot popup window "+name+" not registered");
 
+        // update the window
+        if (wins[name].slot) Win.updateBayInv(wins[name]);
+
         // calculate location...
         // need to make it display before dimensions are set
         wins[name].style.display = "block";
