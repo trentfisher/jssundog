@@ -11,8 +11,9 @@ clean:
 	find . -name '*~' -print | xargs rm
 
 # push to a web site
+# XXX this should work... why doesn't it?
 push:
-	@echo someday...
+	(svn ls -R; echo jsdoc_2-0.2; echo jsdoc.html) | ncftpput -v -R -c -u veganmilitia veganmilitia.org httpdocs/sundog
 
 # Generate JS docs
 jsdocvers=jsdoc_2-0.2
