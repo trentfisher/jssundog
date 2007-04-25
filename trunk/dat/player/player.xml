@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <player>
+  <!-- need to account for temporary increases and decay rates -->
   <attribute id="iq" name="intelligence">50</attribute>
+  <attribute id="dx" name="dexterity">50</attribute>
+  <attribute id="st" name="strength">50</attribute>
+  <attribute id="ch" name="charisma">50</attribute>
+  <attribute id="lk" name="luck">50</attribute>
+  <attribute id="iq" name="intelligence">50</attribute>
+  <status id="vigor">100</status>
+  <status id="rest">100</status>
+  <status id="health">100</status>
+  <status id="nourish">100</status>
   <inventory>
+    <cash>1000</cash>
     <item id="i1">shunt</item>
     <item id="i2"></item>
     <item id="i3"></item>

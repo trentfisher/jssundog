@@ -310,3 +310,34 @@ Win.menuEntry = function(text, action)
     a.innerHTML = text;
     return a;
 }
+
+Win.playerWindow = function(skinconf, playerconf, name)
+{
+    var w = document.createElement("div");
+    w.style.color = "white"; // XXX temporary
+    w.update = function()
+    {
+        w.innerHTML = "Name: "+name+"<br/>";
+        var attrs = XML.getNodes(playerconf, "/player/attribute");
+        for (var i = 0; i < attrs.length; i++)
+        {
+            w.innerHTML += attrs[i].getAttribute("id")+": "+
+                attrs[i].firstChild.data+"<br/>";
+        }
+        var status = XML.getNodes(playerconf, "/player/status");
+        for (var i = 0; i < status.length; i++)
+        {
+            w.innerHTML += status[i].getAttribute("id")+": "+
+                status[i].firstChild.data+"<br/>";
+        }
+        var inv = XML.getNodes(playerconf, "/player/inventory/item");
+        w.innerHTML += "Inventory: ";
+        for (var i = 0; i < inv.length; i++)
+        {
+            if (inv[i].firstChild)
+                w.innerHTML += inv[i].firstChild.data+"<br/>";
+        }
+    };
+    w.update();
+    return w;
+}
