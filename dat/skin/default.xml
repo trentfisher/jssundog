@@ -349,7 +349,23 @@
     </bays>
   </ship>
 
+  <!-- player info window -->
   <player>
+    <img src="img/interface/pers2.png" usemap="pers" />
+    <map name="pers">
+      <area shape="rect" coords="4,3,49,48" id="trash" />
+      <area shape="rect" coords="62,6,107,51" id="shield" />
+      <area shape="rect" coords="42,68,87,113" id="mouth" />
+      <area shape="rect" coords="0,114,42,159" id="body" />
+      <area shape="rect" coords="59,137,104,182" id="gun" />
+      <area shape="rect" coords="6,189,51,234" id="i1" />
+      <area shape="rect" coords="60,189,105,234" id="i2" />
+      <area shape="rect" coords="6,242,51,287" id="i3" />
+      <area shape="rect" coords="60,242,105,287" id="i4" />
+      <area shape="rect" coords="6,296,51,341" id="i5" />
+      <area shape="rect" coords="60,296,105,341" id="i6" />
+      <area shape="rect" coords="114,0,350,349" id="info" />
+    </map>
   </player>
 
   <items>
