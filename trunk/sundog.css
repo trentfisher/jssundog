@@ -15,6 +15,7 @@ img
   width:  800px;
   height: 600px;
   overflow: hidden;
+  color: white;
   background: black;
   background-image: url(img/starbg.gif);
   position: relative;
@@ -30,11 +31,14 @@ img
 {
   border: 3px outset gray;
   position: absolute;
+  color: white;
+  background: black;
 }
 
 #initialmenu
 {
   background-color: white;
+  color: black;
   width: 10em;
 }
 
