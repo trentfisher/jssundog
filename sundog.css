@@ -18,6 +18,8 @@ img
   background: black;
   background-image: url(img/starbg.gif);
   position: relative;
+  border: 4px outset lightgrey;
+  border-bottom: 0;
 }
 #game img
 {
@@ -26,7 +28,7 @@ img
 
 .popup
 {
-  border: 3px outset grey;
+  border: 3px outset gray;
   position: absolute;
 }
 
@@ -67,6 +69,8 @@ a.menuentry:hover
    * Opera can work it out themselves, but 3ex is too big in others */
   height: 20px;
   width:  800px;
+  border: 4px outset lightgrey;
+  border-top: 0;
 }
 #status .progressbar
 {

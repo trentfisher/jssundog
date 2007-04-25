@@ -129,5 +129,10 @@ function startGame()
                       b[i].getAttribute("id"));
     }
 
+    // player window
+    zoom.register(Win.playerWindow(conf["dat/skin/default.xml"],
+                                   conf["dat/player/player.xml"], name),
+                  "airlock");
+
     zoom.popup("ship");
 }

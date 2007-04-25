@@ -8,10 +8,10 @@
       <area shape="rect" coords="311,64,357,75" title="Guns" bay="guns" />
       <area shape="rect" coords="239,207,264,247" title="Storeroom" bay="storeroom" />
       <area shape="rect" coords="312,367,356,380" title="Pilotage" bay="pilotage" />
-      <area shape="rect" coords="151,227,183,246" title="Airlock"  />
-      <area shape="rect" coords="111,162,140,210" title="Cockpit"  />
+      <area shape="rect" coords="151,227,183,246" title="Airlock" bay="airlock"/>
+      <area shape="rect" coords="111,162,140,210" title="Cockpit" bay="cockpit" />
       <area shape="rect" coords="371,132,419,161" title="Cargo Pod" bay="podcargo" />
-      <area shape="rect" coords="345,211,381,258" title="Pod"  />
+      <area shape="rect" coords="345,211,381,258" title="Pod" bay="pod" />
       <area shape="rect" coords="140,120,183,150" title="Locker" bay="locker" />
       <area shape="rect" coords="298,17,353,43" title="Warp Drives" bay="warp" />
       <area shape="rect" coords="354,30,380,63" title="Sub-C Engines" bay="subc" />
