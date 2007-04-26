@@ -11,70 +11,70 @@
       <slot id="n13" holds="photon-bridge,shunt">photon-bridge</slot>
       <slot id="n14" holds="st-distorter,shunt">st-distorter</slot>
       <slot id="n21" holds="control-node">control-node</slot>
-      <slot id="n22" holds="flux-modulator,shunt"></slot>
-      <slot id="n23" holds="photon-bridge,shunt"></slot>
-      <slot id="n24" holds="st-distorter,shunt"></slot>
+      <slot id="n22" holds="flux-modulator,shunt">burnout1</slot>
+      <slot id="n23" holds="photon-bridge,shunt">shunt</slot>
+      <slot id="n24" holds="st-distorter,shunt">st-distorter</slot>
       <slot id="n31" holds="control-node">control-node</slot>
-      <slot id="n32" holds="flux-modulator,shunt"></slot>
-      <slot id="n33" holds="photon-bridge,shunt"></slot>
-      <slot id="n34" holds="st-distorter,shunt"></slot>
+      <slot id="n32" holds="flux-modulator,shunt">burnout2</slot>
+      <slot id="n33" holds="photon-bridge,shunt">photon-bridge</slot>
+      <slot id="n34" holds="st-distorter,shunt">burnout3</slot>
       <slot id="n41" holds="control-node">control-node</slot>
       <slot id="n42" holds="flux-modulator,shunt"></slot>
-      <slot id="n43" holds="photon-bridge,shunt"></slot>
-      <slot id="n44" holds="st-distorter,shunt"></slot>
+      <slot id="n43" holds="photon-bridge,shunt">photon-bridge</slot>
+      <slot id="n44" holds="st-distorter,shunt">st-distorter</slot>
     </bay>
     <bay id="subc">
       <slot id="n11" holds="control-node">control-node</slot>
       <slot id="n12" holds="flux-modulator,shunt">flux-modulator</slot>
-      <slot id="n13" holds="st-distorter,shunt"></slot>
+      <slot id="n13" holds="st-distorter,shunt">burnout4</slot>
       <slot id="n14" holds="cryofuse,shunt">cryofuse</slot>
       <slot id="n21" holds="control-node">control-node</slot>
-      <slot id="n22" holds="flux-modulator,shunt"></slot>
-      <slot id="n23" holds="st-distorter,shunt"></slot>
-      <slot id="n24" holds="cryofuse,shunt"></slot>
+      <slot id="n22" holds="flux-modulator,shunt">flux-modulator</slot>
+      <slot id="n23" holds="st-distorter,shunt">st-distorter</slot>
+      <slot id="n24" holds="cryofuse,shunt">cryofuse</slot>
       <slot id="n31" holds="control-node">control-node</slot>
-      <slot id="n32" holds="flux-modulator,shunt"></slot>
-      <slot id="n33" holds="st-distorter,shunt"></slot>
-      <slot id="n34" holds="cryofuse,shunt"></slot>
+      <slot id="n32" holds="flux-modulator,shunt">flux-modulator</slot>
+      <slot id="n33" holds="st-distorter,shunt">st-distorter</slot>
+      <slot id="n34" holds="cryofuse,shunt">cryofuse</slot>
       <slot id="n41" holds="control-node">control-node</slot>
       <slot id="n42" holds="flux-modulator,shunt"></slot>
-      <slot id="n43" holds="st-distorter,shunt"></slot>
-      <slot id="n44" holds="cryofuse,shunt"></slot>
+      <slot id="n43" holds="st-distorter,shunt">burnout5</slot>
+      <slot id="n44" holds="cryofuse,shunt">burnout6</slot>
     </bay>
     <bay id="guns">
       <slot id="n11" holds="control-node">control-node</slot>
       <slot id="n12" holds="cryofuse,shunt">cryofuse</slot>
-      <slot id="n13" holds="photon-bridge,concentrator,shunt"></slot>
+      <slot id="n13" holds="photon-bridge,concentrator,shunt">photon-bridge</slot>
       <slot id="n14" holds="plasma-tube,shunt">plasma-tube</slot>
       <slot id="n21" holds="control-node">control-node</slot>
-      <slot id="n22" holds="cryofuse,shunt"></slot>
-      <slot id="n23" holds="photon-bridge,concentrator,shunt"></slot>
-      <slot id="n24" holds="plasma-tube,shunt"></slot>
+      <slot id="n22" holds="cryofuse,shunt">cryofuse</slot>
+      <slot id="n23" holds="photon-bridge,concentrator,shunt">burnout2</slot>
+      <slot id="n24" holds="plasma-tube,shunt">plasma-tube</slot>
       <slot id="n31" holds="control-node">control-node</slot>
-      <slot id="n32" holds="cryofuse,shunt"></slot>
-      <slot id="n33" holds="photon-bridge,concentrator,shunt"></slot>
-      <slot id="n34" holds="plasma-tube,shunt"></slot>
+      <slot id="n32" holds="cryofuse,shunt">cryofuse</slot>
+      <slot id="n33" holds="photon-bridge,concentrator,shunt">photon-bridge</slot>
+      <slot id="n34" holds="plasma-tube,shunt">plasma-tube</slot>
       <slot id="n41" holds="control-node">control-node</slot>
-      <slot id="n42" holds="cryofuse,shunt"></slot>
-      <slot id="n43" holds="photon-bridge,concentrator,shunt"></slot>
+      <slot id="n42" holds="cryofuse,shunt">cryofuse</slot>
+      <slot id="n43" holds="photon-bridge,concentrator,shunt">concentrator</slot>
       <slot id="n44" holds="plasma-tube,shunt"></slot>
     </bay>
     <bay id="tactical">
       <!-- autoslew goes in here somewhere? -->
       <slot id="n11" holds="control-node">control-node</slot>
-      <slot id="n12" holds="scanner,shunt">scanner</slot>
+      <slot id="n12" holds="scanner,autoslew,shunt">scanner</slot>
       <slot id="n13" holds="jjunc-module,de-cloaker,shunt">jjunc-module</slot>
       <slot id="n14" holds="photon-bridge,shunt">photon-bridge</slot>
       <slot id="n21" holds="control-node">control-node</slot>
-      <slot id="n22" holds="scanner,shunt"></slot>
+      <slot id="n22" holds="scanner,autoslew,shunt"></slot>
       <slot id="n23" holds="jjunc-module,de-cloaker,shunt">jjunc-module</slot>
       <slot id="n24" holds="photon-bridge,shunt">photon-bridge</slot>
       <slot id="n31" holds="control-node">control-node</slot>
-      <slot id="n32" holds="scanner,shunt"></slot>
-      <slot id="n33" holds="jjunc-module,de-cloaker,shunt"></slot>
-      <slot id="n34" holds="photon-bridge,shunt"></slot>
+      <slot id="n32" holds="scanner,autoslew,shunt">autoslew</slot>
+      <slot id="n33" holds="jjunc-module,de-cloaker,shunt">de-cloaker</slot>
+      <slot id="n34" holds="photon-bridge,shunt">burnout1</slot>
       <slot id="n41" holds="control-node">control-node</slot>
-      <slot id="n42" holds="scanner,shunt">scanner</slot>
+      <slot id="n42" holds="scanner,autoslew,shunt">scanner</slot>
       <slot id="n43" holds="jjunc-module,de-cloaker,shunt">jjunc-module</slot>
       <slot id="n44" holds="photon-bridge,shunt">photon-bridge</slot>
     </bay>
@@ -84,17 +84,17 @@
       <slot id="n13" holds="flux-modulator,shunt"></slot>
       <slot id="n14" holds="flux-modulator,shunt">flux-modulator</slot>
       <slot id="n21" holds="control-node">control-node</slot>
-      <slot id="n22" holds="cryofuse,cloaker,shunt"></slot>
-      <slot id="n23" holds="flux-modulator,shunt"></slot>
-      <slot id="n24" holds="flux-modulator,shunt"></slot>
+      <slot id="n22" holds="cryofuse,cloaker,shunt">cloaker</slot>
+      <slot id="n23" holds="flux-modulator,shunt">flux-modulator</slot>
+      <slot id="n24" holds="flux-modulator,shunt">flux-modulator</slot>
       <slot id="n31" holds="control-node">control-node</slot>
       <slot id="n32" holds="cryofuse,cloaker,shunt"></slot>
-      <slot id="n33" holds="flux-modulator,shunt"></slot>
-      <slot id="n34" holds="flux-modulator,shunt"></slot>
+      <slot id="n33" holds="flux-modulator,shunt">flux-modulator</slot>
+      <slot id="n34" holds="flux-modulator,shunt">burnout2</slot>
       <slot id="n41" holds="control-node">control-node</slot>
       <slot id="n42" holds="cryofuse,cloaker,shunt"></slot>
-      <slot id="n43" holds="flux-modulator,shunt"></slot>
-      <slot id="n44" holds="flux-modulator,shunt"></slot>
+      <slot id="n43" holds="flux-modulator,shunt">flux-modulator</slot>
+      <slot id="n44" holds="flux-modulator,shunt">flux-modulator</slot>
     </bay>
     <bay id="pilotage">
       <slot id="n11" holds="control-node">control-node</slot>
@@ -103,11 +103,11 @@
       <slot id="n14" holds="jjunc-module,shunt">jjunc-module</slot>
       <slot id="n21" holds="control-node">control-node</slot>
       <slot id="n22" holds="jjunc-module,shunt">jjunc-module</slot>
-      <slot id="n23" holds="scanner,ground-scanner,shunt">scanner</slot>
-      <slot id="n24" holds="jjunc-module,shunt"></slot>
+      <slot id="n23" holds="scanner,ground-scanner,shunt">ground-scanner</slot>
+      <slot id="n24" holds="jjunc-module,shunt">burnout4</slot>
       <slot id="n31" holds="control-node">control-node</slot>
-      <slot id="n32" holds="jjunc-module,shunt"></slot>
-      <slot id="n33" holds="scanner,ground-scanner,shunt"></slot>
+      <slot id="n32" holds="jjunc-module,shunt">jjunc-module</slot>
+      <slot id="n33" holds="scanner,ground-scanner,shunt">scanner</slot>
       <slot id="n34" holds="jjunc-module,shunt">jjunc-module</slot>
       <slot id="n41" holds="control-node">control-node</slot>
       <slot id="n42" holds="jjunc-module,shunt">jjunc-module</slot>

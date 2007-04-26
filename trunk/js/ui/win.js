@@ -314,7 +314,6 @@ Win.menuEntry = function(text, action)
 Win.playerWindow = function(skinconf, playerconf, name)
 {
     var w = document.createElement("div");
-    w.style.color = "white"; // XXX temporary
     w.update = function()
     {
         w.innerHTML = "Name: "+name+"<br/>";

@@ -392,11 +392,19 @@
     <img id="scanner" src="img/icons/scanner.png" />
     <img id="shunt" src="img/icons/shunt.png" />
     <img id="st-distorter" src="img/icons/st-distorter.png" />
-    <!-- missing images...
     <img id="concentrator" src="img/icons/concentrator.png" />
-    <img id="autoslew" src="img/icons/concentrator.png" />
-    <img id="jump-booster" src="img/icons/concentrator.png" />
-    <img id="blown" src="img/icons/blown.png" />
+    <img id="autoslew" src="img/icons/autoslew.png" />
+    <img id="ground-scanner" src="img/icons/ground-scanner.png" />
+    <!-- missing...
+    <img id="jump-booster" src="img/icons/jump-booster.png" />
+    -->
+    <!-- destroyed components... variations -->
+    <img id="burnout1" src="img/icons/burnout1.png" />
+    <img id="burnout2" src="img/icons/burnout2.png" />
+    <img id="burnout3" src="img/icons/burnout3.png" />
+    <img id="burnout4" src="img/icons/burnout4.png" />
+    <img id="burnout5" src="img/icons/burnout5.png" />
+    <img id="burnout6" src="img/icons/burnout6.png" />
     -->
   </items>
 </skin>
