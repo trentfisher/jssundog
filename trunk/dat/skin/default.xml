@@ -364,7 +364,7 @@
       <area shape="rect" coords="60,242,105,287" id="i4" />
       <area shape="rect" coords="6,296,51,341" id="i5" />
       <area shape="rect" coords="60,296,105,341" id="i6" />
-      <area shape="rect" coords="114,0,350,349" id="info" />
+      <area shape="rect" coords="114,0,350,349" id="interact" />
     </map>
   </player>
 
@@ -403,6 +403,5 @@
     <img id="burnout4" src="img/icons/burnout4.png" />
     <img id="burnout5" src="img/icons/burnout5.png" />
     <img id="burnout6" src="img/icons/burnout6.png" />
-    -->
   </items>
 </skin>

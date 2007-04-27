@@ -1,0 +1,29 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<html> <head>
+<title>stacktrace</title>
+</head>
+
+<body>
+<h1>stacktrace</h1>
+<script type="text/javascript">
+function stacktrace()
+{
+  var s = "";
+  var f = arguments.callee.caller;
+  while(f != null)
+  {
+    // IE does not define the name attribute
+    s += (f.name || f); s+= " -> ";
+    f = f.caller;
+  }
+  return s;
+}
+function a() { return stacktrace(); }
+function b() { return a(); }
+document.write("trace: "+a()+"<br/>");
+document.write("trace: "+b()+"<br/>");
+</script>
+<hr>
+<address></address>
+<!-- hhmts start --> Last modified: Fri Apr 27 15:11:50 Pacific Daylight Time 2007 <!-- hhmts end -->
+</body> </html>
