@@ -395,9 +395,7 @@
     <img id="concentrator" src="img/icons/concentrator.png" />
     <img id="autoslew" src="img/icons/autoslew.png" />
     <img id="ground-scanner" src="img/icons/groundscanner.png" />
-    <!-- missing...
-    <img id="jump-booster" src="img/icons/jump-booster.png" />
-    -->
+    <img id="jump-booster" src="img/icons/jumpbooster.png" />
     <!-- destroyed components... variations -->
     <img id="burnout1" src="img/icons/burnout1.png" />
     <img id="burnout2" src="img/icons/burnout2.png" />
