@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- various interactions and conversations between the player and others -->
+<interactions>
+
+  <interact id="playerinfo">
+    <state id="start">
+      <text>Player info here...<br/><img src="../img/icons/beer.png" /></text>
+      <option name="Sleep" next="sleep" />
+    </state>
+    <state id="sleep">
+      <text>Player info here...<br/><b>sleeping</b>
+        <img id="control-node" /></text>
+      <action id="sleep" />
+      <option name="Wake" next="start" />
+    </state>
+  </interact>
+
+  <interact id="tavern">
+    <state id="start">
+      <text>Whaddya want, mac?</text>
+      <option name="Drink" next="drink" />
+      <option name="Food" next="food" />
+    </state>
+    <state id="food">
+      <text>Here you go...</text>
+      <slot id="c1" holds="burger" cost="30">burger</slot>
+      <timeout next="foodq" time="2000" />
+    </state>
+    <state id="foodq">
+      <text>Do you want it or not?</text>
+      <option name="Yes" next="food" />
+      <option name="No" next="done" />
+    </state>
+    <!-- ... -->
+  </interact>
+</interactions>

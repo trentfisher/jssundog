@@ -1,0 +1,38 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<html> <head>
+<title>Interact engine test</title>
+<script type="text/javascript" src="../js/util/xml.js"></script>
+<script type="text/javascript" src="../js/ui/interact.js"></script>
+</head>
+<body>
+<h1>Interact engine test</h1>
+<form>
+<select id="ilist" onchange="start_interact(this)">
+</select>
+</form>
+<div id="int">...</div>
+<script type="text/javascript">
+function process_xml(r, u)
+{
+    conf = r;
+    var select = document.getElementById("ilist");
+    var interacts = r.getElementsByTagName("interact");
+    for (var i = 0; i < interacts.length; i++)
+    {
+        var o = new Option(interacts[i].getAttribute("id"));
+        o.innerHTML=interacts[i].getAttribute("id");  // IE needs this...
+        select.appendChild(o);
+    }
+    select.selectedIndex = -1;
+}
+function start_interact(s)
+{
+    new Interaction("int", conf, s.options[s.selectedIndex].text);
+}
+XML.loadAsync("../dat/player/interact.xml", process_xml);
+</script>
+<hr>
+<address>
+<!-- hhmts start --> Last modified: Fri Apr 27 14:36:37 Pacific Daylight Time 2007 <!-- hhmts end -->
+</address>
+</body> </html>
