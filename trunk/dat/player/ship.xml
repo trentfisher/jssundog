@@ -98,7 +98,7 @@
     </bay>
     <bay id="pilotage">
       <slot id="n11" holds="control-node">control-node</slot>
-      <slot id="n12" holds="jjunc-module,shunt">cryofuse</slot>
+      <slot id="n12" holds="jjunc-module,shunt"></slot>
       <slot id="n13" holds="scanner,ground-scanner,shunt">scanner</slot>
       <slot id="n14" holds="jjunc-module,shunt">jjunc-module</slot>
       <slot id="n21" holds="control-node">control-node</slot>
@@ -173,6 +173,25 @@
       <slot id="n45"></slot>
       <slot id="n46"></slot>
       <slot id="n47"></slot>
+    </bay>
+    <bay id="cargo">
+      <slot id="n11">beer</slot>
+      <slot id="n12">burger</slot>
+      <slot id="n13"></slot>
+      <slot id="n14"></slot>
+      <slot id="n21">stinger</slot>
+      <slot id="n22">scattergun</slot>
+      <slot id="n23">shield</slot>
+      <slot id="n24"></slot>
+      <slot id="n31">rapidheal</slot>
+      <slot id="n32">peptab</slot>
+      <slot id="n33">nutra</slot>
+      <slot id="n34">dex</slot>
+      <slot id="n41"></slot>
+      <slot id="n42"></slot>
+      <slot id="n43"></slot>
+      <slot id="n44"></slot>
+      <interact id="interact" name="cargo"/>
     </bay>
   </bays>
 </ship>

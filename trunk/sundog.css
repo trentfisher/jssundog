@@ -34,11 +34,26 @@ img
   color: white;
   background: black;
 }
-
-#initialmenu
+.interact
+{
+  border: 3px inset gray;
+  position: absolute;
+  color: white;
+  background: black;
+}
+/* the initial menu is black on white */
+#initialmenu, #initialmenu a.menuentry
 {
   background-color: white;
   color: black;
+}
+#initialmenu a.menuentry:hover
+{
+  background-color: black;
+  color: white;
+}
+#initialmenu
+{
   width: 10em;
 }
 
@@ -47,14 +62,14 @@ a.menuentry
   display: block;
   border: 3px dotted gray;
   text-decoration: none;
-  color: black;
+  color: white;
   margin-top: 1px;
   outline: none;  /* to prevent dotted outline in firefox */
 }
 a.menuentry:hover
 {
-  color: white;
-  background-color: black;
+  color: black;
+  background-color: white;
 }
 
 #veil
@@ -83,6 +98,11 @@ a.menuentry:hover
 #status .progresstxt
 {
   text-align: center;
+}
+#clock, #statustext
+{
+  display: inline;
+  border-left: 2px solid black;
 }
 
 /* Logging */

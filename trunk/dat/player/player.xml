@@ -13,13 +13,15 @@
   <status id="nourish">100</status>
   <inventory>
     <cash>1000</cash>
-    <item id="i1">shunt</item>
-    <item id="i2"></item>
-    <item id="i3"></item>
-    <item id="i4"></item>
-    <item id="i5"></item>
-    <item id="i6"></item>
-    <item id="hand"></item>
-    <item id="shield"></item>
+    <slot id="i1">shunt</slot>
+    <slot id="i2"></slot>
+    <slot id="i3"></slot>
+    <slot id="i4"></slot>
+    <slot id="i5"></slot>
+    <slot id="i6"></slot>
+    <slot id="ihand"></slot>
+    <slot id="ishield"></slot>
+    <slot id="imouth"></slot>
+    <slot id="ibody"></slot>
   </inventory>
 </player>

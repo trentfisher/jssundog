@@ -47,7 +47,7 @@ function Logger(div, curlev)
                              (timespan.toFixed(2)) + ": "+levindent+
                              msg + "</div>");
         // scroll window to bottom
-        divobj.scrollTop = divobj.scrollHeight;
+        //divobj.scrollTop = divobj.scrollHeight;
     }
     /**
        Change the level which this logger will display messages.

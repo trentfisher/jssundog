@@ -71,7 +71,8 @@ function loadGame(name)
     logger.log(2, "loading game for "+name);
 
     var fcnt = 0;
-    var expcnt = 3;
+    var expcnt = 4;
+    var imglist = new Array();
     function process_xml(r, url)
     {
         progbar.update(++fcnt, expcnt);
@@ -82,15 +83,23 @@ function loadGame(name)
         var img = conf[url].getElementsByTagName("img");
         for (var i = 0; i < img.length; i++)
         {
-            expcnt += images.add(img[i].getAttribute("src"),
-                                 img[i].getAttribute("id"),
-                                 process_img);
-            //requestImage(img[i].getAttribute("mask"), filecnt);
-            progbar.update(fcnt, expcnt);
+            imglist.push(img[i]);
         }
 
         // Start the game if we have loaded all files
-        if (fcnt >= expcnt) startGame();
+        if (fcnt >= expcnt) loadImages(imglist); //startGame();
+    }
+    function loadImages(imglist)
+    {
+        fcnt = 0;
+        expcnt = 0;
+        progbar.update(fcnt, imglist.length, "Loading images...");
+        for (var i = 0; i < imglist.length; i++)
+        {
+             expcnt += images.add(imglist[i].getAttribute("src"),
+                                 imglist[i].getAttribute("id"),
+                                 process_img);
+        }
     }
     function process_img(r, url, id)
     {
@@ -103,14 +112,19 @@ function loadGame(name)
     XML.loadAsync("dat/skin/default.xml", process_xml);
     XML.loadAsync("dat/player/ship.xml", process_xml);
     XML.loadAsync("dat/player/player.xml", process_xml);
+    XML.loadAsync("dat/player/interact.xml", process_xml);
 }
 
 function startGame()
 {
     var fcnt=0;
-    var expcnt=9;
+    var expcnt=10;
+
     // get rid of the splash graphic
     document.getElementById("splashimg").style.display = "none";
+
+    // set up the game object
+    player = new Player(conf["dat/player/player.xml"]);
 
     // Set up the various windows...
     // ship
@@ -122,17 +136,55 @@ function startGame()
     for (var i = 0; i < b.length; i++)
     {
         progbar.update(++fcnt, expcnt, "Setting up interface");
-        zoom.register(Win.shipBay(conf["dat/skin/default.xml"],
+        zoom.register(Win.shipBay(b[i].getAttribute("id"),
+                                  conf["dat/skin/default.xml"],
                                   conf["dat/player/ship.xml"],
                                   conf["dat/player/player.xml"],
-                                  b[i].getAttribute("id")),
+                                  conf["dat/player/interact.xml"]),
                       b[i].getAttribute("id"));
     }
 
     // player window
     zoom.register(Win.playerWindow(conf["dat/skin/default.xml"],
-                                   conf["dat/player/player.xml"], name),
+                                   conf["dat/player/player.xml"],
+                                   conf["dat/player/interact.xml"],
+                                   name),
+                  "playerinfo");
+
+    // airlock test window
+    zoom.register(new InteractionWindow("airlock",
+                                        "/skin/player", "", "airlocktest",
+                                        conf["dat/skin/default.xml"],
+                                        conf["dat/player/ship.xml"],
+                                        conf["dat/player/player.xml"],
+                                        conf["dat/player/interact.xml"]),
                   "airlock");
 
+    // rework status bar
+    setupStatusBar();
+     
     zoom.popup("ship");
 }
+
+function setupStatusBar()
+{
+    var bar = document.getElementById("status");
+    bar.innerHTML = "";
+    var p = document.createElement("a");
+    p.href = "#";
+    p.onclick = function() { zoom.popup("playerinfo"); return false; };
+    p.innerHTML = "Player";
+    p.style.float = "left";
+    var s = document.createElement("span");
+    s.id="statustext";
+    s.innerHTML = "started!";
+    var c = document.createElement("span");
+    c.id="clock";
+    c.innerHTML = "00:00";
+    p.style.float = "right";
+    bar.appendChild(p);
+    bar.appendChild(s);
+    bar.appendChild(c);
+    s.style.width = bar.offsetWidth - p.offsetWidth - c.offsetWidth + "px";
+}
+
