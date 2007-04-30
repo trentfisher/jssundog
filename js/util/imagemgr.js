@@ -34,7 +34,7 @@ ImageManager.prototype.add = function(url, id, callback)
     if (this.cache[id] && this.cache[url]) return 0;
     if (this.cache[url]) // duplicate url
     {
-        var i = new Image;
+        logger.log(3, "duplicate image "+id+" url "+url);
         this.cache[id] = this.cache[url];
         return 0;
     }

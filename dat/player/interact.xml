@@ -2,14 +2,20 @@
 <!-- various interactions and conversations between the player and others -->
 <interactions>
 
+  <interact id="cargo">
+    <state id="start">
+      <text>Your Cargo...</text>
+      <action id="showcargo" />
+    </state>
+  </interact>
+
   <interact id="playerinfo">
     <state id="start">
-      <text>Player info here...<br/><img src="../img/icons/beer.png" /></text>
+      <action id="player" />
       <option name="Sleep" next="sleep" />
     </state>
     <state id="sleep">
-      <text>Player info here...<br/><b>sleeping</b>
-        <img id="control-node" /></text>
+      <text>you're feeling sleepy...</text>
       <action id="sleep" />
       <option name="Wake" next="start" />
     </state>
@@ -33,4 +39,22 @@
     </state>
     <!-- ... -->
   </interact>
+
+  <!-- test... temporarily bound to the airlock -->
+  <interact id="airlocktest">
+    <state id="start">
+      <text>We're in deep space, do you really want to go outside?</text>
+      <option name="Yes" next="out" />
+      <option name="No" next="done" />
+      <option name="Open the pod bay doors, Hal" next="dave" />
+    </state>
+    <state id="out">
+      <text>You have died!</text>
+    </state>
+    <state id="dave">
+      <text>I'm sorry Dave, I'm afraid I can't do that</text>
+      <timeout next="start" time="2000"/>
+    </state>
+  </interact>
+
 </interactions>
