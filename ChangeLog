@@ -1,3 +1,17 @@
+2007-04-30  Trent Fisher  <trent@phaedrus.veganmilitia.org>
+
+	* js/util/imagemgr.js (get):
+	supposedly cloning an element is faster than creating a new one
+	try with get method... faster by about 15%, but image dimmensions
+	are incorrect (0x0).
+	http://www.quirksmode.org/dom/innerhtml.html
+
+2007-04-29  Trent Fisher  <trent@phaedrus.veganmilitia.org>
+
+	* js/ui/interact.js: generic interaction window
+	superset of ship bays, player window and any similar windows
+	Major restructure.
+
 2007-04-23  Trent Fisher  <trent@phaedrus.veganmilitia.org>
 
 	* js/ui/win.js (function): that was freaky!

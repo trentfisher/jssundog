@@ -65,7 +65,10 @@ ImageManager.prototype.remaining = function()
 ImageManager.prototype.get = function(id)
 {
     var i = new Image();
-    logger.log(3, "getting image "+id);
     i.src = this.cache[id].src;
+    // XXX this is faster by about 15%, but it doesn't work.
+    // the cloned image is 0x0, though it says loading is complete... strange
+    //var i = this.cache[id].cloneNode(true);
+    logger.log(3, "getting image "+id+" ("+i.width+"x"+i.height+") ");
     return i;
 };
