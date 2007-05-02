@@ -291,14 +291,16 @@
           <area shape="rect" coords="318,236,363,281" id="n46" />
           <area shape="rect" coords="372,236,417,281" id="n47" />
           <!-- personal inventory slots -->
-          <area shape="rect" coords="85,300,130,345" id="i1" />
-          <area shape="rect" coords="144,300,189,345" id="i2" />
-          <area shape="rect" coords="204,300,249,345" id="i3" />
-          <area shape="rect" coords="264,300,309,345" id="i4" />
-          <area shape="rect" coords="324,300,369,345" id="i5" />
-          <area shape="rect" coords="385,300,430,345" id="i6" />
+          <area shape="rect" coords="49,300,94,345" id="i1" />
+          <area shape="rect" coords="98,300,143,345" id="i2" />
+          <area shape="rect" coords="147,300,192,345" id="i3" />
+          <area shape="rect" coords="196,300,241,345" id="i4" />
+          <area shape="rect" coords="245,300,290,345" id="i5" />
+          <area shape="rect" coords="294,300,339,345" id="i6" />
+          <area shape="rect" coords="352,300,397,345" id="ihand" />
+          <area shape="rect" coords="401,300,446,345" id="ishield" />
           <!-- the trash can -->
-          <area shape="rect" coords="20,300,65,345" id="trash" />
+          <area shape="rect" coords="13,312,33,334" id="trash" />
         </map>
       </bay>
       <bay id="locker">
@@ -333,14 +335,16 @@
           <area shape="rect" coords="318,236,363,281" id="n46" />
           <area shape="rect" coords="372,236,417,281" id="n47" />
           <!-- personal inventory slots -->
-          <area shape="rect" coords="85,300,130,345" id="i1" />
-          <area shape="rect" coords="144,300,189,345" id="i2" />
-          <area shape="rect" coords="204,300,249,345" id="i3" />
-          <area shape="rect" coords="264,300,309,345" id="i4" />
-          <area shape="rect" coords="324,300,369,345" id="i5" />
-          <area shape="rect" coords="385,300,430,345" id="i6" />
+          <area shape="rect" coords="49,300,94,345" id="i1" />
+          <area shape="rect" coords="98,300,143,345" id="i2" />
+          <area shape="rect" coords="147,300,192,345" id="i3" />
+          <area shape="rect" coords="196,300,241,345" id="i4" />
+          <area shape="rect" coords="245,300,290,345" id="i5" />
+          <area shape="rect" coords="294,300,339,345" id="i6" />
+          <area shape="rect" coords="352,300,397,345" id="ihand" />
+          <area shape="rect" coords="401,300,446,345" id="ishield" />
           <!-- the trash can -->
-          <area shape="rect" coords="20,300,65,345" id="trash" />
+          <area shape="rect" coords="13,312,33,334" id="trash" />
         </map>
       </bay>
       <bay id="cargo">
@@ -365,14 +369,16 @@
           <!-- cargo status -->
           <area shape="rect" coords="260,65,418,283" id="interact" />
           <!-- personal inventory slots -->
-          <area shape="rect" coords="85,300,130,345" id="i1" />
-          <area shape="rect" coords="144,300,189,345" id="i2" />
-          <area shape="rect" coords="204,300,249,345" id="i3" />
-          <area shape="rect" coords="264,300,309,345" id="i4" />
-          <area shape="rect" coords="324,300,369,345" id="i5" />
-          <area shape="rect" coords="385,300,430,345" id="i6" />
+          <area shape="rect" coords="49,300,94,345" id="i1" />
+          <area shape="rect" coords="98,300,143,345" id="i2" />
+          <area shape="rect" coords="147,300,192,345" id="i3" />
+          <area shape="rect" coords="196,300,241,345" id="i4" />
+          <area shape="rect" coords="245,300,290,345" id="i5" />
+          <area shape="rect" coords="294,300,339,345" id="i6" />
+          <area shape="rect" coords="352,300,397,345" id="ihand" />
+          <area shape="rect" coords="401,300,446,345" id="ishield" />
           <!-- the trash can -->
-          <area shape="rect" coords="20,300,65,345" id="trash" />
+          <area shape="rect" coords="13,312,33,334" id="trash" />
         </map>
       </bay>
     </bays>
@@ -382,18 +388,19 @@
   <player>
     <img src="img/interface/pers2.png" usemap="pers" />
     <map name="pers">
-      <area shape="rect" coords="4,3,49,48" id="trash" />
-      <area shape="rect" coords="62,6,107,51" id="ishield" />
-      <area shape="rect" coords="42,68,87,113" id="imouth" />
-      <area shape="rect" coords="0,114,42,159" id="ibody" />
-      <area shape="rect" coords="59,137,104,182" id="ihand" />
-      <area shape="rect" coords="6,189,51,234" id="i1" />
-      <area shape="rect" coords="60,189,105,234" id="i2" />
-      <area shape="rect" coords="6,242,51,287" id="i3" />
-      <area shape="rect" coords="60,242,105,287" id="i4" />
-      <area shape="rect" coords="6,296,51,341" id="i5" />
-      <area shape="rect" coords="60,296,105,341" id="i6" />
-      <area shape="rect" coords="114,0,444,343" id="interact" />
+      <area shape="rect" coords="3,135,48,180" id="i1" />
+      <area shape="rect" coords="52,135,97,180" id="i2" />
+      <area shape="rect" coords="3,184,48,229" id="i3" />
+      <area shape="rect" coords="52,184,97,229" id="i4" />
+      <area shape="rect" coords="3,233,47,278" id="i5" />
+      <area shape="rect" coords="52,233,97,278" id="i6" />
+      <area shape="rect" coords="3,282,48,327" id="ihand" />
+      <area shape="rect" coords="51,282,96,327" id="ishield" />
+      <area shape="rect" coords="2,69,24,92" id="ibody" />
+      <area shape="rect" coords="25,39,47,62" id="imouth" />
+      <area shape="rect" coords="62,3,86,27" id="trash" />
+      <!-- <area shape="rect" coords="62,49,86,74" id="icash" /> -->
+      <area shape="rect" coords="104,0,395,324" id="interact" />
     </map>
   </player>
 
