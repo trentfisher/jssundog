@@ -168,6 +168,7 @@ function startGame()
 
 function setupStatusBar()
 {
+    logger.log(1, "Setting up status bar");
     var bar = document.getElementById("status");
     bar.innerHTML = "";
     var p = document.createElement("a");
