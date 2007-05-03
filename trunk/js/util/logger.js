@@ -41,13 +41,19 @@ function Logger(div, curlev)
         if (lev > curlev) return;
         var now = new Date();
         var timespan = (now.valueOf() - starttime.valueOf())/1000;
-        var levindent = lev+" ";
-        for (var i = 0; i < lev; i++) levindent += " ";
+
+        // determine how deep we are in functions
+        var stackdepth = 0;
+        var frame = arguments.callee.caller;
+        while(frame != null) { stackdepth++; frame = frame.caller; }
+        var indent = " ";
+        for (var i = 0; i < stackdepth; i++) indent += " ";
+
         divobj.innerHTML += ("<div class='log"+lev+"'>" +
-                             (timespan.toFixed(2)) + ": "+levindent+
+                             (timespan.toFixed(2)) + " ("+lev+"): "+indent+
                              msg + "</div>");
         // scroll window to bottom
-        //divobj.scrollTop = divobj.scrollHeight;
+        divobj.scrollTop = divobj.scrollHeight;
     }
     /**
        Change the level which this logger will display messages.
@@ -59,5 +65,32 @@ function Logger(div, curlev)
     {
         curlev = lev;
     }
+    /**
+     * returns the name of the given function object (if known)
+     * this isn't of much use since most functions are anonymous
+     */
+    this.getFuncName = function(f)
+    {
+        if (!f) return "null";
+        if (! f instanceof Function) return "NotAFunction";
+        if (!f.name) return "anonymous";
+        return f.name;
+    }
+    /**
+       Return a stack trace
+    */
+    this.stacktrace = function()
+    {
+        var s = new Array();
+        var f = arguments.callee.caller;
+        while(f != null)
+        {
+            // IE does not define the name attribute
+            s += (f.name || f); s+= " -> ";
+            f = f.caller;
+        }
+        return s;
+    }
     return this;
 }
+
