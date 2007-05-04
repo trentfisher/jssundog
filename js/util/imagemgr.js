@@ -29,13 +29,32 @@ function ImageManager()
     this.loaded = 0;
 }
 
-ImageManager.prototype.add = function(url, id, callback)
+/**
+ Add an image to the image manager
+ If the image is already in the cache, the callback is not called.
+ If a width and height are given, the callback is not called.
+ @return 1 if the image needs to be waited for, 0 if not (i.e. if the dimensions are known
+*/
+ImageManager.prototype.add = function(url, id, callback, width, height)
 {
     if (this.cache[id] && this.cache[url]) return 0;
     if (this.cache[url]) // duplicate url
     {
         logger.log(3, "duplicate image "+id+" url "+url);
         this.cache[id] = this.cache[url];
+        return 0;
+    }
+    if (width && height)
+    {
+        logger.log(1, "Requesting image "+url+" id "+id+
+                   " ("+width+"x"+height+")");
+        var i = new Image;
+        this.cache[id] = this.cache[url] = i;
+        i.id = id;
+        i.imgMgr = this;
+        i.width = width;
+        i.height = height;
+        i.src = url;
         return 0;
     }
     logger.log(1, "Requesting image "+url+" id "+id);

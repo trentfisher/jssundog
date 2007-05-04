@@ -3,7 +3,7 @@
   <ship>
     <name>Sundog</name>
     <img id="pod" src="img/sundog/interior.png"
-         mask="img/sundog/interior-mask.png" usemap="pod" />
+         mask="img/sundog/interior-mask.png" usemap="pod" width="752" height="410" />
     <map name="pod">
       <area shape="rect" coords="311,64,357,75" title="Guns" bay="guns" />
       <area shape="rect" coords="239,207,264,247" title="Storeroom" bay="storeroom" />
@@ -20,7 +20,7 @@
     </map>
 
     <img id="nopod" src="img/sundog/interior.png"
-         mask="img/sundog/interior-mask.png" usemap="nopod" />
+         mask="img/sundog/interior-mask.png" usemap="nopod" width="752" height="410" />
     <map name="nopod">
       <area shape="rect" coords="311,64,357,75" title="Guns"  />
       <area shape="rect" coords="239,207,264,247" title="Storeroom"  />
@@ -35,7 +35,7 @@
     </map>
     
     <img id="podonly" src="img/sundog/pod.png"
-         mask="img/sundog/pod-mask.png" usemap="podonly" />
+         mask="img/sundog/pod-mask.png" usemap="podonly" width="407" height="254" />
     <map name="podonly">
       <area shape="rect" coords="66,60,112,88" title="Pod Cargo" />
       <area shape="rect" coords="17,75,49,110" title="Exit" />
@@ -44,7 +44,7 @@
 
     <bays>
       <bay id="warp">
-        <img id="warp" src="img/sundog/mech_bays/warp.png" usemap="warp" />
+        <img id="warp" src="img/sundog/mech_bays/warp.png" usemap="warp" width="450" height="350" />
         <map name="warp">
           <area shape="rect" coords="124,26,169,71" id="n11" />
           <area shape="rect" coords="124,89,169,134" id="n21" />
@@ -80,7 +80,7 @@
         </map>
       </bay>
       <bay id="subc">
-        <img id="subc" src="img/sundog/mech_bays/sub-c.png" usemap="subc" />
+        <img id="subc" src="img/sundog/mech_bays/sub-c.png" usemap="subc" width="450" height="350" />
         <map name="subc">
           <area shape="rect" coords="124,26,169,71" id="n11" />
           <area shape="rect" coords="124,89,169,134" id="n21" />
@@ -116,7 +116,7 @@
         </map>
       </bay>
       <bay id="guns">
-        <img id="guns" src="img/sundog/mech_bays/guns.png" usemap="guns" />
+        <img id="guns" src="img/sundog/mech_bays/guns.png" usemap="guns" width="450" height="350" />
         <map name="guns">
           <area shape="rect" coords="124,26,169,71" id="n11" />
           <area shape="rect" coords="124,89,169,134" id="n21" />
@@ -152,7 +152,7 @@
         </map>
       </bay>
       <bay id="tactical">
-        <img id="tactical" src="img/sundog/mech_bays/tactical.png" usemap="tactical" />
+        <img id="tactical" src="img/sundog/mech_bays/tactical.png" usemap="tactical" width="450" height="350" />
         <map name="tactical">
           <area shape="rect" coords="124,26,169,71" id="n11" />
           <area shape="rect" coords="124,89,169,134" id="n21" />
@@ -188,7 +188,7 @@
         </map>
       </bay>
       <bay id="shields">
-        <img id="shields" src="img/sundog/mech_bays/shields.png" usemap="shields" />
+        <img id="shields" src="img/sundog/mech_bays/shields.png" usemap="shields" width="450" height="350" />
         <map name="shields">
           <area shape="rect" coords="124,26,169,71" id="n11" />
           <area shape="rect" coords="124,89,169,134" id="n21" />
@@ -224,7 +224,7 @@
         </map>
       </bay>
       <bay id="pilotage">
-        <img id="pilotage" src="img/sundog/mech_bays/pilotage.png" usemap="pilotage" />
+        <img id="pilotage" src="img/sundog/mech_bays/pilotage.png" usemap="pilotage" width="450" height="350" />
         <map name="pilotage">
           <area shape="rect" coords="124,26,169,71" id="n11" />
           <area shape="rect" coords="124,89,169,134" id="n21" />
@@ -260,7 +260,7 @@
         </map>
       </bay>
       <bay id="storeroom">
-        <img id="storeroom" src="img/sundog/grav_locker/locker-inv.png" usemap="storeroom" />
+        <img id="storeroom" src="img/sundog/grav_locker/locker-inv.png" usemap="storeroom" width="450" height="350" />
         <map id="storeroom"> 
           <area shape="rect" coords="48,69,93,114" id="n11" />
           <area shape="rect" coords="102,69,147,114" id="n12" />
@@ -304,7 +304,7 @@
         </map>
       </bay>
       <bay id="locker">
-        <img id="locker" src="img/sundog/grav_locker/locker-inv.png" usemap="locker" />
+        <img id="locker" src="img/sundog/grav_locker/locker-inv.png" usemap="locker" width="450" height="350" />
         <map id="locker"> 
           <area shape="rect" coords="48,69,93,114" id="n11" />
           <area shape="rect" coords="102,69,147,114" id="n12" />
@@ -348,7 +348,7 @@
         </map>
       </bay>
       <bay id="cargo">
-        <img id="cargo" src="img/sundog/grav_locker/locker-inv.png" usemap="cargo" />
+        <img id="cargo" src="img/sundog/grav_locker/locker-inv.png" usemap="cargo" width="450" height="350" />
         <map id="cargo"> 
           <area shape="rect" coords="48,69,93,114" id="n11" />
           <area shape="rect" coords="102,69,147,114" id="n12" />
@@ -386,7 +386,7 @@
 
   <!-- player info window -->
   <player>
-    <img src="img/interface/pers2.png" usemap="pers" />
+    <img src="img/interface/pers2.png" usemap="pers" width="400" height="330" />
     <map name="pers">
       <area shape="rect" coords="3,135,48,180" id="i1" />
       <area shape="rect" coords="52,135,97,180" id="i2" />
@@ -406,38 +406,38 @@
 
   <items>
     <!-- personal items -->
-    <img id="beer" src="img/icons/beer.png" />
-    <img id="burger" src="img/icons/burger.png" />
-    <img id="rapidheal" src="img/icons/rapidheal.png" />
-    <img id="peptab" src="img/icons/peptab.png" />
-    <img id="nutra" src="img/icons/nutra.png" />
-    <img id="dex" src="img/icons/dex.png" />
-    <img id="charmer" src="img/icons/charmer.png" />
-    <img id="scattergun" src="img/icons/scatter.png" />
-    <img id="stinger" src="img/icons/stinger.png" />
-    <img id="shield" src="img/icons/t-vest.png" />
+    <img id="beer" src="img/icons/beer.png" width="45" height="45" />
+    <img id="burger" src="img/icons/burger.png" width="45" height="45" />
+    <img id="rapidheal" src="img/icons/rapidheal.png" width="45" height="45" />
+    <img id="peptab" src="img/icons/peptab.png" width="45" height="45" />
+    <img id="nutra" src="img/icons/nutra.png" width="45" height="45" />
+    <img id="dex" src="img/icons/dex.png" width="45" height="45" />
+    <img id="charmer" src="img/icons/charmer.png" width="45" height="45" />
+    <img id="scattergun" src="img/icons/scatter.png" width="45" height="45" />
+    <img id="stinger" src="img/icons/stinger.png" width="45" height="45" />
+    <img id="shield" src="img/icons/t-vest.png" width="45" height="45" />
     <!-- ship components -->
-    <img id="cloaker" src="img/icons/cloaker.png" />
-    <img id="control-node" src="img/icons/control-node.png" />
-    <img id="cryofuse" src="img/icons/cryofuse.png" />
-    <img id="de-cloaker" src="img/icons/de-cloaker.png" />
-    <img id="flux-modulator" src="img/icons/flux-modulator.png" />
-    <img id="jjunc-module" src="img/icons/jjunc-module.png" />
-    <img id="photon-bridge" src="img/icons/photon-bridge.png" />
-    <img id="plasma-tube" src="img/icons/plasma-tube.png" />
-    <img id="scanner" src="img/icons/scanner.png" />
-    <img id="shunt" src="img/icons/shunt.png" />
-    <img id="st-distorter" src="img/icons/st-distorter.png" />
-    <img id="concentrator" src="img/icons/concentrator.png" />
-    <img id="autoslew" src="img/icons/autoslew.png" />
-    <img id="ground-scanner" src="img/icons/groundscanner.png" />
-    <img id="jump-booster" src="img/icons/jumpbooster.png" />
+    <img id="cloaker" src="img/icons/cloaker.png" width="45" height="45" />
+    <img id="control-node" src="img/icons/control-node.png" width="45" height="45" />
+    <img id="cryofuse" src="img/icons/cryofuse.png" width="45" height="45" />
+    <img id="de-cloaker" src="img/icons/de-cloaker.png" width="45" height="45" />
+    <img id="flux-modulator" src="img/icons/flux-modulator.png" width="45" height="45" />
+    <img id="jjunc-module" src="img/icons/jjunc-module.png" width="45" height="45" />
+    <img id="photon-bridge" src="img/icons/photon-bridge.png" width="45" height="45" />
+    <img id="plasma-tube" src="img/icons/plasma-tube.png" width="45" height="45" />
+    <img id="scanner" src="img/icons/scanner.png" width="45" height="45" />
+    <img id="shunt" src="img/icons/shunt.png" width="45" height="45" />
+    <img id="st-distorter" src="img/icons/st-distorter.png" width="45" height="45" />
+    <img id="concentrator" src="img/icons/concentrator.png" width="45" height="45" />
+    <img id="autoslew" src="img/icons/autoslew.png" width="45" height="45" />
+    <img id="ground-scanner" src="img/icons/groundscanner.png" width="45" height="45" />
+    <img id="jump-booster" src="img/icons/jumpbooster.png" width="45" height="45" />
     <!-- destroyed components... variations -->
-    <img id="burnout1" src="img/icons/burnout1.png" />
-    <img id="burnout2" src="img/icons/burnout2.png" />
-    <img id="burnout3" src="img/icons/burnout3.png" />
-    <img id="burnout4" src="img/icons/burnout4.png" />
-    <img id="burnout5" src="img/icons/burnout5.png" />
-    <img id="burnout6" src="img/icons/burnout6.png" />
+    <img id="burnout1" src="img/icons/burnout1.png" width="45" height="45" />
+    <img id="burnout2" src="img/icons/burnout2.png" width="45" height="45" />
+    <img id="burnout3" src="img/icons/burnout3.png" width="45" height="45" />
+    <img id="burnout4" src="img/icons/burnout4.png" width="45" height="45" />
+    <img id="burnout5" src="img/icons/burnout5.png" width="45" height="45" />
+    <img id="burnout6" src="img/icons/burnout6.png" width="45" height="45" />
   </items>
 </skin>

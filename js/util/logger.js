@@ -42,18 +42,18 @@ function Logger(div, curlev)
         var now = new Date();
         var timespan = (now.valueOf() - starttime.valueOf())/1000;
 
-        // determine how deep we are in functions
-        var stackdepth = 0;
-        var frame = arguments.callee.caller;
-        while(frame != null) { stackdepth++; frame = frame.caller; }
+        // determine how deep we are in the stack... this seems to be expensive!
+        //var stackdepth = 0;
+        //var frame = arguments.callee.caller;
+        //while(frame != null) { stackdepth++; frame = frame.caller; }
         var indent = " ";
-        for (var i = 0; i < stackdepth; i++) indent += " ";
+        //for (var i = 0; i < stackdepth; i++) indent += " ";
 
         divobj.innerHTML += ("<div class='log"+lev+"'>" +
                              (timespan.toFixed(2)) + " ("+lev+"): "+indent+
                              msg + "</div>");
-        // scroll window to bottom
-        divobj.scrollTop = divobj.scrollHeight;
+        // scroll window to bottom (seems to slow things down)
+        //divobj.scrollTop = divobj.scrollHeight;
     }
     /**
        Change the level which this logger will display messages.

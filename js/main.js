@@ -97,9 +97,15 @@ function loadGame(name)
         for (var i = 0; i < imglist.length; i++)
         {
              expcnt += images.add(imglist[i].getAttribute("src"),
-                                 imglist[i].getAttribute("id"),
-                                 process_img);
+                                  imglist[i].getAttribute("id"),
+                                  process_img,
+                                  imglist[i].getAttribute("width"),
+                                  imglist[i].getAttribute("height"));
         }
+        // if we get zero, that means all images had known dimensions
+        // and are loading asynchronously
+        progbar.update(fcnt, expcnt, "Loading images...");
+        if (expcnt == 0) startGame();
     }
     function process_img(r, url, id)
     {
